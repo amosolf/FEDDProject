@@ -12,8 +12,6 @@
 =======
     <sprite>sprites\sEngiTemplate</sprite>
 >>>>>>> origin/master
-=======
->>>>>>> parent of 0ae2aad... Added placeholder for biological sprite
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
