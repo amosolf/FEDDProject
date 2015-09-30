@@ -11,7 +11,12 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_compsci</object>
+    <object>objects\CompSci</object>
+    <object>objects\Civil</object>
+    <object>objects\Chemical</object>
+    <object>objects\Mechanical</object>
+    <object>objects\Biological</object>
+    <object>objects\Material</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
