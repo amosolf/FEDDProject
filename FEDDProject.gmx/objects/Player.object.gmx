@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gravity = 3
-friction = 0.2
+            <string>gravity = 3;
+friction = 0.2;
 
-vspeed = 0
-hspeed = 0
+vspeed = 0;
+hspeed = 0;
 </string>
           </argument>
         </arguments>
@@ -53,22 +53,22 @@ hspeed = 0
           <argument>
             <kind>1</kind>
             <string>if keyboard_check(vk_left) {
-    hspeed = -1
-    image_xscale = -1
+    hspeed = -1;
+    image_xscale = -1;
 }
 if keyboard_check(vk_right) {
-    vspeed = 1
-    image_xscale = 1
+    vspeed = 1;
+    image_xscale = 1;
 }
 if keyboard_check(vk_space) {
-    hspeed = -3
+    hspeed = -3;
 }
 
 
-wall = instance_place(x, y, Foreground)
+wall = instance_place(x, y, Foreground);
 
 if instance_exists(wall) {
-    speed = 0
+    speed = 0;
 }
 </string>
           </argument>
