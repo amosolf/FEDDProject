@@ -18,7 +18,11 @@
     <object>objects\Mechanical</object>
     <object>objects\Biological</object>
     <object>objects\Material</object>
+    <object>objects\Player</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
