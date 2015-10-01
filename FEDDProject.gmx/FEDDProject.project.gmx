@@ -21,6 +21,7 @@
     <object>objects\Material</object>
     <object>objects\Player</object>
     <object>objects\Foreground</object>
+    <object>objects\Wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
