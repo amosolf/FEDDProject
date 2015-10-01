@@ -30,6 +30,8 @@ fric = 0.2;
 
 gravity = grav;
 friction = fric;
+
+isGrounded = false
 </string>
           </argument>
         </arguments>
@@ -60,8 +62,9 @@ if keyboard_check(vk_right) {
     hspeed = 1;
     image_xscale = 1;
 }
-if keyboard_check(vk_space) {
+if keyboard_check(vk_space) and isGrounded {
     vspeed = -3;
+    isGrounded = false
 }
 
 
@@ -71,9 +74,13 @@ if !instance_exists(wall) {
     gravity = grav;
 } else {
     if place_meeting(x, y, Foreground) {
+        while place_meeting(x, y, Foreground) {
+            x -= hspeed / speed
+            y -= vspeed / speed
+        }
         speed = 0;
     }
-    y=wall.y;
+    isGrounded = true
     gravity = 0;
 }
 
