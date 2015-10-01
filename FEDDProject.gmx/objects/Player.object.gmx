@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gravity = 3;
-friction = 0.2;
+            <string>grav = .4;
+fric = 0.2;
 
-vspeed = 0;
-hspeed = 0;
+gravity = grav;
+friction = fric;
 </string>
           </argument>
         </arguments>
@@ -57,19 +57,27 @@ hspeed = 0;
     image_xscale = -1;
 }
 if keyboard_check(vk_right) {
-    vspeed = 1;
+    hspeed = 1;
     image_xscale = 1;
 }
 if keyboard_check(vk_space) {
-    hspeed = -3;
+    vspeed = -3;
 }
 
 
-wall = instance_place(x, y, Foreground);
+wall = instance_place(x, y+1, Foreground);
 
-if instance_exists(wall) {
-    speed = 0;
+if !instance_exists(wall) {
+    gravity = grav;
+} else {
+    if !place_meeting(x, y, Foreground) {
+        speed = 0;
+    }
+    y=wall.y;
+    gravity = 0;
 }
+
+
 </string>
           </argument>
         </arguments>
