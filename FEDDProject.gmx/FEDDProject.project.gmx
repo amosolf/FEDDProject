@@ -9,6 +9,7 @@
     <sprite>sprites\sChemEngi</sprite>
     <sprite>sprites\sEngiTemplate</sprite>
     <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sCivilEngineer</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
