@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sChemEngi</sprite>
     <sprite>sprites\sEngiTemplate</sprite>
+    <sprite>sprites\sWall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,6 +20,7 @@
     <object>objects\Biological</object>
     <object>objects\Material</object>
     <object>objects\Player</object>
+    <object>objects\Foreground</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
