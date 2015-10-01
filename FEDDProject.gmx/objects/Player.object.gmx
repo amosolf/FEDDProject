@@ -70,7 +70,7 @@ wall = instance_place(x, y+1, Foreground);
 if !instance_exists(wall) {
     gravity = grav;
 } else {
-    if !place_meeting(x, y, Foreground) {
+    if place_meeting(x, y, Foreground) {
         speed = 0;
     }
     y=wall.y;
