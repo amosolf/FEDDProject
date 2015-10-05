@@ -13,9 +13,13 @@
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sCivilEngineer</sprite>
     <sprite>sprites\sbiomedicallengineer</sprite>
+    <sprite>sprites\sSelector</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fMenu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\CompSci</object>
     <object>objects\Civil</object>
@@ -27,10 +31,12 @@
     <object>objects\Foreground</object>
     <object>objects\Wall</object>
     <object>objects\Boss1</object>
+    <object>objects\Menu_obj</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\bossroom</room>
+    <room>rooms\mainmenu</room>
     <room>rooms\room0</room>
+    <room>rooms\bossroom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
