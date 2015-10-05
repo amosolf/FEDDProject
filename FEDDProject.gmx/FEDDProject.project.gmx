@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bossmusic</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sChemEngi</sprite>
     <sprite>sprites\sEngiTemplate</sprite>
@@ -24,8 +26,10 @@
     <object>objects\Player</object>
     <object>objects\Foreground</object>
     <object>objects\Wall</object>
+    <object>objects\Boss1</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\bossroom</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
