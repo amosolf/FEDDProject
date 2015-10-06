@@ -27,11 +27,12 @@
             <kind>1</kind>
             <string>grav = .4;
 fric = 0.2;
+spd = 3;
 
-gravity = grav;
-friction = fric;
+xvel = 0;
+yvel = 0;
 
-isGrounded = false
+isGrounded = false;
 </string>
           </argument>
         </arguments>
@@ -55,35 +56,67 @@ isGrounded = false
           <argument>
             <kind>1</kind>
             <string>if keyboard_check(vk_left) {
-    hspeed = -1;
+    xvel = -spd;
     image_xscale = -1;
-}
-if keyboard_check(vk_right) {
-    hspeed = 1;
+} else if keyboard_check(vk_right) {
+    xvel = spd;
     image_xscale = 1;
+} else {
+    xvel *= fric;
 }
+
+
 if keyboard_check(vk_space) and isGrounded {
-    vspeed = -3;
+    yvel = -3;
     isGrounded = false
 }
 
+yvel += grav;
 
-wall = instance_place(x, y+1, Foreground);
+
+/*wall = instance_place(x, y+1, Foreground);
 
 if !instance_exists(wall) {
     gravity = grav;
 } else {
     if place_meeting(x, y, Foreground) {
         while place_meeting(x, y, Foreground) {
-            x -= hspeed / speed
-            y -= vspeed / speed
+            x -= xvel / speed
+            y -= yvel / speed
         }
         speed = 0;
     }
     isGrounded = true
     gravity = 0;
 }
+*/
 
+if place_meeting(x + xvel, y, Foreground) {
+
+    if (xvel != 0) {
+        while !place_meeting(x + xvel/abs(xvel), y, Foreground) {
+            x += xvel/abs(xvel);
+        }
+    }
+    
+    xvel = 0;
+}
+
+if place_meeting(x, y + yvel, Foreground) {
+    
+    if (yvel != 0) {
+        while !place_meeting(x, y + yvel/abs(yvel), Foreground) {
+            y += yvel/abs(yvel);
+        }
+    }
+    
+    isGrounded = true;
+    
+    yvel = 0;
+}
+
+y += yvel;
+x += xvel;
 
 </string>
           </argument>
