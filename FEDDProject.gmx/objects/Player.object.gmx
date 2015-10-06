@@ -65,14 +65,9 @@ image_speed = 1/6;
 } else {
     xvel *= fric;
 }
-if(speed == 0)
-{
-    sprite_index = 0;
-}
-
 
 if keyboard_check(vk_space) and isGrounded {
-    yvel = -7;
+    yvel = -9;
     isGrounded = false
 }
 
