@@ -33,6 +33,7 @@ xvel = 0;
 yvel = 0;
 
 isGrounded = false;
+image_speed = 1/6;
 </string>
           </argument>
         </arguments>
@@ -63,6 +64,10 @@ isGrounded = false;
     image_xscale = 1;
 } else {
     xvel *= fric;
+}
+if(speed == 0)
+{
+    sprite_index = 0;
 }
 
 
