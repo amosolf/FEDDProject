@@ -67,29 +67,11 @@ isGrounded = false;
 
 
 if keyboard_check(vk_space) and isGrounded {
-    yvel = -3;
+    yvel = -7;
     isGrounded = false
 }
 
 yvel += grav;
-
-
-/*wall = instance_place(x, y+1, Foreground);
-
-if !instance_exists(wall) {
-    gravity = grav;
-} else {
-    if place_meeting(x, y, Foreground) {
-        while place_meeting(x, y, Foreground) {
-            x -= xvel / speed
-            y -= yvel / speed
-        }
-        speed = 0;
-    }
-    isGrounded = true
-    gravity = 0;
-}
-*/
 
 if place_meeting(x + xvel, y, Foreground) {
 
