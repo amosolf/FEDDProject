@@ -25,14 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(spd == 0)
-{
-    sprite_index = sBio_idle;
-}
-else
-{
-    sprite_index = sBio_run;
-}
+            <string>
 event_inherited();
 </string>
           </argument>
