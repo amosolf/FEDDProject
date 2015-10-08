@@ -25,7 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>if(xvel == 0)
+{
+    sprite_index = sBio_idle;
+}
+else
+{
+    sprite_index = sBio_run;
+}
+if(!isGrounded)
+{
+    sprite_index = sBio_jump;
+}
 event_inherited();
 </string>
           </argument>
