@@ -12,13 +12,20 @@
     <sprite>sprites\sEngiTemplate</sprite>
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sCivil</sprite>
+    <sprite>sprites\sCloud</sprite>
     <sprite>sprites\sBio_idle</sprite>
+    <sprite>sprites\sHill</sprite>
     <sprite>sprites\sSelector</sprite>
     <sprite>sprites\sBio_run</sprite>
     <sprite>sprites\sBio_jump</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\sky</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\parallax.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fMenu</font>
   </fonts>
@@ -34,6 +41,8 @@
     <object>objects\Wall</object>
     <object>objects\Boss1</object>
     <object>objects\Menu_obj</object>
+    <object>objects\Cloud</object>
+    <object>objects\Hill</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
