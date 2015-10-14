@@ -65,6 +65,9 @@ image_speed = 1/6;
 } else {
     xvel *= fric;
 }
+if keyboard_check(ord('R')) {
+    room_goto(room0);
+}
 
 if keyboard_check(vk_space) and isGrounded {
     yvel = -9;
@@ -92,7 +95,9 @@ if place_meeting(x, y + yvel, Foreground) {
         }
     }
     
-    isGrounded = true;
+    if (yvel &gt; 0) {
+        isGrounded = true;
+    }
     
     yvel = 0;
 }
