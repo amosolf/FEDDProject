@@ -22,11 +22,10 @@
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
+    <background>background\hills</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\parallax.gml</script>
-  </scripts>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fMenu</font>
   </fonts>
@@ -42,10 +41,9 @@
     <object>objects\Wall</object>
     <object>objects\Boss1</object>
     <object>objects\Menu_obj</object>
-    <object>objects\Cloud</object>
-    <object>objects\Hill</object>
     <object>objects\Platform</object>
     <object>objects\Ledge</object>
+    <object>objects\Manager</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
