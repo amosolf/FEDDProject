@@ -65,6 +65,7 @@ image_speed = 1/6;
 } else {
     xvel *= fric;
 }
+
 if keyboard_check(ord('R')) {
     room_goto(room0);
 }
@@ -103,14 +104,21 @@ if place_meeting(x, y + yvel, Foreground) {
 }
 
 if yvel &gt; 0 {
-    if place_meeting(x, y + yvel, Platform) {
-        
-        while !place_meeting(x, y + 1, Platform) {
-            y += 1;
+
+    platform = instance_place(x, y + yvel, Platform);
+    
+    if instance_exists(platform) {
+    
+        if y + sprite_height / 2 &lt;= platform.y {
+            
+            while !place_meeting(x, y + 1, Platform) {
+                y += 1;
+            }
+            
+            isGrounded = true;
+            yvel = 0;
+            
         }
-        
-        isGrounded = true;
-        yvel = 0;
     
     }
 }
