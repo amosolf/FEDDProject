@@ -75,7 +75,9 @@ if keyboard_check(vk_space) and isGrounded {
     isGrounded = false
 }
 
-yvel = min(yvel + grav, 30);
+if !isGrounded {
+    yvel = min(yvel + grav, 30);
+}
 
 if place_meeting(x + xvel, y, Foreground) {
 
@@ -88,7 +90,7 @@ if place_meeting(x + xvel, y, Foreground) {
     xvel = 0;
 }
 
-if place_meeting(x, y + yvel, Foreground) {
+if place_meeting(x, y + yvel, Foreground) or place_meeting(x, y + 1, Foreground) {
     
     if (yvel != 0) {
         while !place_meeting(x, y + yvel/abs(yvel), Foreground) {
