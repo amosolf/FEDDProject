@@ -66,34 +66,41 @@ image_speed = 1/6;
     xvel *= fric;
 }
 
-if keyboard_check(ord('R')) {
+if keyboard_check(ord('R')) //Reset button
+{
     room_goto(room0);
 }
 
-if keyboard_check(vk_space) and isGrounded {
+if keyboard_check(vk_space) and isGrounded //Jump
+{
     yvel = -10;
-    isGrounded = false
 }
-
-if !(place_meeting(x, y + 1, Foreground) or place_meeting(x, y + 1, Platform)) {
+//Set isGrounded to false if there's nothing 1 pixel below you
+if !(place_meeting(x, y + 1, Foreground) or place_meeting(x, y + 1, Platform))
+{
     isGrounded = false;
 }
-
-if !isGrounded {
+if(keyboard_check(vk_down))
+    isGrounded = false;
+//If you're not grounded, add gravity unless you hit terminal velocity of 30
+if !isGrounded 
+{
     yvel = min(yvel + grav, 30);
 }
-
+//If you're going to hit something in the next frame
 if place_meeting(x + xvel, y, Foreground) {
-
+    //as long as you are moving
     if (xvel != 0) {
+        //move until you hit the thing
         while !place_meeting(x + xvel/abs(xvel), y, Foreground) {
+            //moves by 1 in the direction of xvel (+/-)
             x += xvel/abs(xvel);
         }
     }
-    
+    //stop
     xvel = 0;
 }
-
+//repeat the same for y
 if place_meeting(x, y + yvel, Foreground) {
     
     if (yvel != 0) {
@@ -102,30 +109,31 @@ if place_meeting(x, y + yvel, Foreground) {
         }
     }
     
+    //if you're moving down (hitting the floor)
     if (yvel &gt; 0) {
         isGrounded = true;
     }
     
+    //stop
     yvel = 0;
 }
-
+//if you're moving down (don't collide from the bottom)
 if yvel &gt; 0 {
-
+    //set thsi to the platform you're about to hit (whether it exists or not)
     platform = instance_place(x, y + yvel, Platform);
-    
+    //if it exists
     if instance_exists(platform) {
-    
+        //and you're above it
         if y + sprite_height / 2 &lt;= platform.y {
-            
+            //move down until you meet it so you don't go through it
             while !place_meeting(x, y + 1, Platform) {
                 y += 1;
             }
             
             isGrounded = true;
-            yvel = 0;
-            
+            //stop
+            yvel = 0;            
         }
-    
     }
 }
 
