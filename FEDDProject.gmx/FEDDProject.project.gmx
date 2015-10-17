@@ -28,6 +28,7 @@
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fMenu</font>
+    <font>fonts\fDialog</font>
   </fonts>
   <objects name="objects">
     <object>objects\CompSci</object>
@@ -44,11 +45,13 @@
     <object>objects\Platform</object>
     <object>objects\Ledge</object>
     <object>objects\Manager</object>
+    <object>objects\DialogBox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
     <room>rooms\room0</room>
     <room>rooms\bossroom</room>
+    <room>rooms\tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
