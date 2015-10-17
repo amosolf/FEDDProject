@@ -71,8 +71,12 @@ if keyboard_check(ord('R')) {
 }
 
 if keyboard_check(vk_space) and isGrounded {
-    yvel = -9;
+    yvel = -10;
     isGrounded = false
+}
+
+if !(place_meeting(x, y + 1, Foreground) or place_meeting(x, y + 1, Platform)) {
+    isGrounded = false;
 }
 
 if !isGrounded {
@@ -90,7 +94,7 @@ if place_meeting(x + xvel, y, Foreground) {
     xvel = 0;
 }
 
-if place_meeting(x, y + yvel, Foreground) or place_meeting(x, y + 1, Foreground) {
+if place_meeting(x, y + yvel, Foreground) {
     
     if (yvel != 0) {
         while !place_meeting(x, y + yvel/abs(yvel), Foreground) {
