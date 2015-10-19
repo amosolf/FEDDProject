@@ -20,6 +20,8 @@
     <sprite>sprites\sBio_run</sprite>
     <sprite>sprites\sBio_jump</sprite>
     <sprite>sprites\sLedge</sprite>
+    <sprite>sprites\sLogo</sprite>
+    <sprite>sprites\sGear</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>

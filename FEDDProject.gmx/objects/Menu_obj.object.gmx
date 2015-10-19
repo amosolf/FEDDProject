@@ -34,6 +34,8 @@ menu[4] = "Exit";
 space = 64;
 mpos = 0; //menu position
 
+rotation = 0;
+
 </string>
           </argument>
         </arguments>
@@ -110,6 +112,7 @@ if(push == 1) //if pressed, go to whichever room you selected
         }
     }
 }
+
 </string>
           </argument>
         </arguments>
@@ -142,7 +145,13 @@ for(m = 0; m &lt; array_length_1d(menu); m+= 1)//writes text for every line in m
 {
     draw_text(x+space, y+(m*space),string(menu[m]));
 }
-draw_sprite(sprite_index, 0, x+16,y+(mpos*space)); //draws the selector at the proper mpos 
+draw_sprite(sprite_index, 0, x+16,y+(mpos*space)); //draws the selector at the proper mpos
+
+draw_sprite_ext(sGear,0,512,100,1,1,rotation,c_white,1);
+draw_sprite(sLogo,0,512,250);
+rotation += 2
+if(rotation == 360)
+    rotation = 0;
 </string>
           </argument>
         </arguments>
