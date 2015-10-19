@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu[0] = "Room 1";
+            <string>menu[0] = "Room One";
 menu[1] = "Boss Room";
 menu[2] = "Tutorial";
 menu[3] = "Settings";
