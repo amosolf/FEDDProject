@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(main,1,true);
+            <string>if (audio_is_playing(main)==false){
+audio_stop_all();
+audio_play_sound(main,1,true);
+}
+
+
 </string>
           </argument>
         </arguments>
