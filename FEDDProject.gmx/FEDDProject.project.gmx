@@ -22,7 +22,8 @@
     <sprite>sprites\sLedge</sprite>
     <sprite>sprites\sLogo</sprite>
     <sprite>sprites\sGear</sprite>
-    <sprite>sprites\sCompSci</sprite>
+    <sprite>sprites\sCompSciStill</sprite>
+    <sprite>sprites\sCompSciMoving</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
