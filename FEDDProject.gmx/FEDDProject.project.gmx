@@ -37,6 +37,9 @@
     <background>background\mountain</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\activate.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fMenu</font>
     <font>fonts\fDialog</font>
@@ -60,6 +63,8 @@
     <object>objects\Interactible</object>
     <object>objects\InteractIndicator</object>
     <object>objects\Button</object>
+    <object>objects\Firework</object>
+    <object>objects\Particle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

@@ -34,6 +34,8 @@ yvel = 0;
 
 isGrounded = false;
 image_speed = 1/6;
+
+pressed = false;
 </string>
           </argument>
         </arguments>
@@ -66,14 +68,28 @@ image_speed = 1/6;
     xvel *= fric;
 }
 
-if keyboard_check(ord('R')) //Reset button
-{
-    room_goto(room0);
-}
-
 if keyboard_check(vk_space) and isGrounded //Jump
 {
     yvel = -10;
+}
+
+if keyboard_check_pressed(vk_up) and !pressed { //Interact
+    interactible = instance_place(x, y, Interactible);
+    if instance_exists(interactible) {
+        with (interactible) {
+            activate(object_get_name(object_index));
+        }
+        pressed = true;
+    }
+} 
+if keyboard_check_released(vk_up) { //doesn't press infinitely
+    pressed = false;
+}
+
+
+if keyboard_check(ord('R')) //Reset button
+{
+    room_goto(room0);
 }
 //Set isGrounded to false if there's nothing 1 pixel below you
 if !(place_meeting(x, y + 1, Foreground) or place_meeting(x, y + 1, Platform))
