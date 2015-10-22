@@ -23,16 +23,13 @@
     <sprite>sprites\sLedge</sprite>
     <sprite>sprites\sLogo</sprite>
     <sprite>sprites\sGear</sprite>
-<<<<<<< HEAD
     <sprite>sprites\sButton</sprite>
     <sprite>sprites\sFirework</sprite>
     <sprite>sprites\sParticle</sprite>
     <sprite>sprites\sInteract</sprite>
-=======
     <sprite>sprites\sCompSciStill</sprite>
     <sprite>sprites\sCompSciMoving</sprite>
     <sprite>sprites\sHealthBar</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
