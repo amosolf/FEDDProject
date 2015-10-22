@@ -22,6 +22,10 @@
     <sprite>sprites\sLedge</sprite>
     <sprite>sprites\sLogo</sprite>
     <sprite>sprites\sGear</sprite>
+    <sprite>sprites\sButton</sprite>
+    <sprite>sprites\sFirework</sprite>
+    <sprite>sprites\sParticle</sprite>
+    <sprite>sprites\sInteract</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -48,6 +52,9 @@
     <object>objects\Ledge</object>
     <object>objects\Manager</object>
     <object>objects\DialogBox</object>
+    <object>objects\Interactible</object>
+    <object>objects\InteractIndicator</object>
+    <object>objects\Button</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
