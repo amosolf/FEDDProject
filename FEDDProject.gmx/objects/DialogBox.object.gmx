@@ -65,12 +65,12 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 
 //Draw the text
-str = string_copy(message, 1, count-string_length(message));
+str = string_copy(message, 1, count);
 if(count &lt; string_length(message))
 {
     count++;
 }
-draw_text(x+padding, y+padding, message); 
+draw_text(x+padding, y+padding, str); 
 </string>
           </argument>
         </arguments>

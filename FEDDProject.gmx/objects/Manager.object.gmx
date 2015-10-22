@@ -36,7 +36,7 @@ audio_play_sound(main,1,true);
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -53,7 +53,12 @@ audio_play_sound(main,1,true);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_background_tiled(hills,view_xview[view_current]/2.5,(view_yview[view_current]/10)+200);
+            <string>width=background_get_width(hills);
+right=view_xview[view_current]/width+view_wview[view_current]/width+1;
+for (i=-1; i&lt;right; i++)
+    {
+        draw_background(hills, view_xview[view_current]/3+100 mod width+width*i,view_yview[view_current]/1.1+250);
+    };
 </string>
           </argument>
         </arguments>
