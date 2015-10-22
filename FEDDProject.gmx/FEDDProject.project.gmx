@@ -34,6 +34,7 @@
   <backgrounds name="background">
     <background>background\sky</background>
     <background>background\hills</background>
+    <background>background\mountain</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
