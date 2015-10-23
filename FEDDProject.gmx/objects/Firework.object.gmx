@@ -56,7 +56,7 @@ life += 1;
 if life = lifetime {
     //explode
     for (i = 0; i &lt; 360; i += 3) {
-        particle = instance_create(x + sprite_width/2, y + sprite_height, Particle);
+        particle = instance_create(x, y, Particle);
         particle.lifetime = 45;
         particle.direction = i + random_range(-2, 2);
         particle.speed = 2;
@@ -71,7 +71,7 @@ if life = lifetime {
 } else {
     //display sparks
     for (i = 0; i &lt; 5; i += 1) {
-        particle = instance_create(x + sprite_width/2, y + sprite_height, Particle);
+        particle = instance_create(x, y + sprite_height/2, Particle);
         particle.lifetime = 60;
         particle.speed = 1;
         particle.direction = random_range(260, 280);
