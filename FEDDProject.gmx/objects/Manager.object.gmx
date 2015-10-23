@@ -30,6 +30,8 @@ audio_stop_all();
 audio_play_sound(main,1,true);
 }
 
+depth = 10;
+
 
 </string>
           </argument>
