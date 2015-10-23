@@ -29,6 +29,7 @@
 audio_stop_all();
 audio_play_sound(main,1,true);
 }
+depth=10;
 
 depth = 10;
 
@@ -59,7 +60,7 @@ depth = 10;
 right=view_xview[view_current]/width+view_wview[view_current]/width+1;
 for (i=-1; i&lt;right; i++)
     {
-        draw_background(mountain, view_xview[view_current]/1.5 mod width+width*i,(view_yview[view_current]/1.5)-150);
+        draw_background(mountain, view_xview[view_current]/1.5 mod width+width*i,(view_yview[view_current]/1.5)-100);
         draw_background(hills, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+450);
         
     };
