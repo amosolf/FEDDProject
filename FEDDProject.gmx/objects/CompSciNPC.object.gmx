@@ -25,14 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(xvel == 0)
+            <string>if(destination = x)
 {
     sprite_index = sCompSciStill;
 }
 else
 {
     sprite_index = sCompSciMoving;
+    if (destination &lt; x) {
+        image_xscale = -1;
+    } else {
+        image_xscale = 1;
+    }
 }
+event_inherited();
 </string>
           </argument>
         </arguments>
