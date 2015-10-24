@@ -105,6 +105,11 @@ if keyboard_check(ord('R')) //Reset button
     x=origin[0];
     y=origin[1];
 }
+if keyboard_check(vk_escape) //Reset button
+{
+    room_goto(mainmenu);
+    audio_stop_all();
+}
 //Set isGrounded to false if there's nothing 1 pixel below you
 if !(place_meeting(x, y + 1, Foreground) or place_meeting(x, y + 1, Platform))
 {
