@@ -35,6 +35,9 @@
     <background>background\sky</background>
     <background>background\hills</background>
     <background>background\mountain</background>
+    <background>background\star1</background>
+    <background>background\star2</background>
+    <background>background\star3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
