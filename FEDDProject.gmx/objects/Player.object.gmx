@@ -140,12 +140,12 @@ if place_meeting(x, y + yvel, Foreground) {
 }
 //if you're moving down (don't collide from the bottom)
 if yvel &gt; 0 {
-    //set thsi to the platform you're about to hit (whether it exists or not)
+    //set this to the platform you're about to hit (whether it exists or not)
     platform = instance_place(x, y + yvel, Platform);
     //if it exists
     if instance_exists(platform) {
         //and you're above it
-        if y + sprite_height / 2 &lt;= platform.y {
+        if y + sprite_height / 2 &lt;= platform.y - platform.sprite_height / 2 {
             //move down until you meet it so you don't go through it
             while !place_meeting(x, y + 1, Platform) {
                 y += 1;

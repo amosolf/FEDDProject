@@ -65,6 +65,8 @@
     <object>objects\Button</object>
     <object>objects\Firework</object>
     <object>objects\Particle</object>
+    <object>objects\NPC</object>
+    <object>objects\CivilNPC</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
