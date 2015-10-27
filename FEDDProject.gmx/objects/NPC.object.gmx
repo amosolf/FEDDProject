@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>Interactible</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -30,6 +30,8 @@ range = 80;
 wait = 1;
 destination = defx;
 friction = .2;
+
+event_inherited();
 </string>
           </argument>
         </arguments>
@@ -65,6 +67,8 @@ if wait &lt;= 0{
         x += dir*min(abs(x-destination), 1);
     }
 }
+
+event_inherited();
 </string>
           </argument>
         </arguments>
