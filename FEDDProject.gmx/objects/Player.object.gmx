@@ -110,16 +110,28 @@ if !isGrounded
 }
 //If you're going to hit something in the next frame
 if place_meeting(x + xvel, y, Foreground) {
-    //as long as you are moving
-    if (xvel != 0) {
-        //move until you hit the thing
-        while !place_meeting(x + xvel/abs(xvel), y, Foreground) {
-            //moves by 1 in the direction of xvel (+/-)
-            x += xvel/abs(xvel);
+    //if it's not a step (height &lt;= sprite_height/4)
+    if place_meeting(x + xvel, y - sprite_height/4, Foreground) {
+        //as long as you are moving
+        if (xvel != 0) {
+            //move until you hit the thing
+            while !place_meeting(x + xvel/abs(xvel), y, Foreground) {
+                //moves by 1 in the direction of xvel (+/-)
+                x += xvel/abs(xvel);
+            }
+        }
+        //stop
+        xvel = 0;
+    //if it is a step
+    } else {
+        //move forward
+        x += xvel;
+        
+        //move up as necessary
+        while place_meeting(x, y, Foreground) {
+            y -= 1;
         }
     }
-    //stop
-    xvel = 0;
 }
 //repeat the same for y
 if place_meeting(x, y + yvel, Foreground) {
