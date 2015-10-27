@@ -40,6 +40,15 @@ pressed = false;
 origin[0] = x;
 origin[1] = y;
 
+switch global.door {
+    case "":
+        break;
+    default:
+        entrance = instance_find(asset_get_index(global.door), 0);
+        x = entrance.x;
+        y = entrance.y;
+        break;
+}
 </string>
           </argument>
         </arguments>

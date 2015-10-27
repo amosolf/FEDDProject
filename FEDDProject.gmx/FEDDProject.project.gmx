@@ -30,6 +30,7 @@
     <sprite>sprites\sCompSciStill</sprite>
     <sprite>sprites\sCompSciMoving</sprite>
     <sprite>sprites\sHealthBar</sprite>
+    <sprite>sprites\sBioDoor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -70,12 +71,15 @@
     <object>objects\Particle</object>
     <object>objects\NPC</object>
     <object>objects\CompSciNPC</object>
+    <object>objects\Door</object>
+    <object>objects\BioDoor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
     <room>rooms\room0</room>
     <room>rooms\bossroom</room>
     <room>rooms\tutorial</room>
+    <room>rooms\bioRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
