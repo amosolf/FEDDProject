@@ -31,6 +31,11 @@
     <sprite>sprites\sCompSciMoving</sprite>
     <sprite>sprites\sHealthBar</sprite>
     <sprite>sprites\sBioDoor</sprite>
+    <sprite>sprites\sChemDoor</sprite>
+    <sprite>sprites\sMechDoor</sprite>
+    <sprite>sprites\sCivilDoor</sprite>
+    <sprite>sprites\sComputerDoor</sprite>
+    <sprite>sprites\sMaterialDoor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -73,6 +78,11 @@
     <object>objects\CompSciNPC</object>
     <object>objects\Door</object>
     <object>objects\BioDoor</object>
+    <object>objects\ChemDoor</object>
+    <object>objects\MechDoor</object>
+    <object>objects\CivilDoor</object>
+    <object>objects\ComputerDoor</object>
+    <object>objects\MaterialDoor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
