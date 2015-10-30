@@ -36,6 +36,7 @@
     <sprite>sprites\sCivilDoor</sprite>
     <sprite>sprites\sComputerDoor</sprite>
     <sprite>sprites\sMaterialDoor</sprite>
+    <sprite>sprites\smech_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
