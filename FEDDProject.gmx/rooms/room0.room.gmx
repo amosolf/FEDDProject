@@ -146,6 +146,7 @@
     <instance objName="Wall" x="1888" y="320" name="inst_B4393583" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ComputerDoor" x="1792" y="288" name="inst_09EFE115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialDoor" x="1856" y="288" name="inst_A022168F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpaceStation" x="1056" y="480" name="inst_3ADC94BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

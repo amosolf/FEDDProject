@@ -38,6 +38,7 @@
     <sprite>sprites\sMaterialDoor</sprite>
     <sprite>sprites\smech_idle</sprite>
     <sprite>sprites\sMaterial_idle</sprite>
+    <sprite>sprites\sSpaceStation</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -85,6 +86,7 @@
     <object>objects\CivilDoor</object>
     <object>objects\ComputerDoor</object>
     <object>objects\MaterialDoor</object>
+    <object>objects\SpaceStation</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
