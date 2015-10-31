@@ -29,6 +29,9 @@
 fric = 0.2;
 spd = 3;
 
+relXVel = 0;
+relYVel = 0;
+
 xvel = 0;
 yvel = 0;
 
@@ -37,8 +40,6 @@ image_speed = 1/6;
 
 pressed = false;
 
-origin[0] = x;
-origin[1] = y;
 
 switch global.door {
     case "":
@@ -49,6 +50,9 @@ switch global.door {
         y = entrance.y;
         break;
 }
+
+origin[0] = x;
+origin[1] = y;
 </string>
           </argument>
         </arguments>
@@ -138,9 +142,6 @@ if place_meeting(x + xvel, y, Foreground) {
         xvel = 0;
     //if it is a step
     } else {
-        //move forward
-        x += xvel;
-        
         //move up as necessary
         while place_meeting(x, y, Foreground) {
             y -= 1;
