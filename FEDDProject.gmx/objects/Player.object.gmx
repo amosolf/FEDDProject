@@ -105,6 +105,12 @@ if keyboard_check(ord('R')) //Reset button
     x=origin[0];
     y=origin[1];
 }
+
+if keyboard_check(ord('B')) 
+{
+    room_goto(bioRoom);
+}
+
 if keyboard_check(vk_escape) //Reset button
 {
     room_goto(mainmenu);

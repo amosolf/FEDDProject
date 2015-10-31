@@ -39,6 +39,10 @@
     <sprite>sprites\smech_idle</sprite>
     <sprite>sprites\sMaterial_idle</sprite>
     <sprite>sprites\sSpaceStation</sprite>
+    <sprite>sprites\sBioFloor</sprite>
+    <sprite>sprites\sTree</sprite>
+    <sprite>sprites\sTreeBranch</sprite>
+    <sprite>sprites\sprite32</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -87,6 +91,9 @@
     <object>objects\ComputerDoor</object>
     <object>objects\MaterialDoor</object>
     <object>objects\SpaceStation</object>
+    <object>objects\BioFloor</object>
+    <object>objects\Tree</object>
+    <object>objects\TreeBranch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
