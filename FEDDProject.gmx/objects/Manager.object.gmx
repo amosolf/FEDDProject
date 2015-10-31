@@ -29,9 +29,8 @@
 audio_stop_all();
 audio_play_sound(main,1,true);
 }
-depth=10;
 
-depth = 10;
+depth = 1000;
 
 
 </string>
@@ -64,7 +63,10 @@ for (i=-1; i&lt;right; i++)
         draw_background(star2, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+450);
         draw_background(star1, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+450);
         
-    };
+    }
+depth = 10;
+draw_background(station,SpaceStation.x-375,SpaceStation.y-375);
+depth = 1000;
 </string>
           </argument>
         </arguments>

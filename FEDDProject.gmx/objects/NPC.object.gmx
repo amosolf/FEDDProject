@@ -30,6 +30,7 @@ range = 80;
 wait = 1;
 destination = defx;
 friction = .2;
+depth = -1000;
 
 event_inherited();
 </string>

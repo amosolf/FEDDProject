@@ -48,6 +48,7 @@
     <background>background\star1</background>
     <background>background\star2</background>
     <background>background\star3</background>
+    <background>background\station</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
