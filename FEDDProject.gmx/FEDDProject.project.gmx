@@ -32,7 +32,6 @@
     </sprites>
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sCloud</sprite>
-    <sprite>sprites\sHill</sprite>
     <sprite>sprites\sSelector</sprite>
     <sprite>sprites\sLedge</sprite>
     <sprite>sprites\sLogo</sprite>
@@ -53,6 +52,7 @@
     <background>background\star2</background>
     <background>background\star3</background>
     <background>background\station</background>
+    <background>background\clouds</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -105,8 +105,11 @@
       <object>objects\Wall</object>
     </objects>
     <object>objects\Boss1</object>
-    <object>objects\Manager</object>
     <object>objects\Menu_obj</object>
+    <objects name="Managers">
+      <object>objects\SpaceManager</object>
+      <object>objects\TutorialManager</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
