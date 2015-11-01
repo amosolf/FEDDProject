@@ -82,6 +82,11 @@
     </objects>
     <objects name="NPCs">
       <object>objects\CompSciNPC</object>
+      <object>objects\ChemNPC</object>
+      <object>objects\BioNPC</object>
+      <object>objects\MechNPC</object>
+      <object>objects\MaterialNPC</object>
+      <object>objects\CivilNPC</object>
     </objects>
     <objects name="Props">
       <object>objects\Ledge</object>

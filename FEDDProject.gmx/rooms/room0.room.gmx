@@ -75,11 +75,11 @@
     <instance objName="Ledge" x="1113" y="543" name="inst_3B31F199" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpaceStation" x="1006" y="610" name="inst_815A0E84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompSciNPC" x="781" y="441" name="inst_DFADF30E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Civil" x="1228" y="441" name="inst_6FEB9102" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chemical" x="1288" y="662" name="inst_BCEA5EBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Mechanical" x="1212" y="867" name="inst_AD6FEBD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Biological" x="784" y="884" name="inst_F2AEB317" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Material" x="716" y="646" name="inst_3B80871D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CivilNPC" x="1220" y="441" name="inst_BC820692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemNPC" x="1284" y="662" name="inst_53E68D4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechNPC" x="1226" y="884" name="inst_762AF126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioNPC" x="785" y="883" name="inst_CD4585B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MaterialNPC" x="728" y="663" name="inst_5CE28965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

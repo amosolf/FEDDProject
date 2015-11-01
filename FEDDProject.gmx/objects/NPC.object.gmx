@@ -26,12 +26,26 @@
           <argument>
             <kind>1</kind>
             <string>defx = x;
-range = 80;
+range = 40;
 wait = 1;
 destination = defx;
 friction = .2;
 depth = -1000;
 image_speed = 1/6;
+
+//gravity
+grav = .4;
+//friction
+fric = 0.2;
+//movement speed
+spd = 3;
+
+//maximum slope character can walk up (in degrees)
+maxSlopeAngle = 60;
+
+xvel = 0;
+yvel = 0;
+
 
 event_inherited();
 </string>
@@ -67,6 +81,72 @@ if wait &lt;= 0{
         dir = (destination-x)/abs(destination-x);
     } else {
         x += dir*min(abs(x-destination), 1);
+    }
+}
+
+//If you're going to hit something in the next frame
+if place_meeting(x + xvel, y, Foreground) {
+    //if it's not a step (height &lt;= sprite_height/4)
+    if place_meeting(x + xvel, y - sprite_height/4, Foreground) {
+        //as long as you are moving
+        if (xvel != 0) {
+            //move until you hit the thing
+            while !place_meeting(x + xvel/abs(xvel), y, Foreground) {
+                //moves by 1 in the direction of xvel (+/-)
+                x += xvel/abs(xvel);
+            }
+        }
+        //stop
+        xvel = 0;
+    //if it is a step
+    } else {
+        //move up as necessary
+        while place_meeting(x, y, Foreground) {
+            y -= 1;
+        }
+    }
+}
+//repeat the same for y
+if place_meeting(x, y + yvel, Foreground) {
+    
+    if (yvel != 0) {
+        while !place_meeting(x, y + yvel/abs(yvel), Foreground) {
+            y += yvel/abs(yvel);
+        }
+    }
+    
+    //if you're moving down (hitting the floor)
+    if (yvel &gt; 0) {
+        isGrounded = true;
+    }
+    
+    //stop
+    yvel = 0;
+}
+//if you're moving down (don't collide from the bottom)
+if yvel &gt; 0 {
+    //set this to the platform you're about to hit (whether it exists or not)
+    platform = instance_place(x, y + yvel, Platform);
+    //if it exists
+    if instance_exists(platform) {
+        //and you're above it
+        if y + sprite_height / 2 &lt;= platform.y - platform.sprite_height / 2 {
+            //move down until you meet it so you don't go through it
+            while !place_meeting(x, y + 1, Platform) {
+                y += 1;
+            }
+            
+            isGrounded = true;
+            //stop
+            yvel = 0;            
+        }
+    }
+}
+//if you're walking up a ramp
+if place_meeting(x, y + sprite_height/4, Foreground) &amp;&amp; yvel = 0 {
+    //move down as necessary
+    while !place_meeting(x, y, Foreground) {
+        y += 1;
     }
 }
 
