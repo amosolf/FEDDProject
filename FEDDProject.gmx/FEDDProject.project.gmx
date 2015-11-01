@@ -42,14 +42,12 @@
     <sprite>sprites\sInteract</sprite>
     <sprite>sprites\sHealthBar</sprite>
     <sprite>sprites\sSpaceStation</sprite>
-<<<<<<< HEAD
+
     <sprite>sprites\sBioFloor</sprite>
     <sprite>sprites\sTree</sprite>
     <sprite>sprites\sTreeBranch</sprite>
     <sprite>sprites\sprite32</sprite>
-=======
-    <sprite>sprites\sRamp</sprite>
->>>>>>> origin/master
+
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -113,7 +111,7 @@
     </objects>
     <object>objects\Boss1</object>
     <object>objects\Menu_obj</object>
-<<<<<<< HEAD
+
     <object>objects\Platform</object>
     <object>objects\Ledge</object>
     <object>objects\Manager</object>
@@ -136,12 +134,7 @@
     <object>objects\BioFloor</object>
     <object>objects\Tree</object>
     <object>objects\TreeBranch</object>
-=======
-    <objects name="Managers">
-      <object>objects\SpaceManager</object>
-      <object>objects\TutorialManager</object>
-    </objects>
->>>>>>> origin/master
+
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
