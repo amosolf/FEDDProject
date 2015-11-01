@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,37 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (audio_is_playing(main)==false){
-audio_stop_all();
-audio_play_sound(main,1,true);
-}
-
-depth = 1000;
-
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>width=background_get_width(hills);
+            <string>width=background_get_width(star1);
 right=view_xview[view_current]/width+view_wview[view_current]/width+1;
 for (i=-1; i&lt;right; i++)
     {

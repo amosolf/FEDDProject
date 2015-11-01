@@ -65,7 +65,7 @@ for (i=-1; i&lt;right; i++)
         
     }
 depth = 10;
-draw_background(station,SpaceStation.x-375,SpaceStation.y-375);
+draw_background(station,1006-375,610-375);
 depth = 1000;
 </string>
           </argument>
