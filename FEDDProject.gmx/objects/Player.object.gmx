@@ -25,9 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>grav = .4;
+            <string>//gravity
+grav = .4;
+//friction
 fric = 0.2;
+//movement speed
 spd = 3;
+
+//maximum slope character can walk up (in degrees)
+maxSlopeAngle = 60;
 
 xvel = 0;
 yvel = 0;
@@ -37,8 +43,6 @@ image_speed = 1/6;
 
 pressed = false;
 
-origin[0] = x;
-origin[1] = y;
 
 switch global.door {
     case "":
@@ -49,6 +53,10 @@ switch global.door {
         y = entrance.y;
         break;
 }
+
+origin[0] = x;
+origin[1] = y;
+depth = -1000;
 </string>
           </argument>
         </arguments>
@@ -144,15 +152,13 @@ if place_meeting(x + xvel, y, Foreground) {
         xvel = 0;
     //if it is a step
     } else {
-        //move forward
-        x += xvel;
-        
         //move up as necessary
         while place_meeting(x, y, Foreground) {
             y -= 1;
         }
     }
 }
+x += xvel;
 //repeat the same for y
 if place_meeting(x, y + yvel, Foreground) {
     
@@ -189,9 +195,15 @@ if yvel &gt; 0 {
         }
     }
 }
+//if you're walking up a ramp
+if place_meeting(x, y + sprite_height/4, Foreground) &amp;&amp; yvel = 0 {
+    //move down as necessary
+    while !place_meeting(x, y, Foreground) {
+        y += 1;
+    }
+}
 
 y += yvel;
-x += xvel;
 
 </string>
           </argument>

@@ -55,7 +55,7 @@ depth = 1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>width=background_get_width(hills);
+            <string>width=background_get_width(star1);
 right=view_xview[view_current]/width+view_wview[view_current]/width+1;
 for (i=-1; i&lt;right; i++)
     {
