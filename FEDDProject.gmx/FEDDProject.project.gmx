@@ -10,16 +10,30 @@
     <sound>sound\click</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sChem</sprite>
-    <sprite>sprites\sEngiTemplate</sprite>
+    <sprites name="Engineers">
+      <sprite>sprites\sEngiTemplate</sprite>
+      <sprite>sprites\sCivil</sprite>
+      <sprite>sprites\sBio_idle</sprite>
+      <sprite>sprites\sBio_run</sprite>
+      <sprite>sprites\sBio_jump</sprite>
+      <sprite>sprites\sMech_idle</sprite>
+      <sprite>sprites\sCompSci_idle</sprite>
+      <sprite>sprites\sCompSci_moving</sprite>
+      <sprite>sprites\sMaterial_idle</sprite>
+      <sprite>sprites\sChem</sprite>
+    </sprites>
+    <sprites name="Doors">
+      <sprite>sprites\sMechDoor</sprite>
+      <sprite>sprites\sChemDoor</sprite>
+      <sprite>sprites\sBioDoor</sprite>
+      <sprite>sprites\sCivilDoor</sprite>
+      <sprite>sprites\sComputerDoor</sprite>
+      <sprite>sprites\sMaterialDoor</sprite>
+    </sprites>
     <sprite>sprites\sWall</sprite>
-    <sprite>sprites\sCivil</sprite>
     <sprite>sprites\sCloud</sprite>
-    <sprite>sprites\sBio_idle</sprite>
     <sprite>sprites\sHill</sprite>
     <sprite>sprites\sSelector</sprite>
-    <sprite>sprites\sBio_run</sprite>
-    <sprite>sprites\sBio_jump</sprite>
     <sprite>sprites\sLedge</sprite>
     <sprite>sprites\sLogo</sprite>
     <sprite>sprites\sGear</sprite>
@@ -27,17 +41,7 @@
     <sprite>sprites\sFirework</sprite>
     <sprite>sprites\sParticle</sprite>
     <sprite>sprites\sInteract</sprite>
-    <sprite>sprites\sCompSciStill</sprite>
-    <sprite>sprites\sCompSciMoving</sprite>
     <sprite>sprites\sHealthBar</sprite>
-    <sprite>sprites\sBioDoor</sprite>
-    <sprite>sprites\sChemDoor</sprite>
-    <sprite>sprites\sMechDoor</sprite>
-    <sprite>sprites\sCivilDoor</sprite>
-    <sprite>sprites\sComputerDoor</sprite>
-    <sprite>sprites\sMaterialDoor</sprite>
-    <sprite>sprites\smech_idle</sprite>
-    <sprite>sprites\sMaterial_idle</sprite>
     <sprite>sprites\sSpaceStation</sprite>
     <sprite>sprites\sRamp</sprite>
   </sprites>
@@ -59,37 +63,45 @@
     <font>fonts\fDialog</font>
   </fonts>
   <objects name="objects">
-    <object>objects\CompSci</object>
-    <object>objects\Civil</object>
-    <object>objects\Chemical</object>
-    <object>objects\Mechanical</object>
-    <object>objects\Biological</object>
-    <object>objects\Material</object>
-    <object>objects\Player</object>
-    <object>objects\Foreground</object>
-    <object>objects\Wall</object>
+    <objects name="Engineers">
+      <object>objects\Chemical</object>
+      <object>objects\Mechanical</object>
+      <object>objects\Biological</object>
+      <object>objects\Material</object>
+      <object>objects\CompSci</object>
+      <object>objects\Civil</object>
+    </objects>
+    <objects name="Parents">
+      <object>objects\NPC</object>
+      <object>objects\Player</object>
+      <object>objects\Door</object>
+      <object>objects\Platform</object>
+      <object>objects\Foreground</object>
+      <object>objects\Particle</object>
+      <object>objects\Interactible</object>
+    </objects>
+    <objects name="NPCs">
+      <object>objects\CompSciNPC</object>
+    </objects>
+    <objects name="Props">
+      <object>objects\Ledge</object>
+      <object>objects\DialogBox</object>
+      <object>objects\InteractIndicator</object>
+      <object>objects\ChemDoor</object>
+      <object>objects\Firework</object>
+      <object>objects\SpaceStation</object>
+      <object>objects\MechDoor</object>
+      <object>objects\CivilDoor</object>
+      <object>objects\BioDoor</object>
+      <object>objects\MaterialDoor</object>
+      <object>objects\ComputerDoor</object>
+      <object>objects\Button</object>
+      <object>objects\Ramp</object>
+      <object>objects\Wall</object>
+    </objects>
     <object>objects\Boss1</object>
-    <object>objects\Menu_obj</object>
-    <object>objects\Platform</object>
-    <object>objects\Ledge</object>
     <object>objects\Manager</object>
-    <object>objects\DialogBox</object>
-    <object>objects\Interactible</object>
-    <object>objects\InteractIndicator</object>
-    <object>objects\Button</object>
-    <object>objects\Firework</object>
-    <object>objects\Particle</object>
-    <object>objects\NPC</object>
-    <object>objects\CompSciNPC</object>
-    <object>objects\Door</object>
-    <object>objects\BioDoor</object>
-    <object>objects\ChemDoor</object>
-    <object>objects\MechDoor</object>
-    <object>objects\CivilDoor</object>
-    <object>objects\ComputerDoor</object>
-    <object>objects\MaterialDoor</object>
-    <object>objects\SpaceStation</object>
-    <object>objects\Ramp</object>
+    <object>objects\Menu_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
