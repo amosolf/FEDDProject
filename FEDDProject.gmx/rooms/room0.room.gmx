@@ -52,7 +52,29 @@
   </views>
   <instances>
     <instance objName="Biological" x="1024" y="576" name="inst_FF535B76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="219" y="89" name="inst_71BFCC90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpaceManager" x="219" y="89" name="inst_71BFCC90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Button" x="1024" y="608" name="inst_62911C12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="990" y="543" name="inst_D0F8D8B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="960" y="543" name="inst_66BD48FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="930" y="543" name="inst_0F4B0B5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1080" y="543" name="inst_968810E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1110" y="543" name="inst_D5AC6A19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1051" y="543" name="inst_A25B2251" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1020" y="543" name="inst_746BCE72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="900" y="543" name="inst_19F44333" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="930" y="650" name="inst_CF23EC44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="900" y="650" name="inst_EC78682E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="992" y="650" name="inst_60FA631B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="960" y="650" name="inst_97E67338" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1024" y="650" name="inst_63C4E652" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1056" y="650" name="inst_DD0BD521" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1080" y="650" name="inst_2AED5A06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1110" y="650" name="inst_EA15A562" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1140" y="650" name="inst_6B0F00AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="880" y="650" name="inst_69543215" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="1113" y="543" name="inst_3B31F199" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpaceStation" x="1006" y="610" name="inst_815A0E84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CompSciNPC" x="781" y="441" name="inst_DFADF30E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CivilNPC" x="1220" y="441" name="inst_BC820692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ChemNPC" x="1284" y="662" name="inst_53E68D4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechNPC" x="1226" y="884" name="inst_762AF126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

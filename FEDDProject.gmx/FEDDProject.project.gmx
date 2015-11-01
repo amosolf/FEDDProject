@@ -42,10 +42,12 @@
     <sprite>sprites\sInteract</sprite>
     <sprite>sprites\sHealthBar</sprite>
     <sprite>sprites\sSpaceStation</sprite>
+
     <sprite>sprites\sBioFloor</sprite>
     <sprite>sprites\sTree</sprite>
     <sprite>sprites\sTreeBranch</sprite>
-    <sprite>sprites\sRamp</sprite>
+    <sprite>sprites\sprite32</sprite>
+
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -95,9 +97,9 @@
       <object>objects\Ledge</object>
       <object>objects\DialogBox</object>
       <object>objects\InteractIndicator</object>
-      <object>objects\SpaceStation</object>
-      <object>objects\Firework</object>
       <object>objects\ChemDoor</object>
+      <object>objects\Firework</object>
+      <object>objects\SpaceStation</object>
       <object>objects\MechDoor</object>
       <object>objects\CivilDoor</object>
       <object>objects\BioDoor</object>
@@ -106,13 +108,33 @@
       <object>objects\Button</object>
       <object>objects\Ramp</object>
       <object>objects\Wall</object>
-      <object>objects\BioFloor</object>
-      <object>objects\Tree</object>
-      <object>objects\TreeBranch</object>
     </objects>
     <object>objects\Boss1</object>
     <object>objects\Menu_obj</object>
+
+    <object>objects\Platform</object>
+    <object>objects\Ledge</object>
     <object>objects\Manager</object>
+    <object>objects\DialogBox</object>
+    <object>objects\Interactible</object>
+    <object>objects\InteractIndicator</object>
+    <object>objects\Button</object>
+    <object>objects\Firework</object>
+    <object>objects\Particle</object>
+    <object>objects\NPC</object>
+    <object>objects\CompSciNPC</object>
+    <object>objects\Door</object>
+    <object>objects\BioDoor</object>
+    <object>objects\ChemDoor</object>
+    <object>objects\MechDoor</object>
+    <object>objects\CivilDoor</object>
+    <object>objects\ComputerDoor</object>
+    <object>objects\MaterialDoor</object>
+    <object>objects\SpaceStation</object>
+    <object>objects\BioFloor</object>
+    <object>objects\Tree</object>
+    <object>objects\TreeBranch</object>
+
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
