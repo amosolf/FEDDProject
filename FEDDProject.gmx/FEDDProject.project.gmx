@@ -115,6 +115,7 @@
     <object>objects\BioFloor</object>
     <object>objects\Tree</object>
     <object>objects\TreeBranch</object>
+    <object>objects\Target</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
