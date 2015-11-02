@@ -65,6 +65,7 @@
   <fonts name="fonts">
     <font>fonts\fMenu</font>
     <font>fonts\fDialog</font>
+    <font>fonts\fSmall</font>
   </fonts>
   <objects name="objects">
     <objects name="Engineers">

@@ -79,7 +79,28 @@ depth = -1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check(vk_left) {
+            <string>//EYE CONTROLS
+if(global.eyeEnabled)
+{
+    if(mouse_x &lt;= x-100) 
+    {
+        xvel = -spd;
+        image_xscale = -1;
+    } 
+    else if(mouse_x &gt;= x+100)
+    {
+        xvel = spd;
+        image_xscale = 1;
+    }
+
+    if (mouse_y &lt;= y-200 and isGrounded) //Jump
+    {
+        yvel = -10;
+    }
+}
+
+//NORMAL CONTROLS
+if keyboard_check(vk_left) {
     xvel = -spd;
     image_xscale = -1;
 } else if keyboard_check(vk_right) {

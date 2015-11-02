@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>scale = 1;
+global.eyeEnabled = false;
 </string>
           </argument>
         </arguments>
@@ -53,6 +54,10 @@
     if(scale&lt;=6)
         scale+=0.2;
 }
+if(scale==6)
+{
+    global.eyeEnabled = true;
+}
 </string>
           </argument>
         </arguments>
@@ -75,13 +80,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fDialog)
+            <string>draw_set_font(fSmall)
 draw_set_halign(fa_middle);
+
 
 if(scale&lt;=6)
 {
     draw_sprite_ext(sSmallTarget,0,x,y,scale,scale,0,c_white,1);
     draw_sprite(sBigTarget,0,x,y);
+    draw_text(x,y-100,"Look here#to enable#eye controls")
 }
 else
 {
