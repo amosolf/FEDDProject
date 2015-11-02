@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="Biological" xview="256" yview="300" wview="512" hview="384" xport="0" yport="0" wport="512" hport="384" hborder="170" vborder="170" hspeed="100" vspeed="100"/>
+    <view visible="-1" objName="Biological" xview="256" yview="300" wview="512" hview="384" xport="0" yport="0" wport="512" hport="384" hborder="256" vborder="300" hspeed="100" vspeed="100"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="Biological" x="15" y="720" name="inst_007B4138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpaceManager" x="544" y="128" name="inst_4A49088D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BioFloor" x="0" y="736" name="inst_3076EBF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BioFloor" x="32" y="736" name="inst_E620B412" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BioFloor" x="64" y="736" name="inst_98A6120E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -85,12 +84,39 @@
     <instance objName="BioFloor" x="960" y="736" name="inst_E548B543" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BioFloor" x="928" y="736" name="inst_01710AFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BioFloor" x="992" y="736" name="inst_727C4209" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tree" x="160" y="384" name="inst_B1C3F68D" locked="0" code="" scaleX="2.0625" scaleY="-23.6451606750488" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="53" y="710" name="inst_79CAE8CB" locked="0" code="" scaleX="-1" scaleY="0.8299999833107" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="64" y="640" name="inst_B372F7CC" locked="0" code="" scaleX="-0.847826063632965" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="256" y="608" name="inst_B861327C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tree" x="576" y="384" name="inst_80C1F0AB" locked="0" code="" scaleX="4.25" scaleY="-24.25" colour="4294967295" rotation="0"/>
-    <instance objName="Tree" x="928" y="384" name="inst_32BC4FF3" locked="0" code="" scaleX="4.5" scaleY="23.5" colour="4294967295" rotation="0"/>
+    <instance objName="Tree" x="224" y="384" name="inst_B1C3F68D" locked="0" code="" scaleX="2.03125" scaleY="-25.6129035949707" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="288" y="640" name="inst_79CAE8CB" locked="0" code="" scaleX="1" scaleY="0.8299999833107" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="160" y="192" name="inst_B861327C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Tree" x="448" y="384" name="inst_80C1F0AB" locked="0" code="" scaleX="2.125" scaleY="-25.125" colour="4294967295" rotation="0"/>
+    <instance objName="Tree" x="672" y="384" name="inst_32BC4FF3" locked="0" code="" scaleX="-2.1875" scaleY="-23.96875" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="288" y="256" name="inst_D70CC478" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="514" y="300" name="inst_057B6A41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="384" y="480" name="inst_006D0BC9" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="383" y="283" name="inst_92724996" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="512" y="448" name="inst_4CB10998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Tree" x="992" y="352" name="inst_B6481FC2" locked="0" code="" scaleX="2.5" scaleY="25.5" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="736" y="576" name="inst_C40CA167" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="928" y="512" name="inst_03947D85" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="608" y="192" name="inst_DB75D48B" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="736" y="256" name="inst_82EDC563" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="928" y="416" name="inst_A6A9CB6A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="512" y="224" name="inst_96E134B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="928" y="160" name="inst_FDD5151C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="928" y="64" name="inst_073352E4" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="736" y="128" name="inst_A93486D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="736" y="352" name="inst_45C16B00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="288" y="544" name="inst_1A0CAA90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="288" y="64" name="inst_0F9F7AA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="384" y="64" name="inst_9A2A403A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioFlower" x="944" y="46" name="inst_4E3CE997" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioFlower" x="491" y="281" name="inst_5D0ACF7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioFlower" x="406" y="45" name="inst_50582FCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="608" y="544" name="inst_43329EDD" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="928" y="608" name="inst_89910BF4" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioFlower" x="945" y="589" name="inst_BDAB58D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="160" y="96" name="inst_2369B70B" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="160" y="384" name="inst_5CA0E051" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioFlower" x="184" y="366" name="inst_77DB5057" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

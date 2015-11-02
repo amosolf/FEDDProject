@@ -45,6 +45,7 @@
     <sprite>sprites\sBioFloor</sprite>
     <sprite>sprites\sTree</sprite>
     <sprite>sprites\sTreeBranch</sprite>
+    <sprite>sprites\sBioFlower</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -109,19 +110,21 @@
     <objects name="Managers">
       <object>objects\SpaceManager</object>
       <object>objects\TutorialManager</object>
+      <object>objects\BioRoomManager</object>
     </objects>
     <object>objects\Boss1</object>
     <object>objects\Menu_obj</object>
     <object>objects\BioFloor</object>
     <object>objects\Tree</object>
     <object>objects\TreeBranch</object>
+    <object>objects\BioFlower</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
     <room>rooms\room0</room>
     <room>rooms\bossroom</room>
-    <room>rooms\tutorial</room>
     <room>rooms\bioRoom</room>
+    <room>rooms\tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
