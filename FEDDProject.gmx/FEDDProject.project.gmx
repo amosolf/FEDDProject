@@ -45,6 +45,8 @@
     <sprite>sprites\sBioFloor</sprite>
     <sprite>sprites\sTree</sprite>
     <sprite>sprites\sTreeBranch</sprite>
+    <sprite>sprites\sSmallTarget</sprite>
+    <sprite>sprites\sBigTarget</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>

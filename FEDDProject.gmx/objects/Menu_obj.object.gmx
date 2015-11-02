@@ -152,6 +152,7 @@ draw_sprite(sLogo,0,512,250);
 rotation += 2 //makes the gear spin 2 degrees per step
 if(rotation == 360)//makes sure it doesn't go above 360
     rotation = 0;
+
 </string>
           </argument>
         </arguments>
