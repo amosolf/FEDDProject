@@ -46,6 +46,8 @@
     <sprite>sprites\sTree</sprite>
     <sprite>sprites\sTreeBranch</sprite>
     <sprite>sprites\sBioFlower</sprite>
+    <sprite>sprites\sBigTarget</sprite>
+    <sprite>sprites\sSmallTarget</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -64,6 +66,7 @@
   <fonts name="fonts">
     <font>fonts\fMenu</font>
     <font>fonts\fDialog</font>
+    <font>fonts\fSmall</font>
   </fonts>
   <objects name="objects">
     <objects name="Engineers">
@@ -113,6 +116,7 @@
       <object>objects\BioRoomManager</object>
     </objects>
     <object>objects\Boss1</object>
+    <object>objects\Target</object>
     <object>objects\Menu_obj</object>
     <object>objects\BioFloor</object>
     <object>objects\Tree</object>
