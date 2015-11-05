@@ -25,14 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>width = 1024;
-height = 200;
+            <string>width = 200;
+height = 100;
 padding = 50;
 
 count = 0;
 
 //Message
-message = "This is the first line. #This is the second line.";
+message = "This is the first line.#This is the second line.";
 str = "";
 </string>
           </argument>
@@ -56,7 +56,7 @@ str = "";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fDialog);
+            <string>draw_set_font(fSmall);
 
 draw_set_alpha(0.5);
 draw_roundrect_color(x, y, x+width, y+height, c_black, c_black, false);
