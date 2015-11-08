@@ -121,23 +121,38 @@ if instance_exists(ground) {
     }
 }
 
-////Colissions////
+////Collisions////
+//Horizontal//
 wall = instance_place(x + xvel, y, Foreground);
 if instance_exists(wall) {
+    //Move freely through platforms
     if not(object_get_parent(wall.object_index) = Platform) {
-        while !place_meeting(x+sign(xvel), y, Foreground) {
-            x += sign(xvel);
+        //If you're not hitting a ramp
+        if place_meeting(x + xvel, y - sprite_height/4, Foreground) {
+            //Move until you hit the wall
+            while !place_meeting(x+sign(xvel), y, Foreground) {
+                x += sign(xvel);
+            }
+            
+            xvel = 0;
+        //If you are hitting a ramp
+        } else {
+            //Go up it
+            while place_meeting(x + xvel, y, Foreground) {
+                y -= 1;
+            }
         }
-        
-        xvel = 0;
     }
 }
 x += xvel;
 
+
+//Vertical//
 block = instance_place(x, y + yvel, Foreground);
 if instance_exists(block) {
-
+    //Checks for platforms
     if not((object_get_parent(block.object_index) = Platform) and ((block.y - block.sprite_height/2) &lt; round(y + sprite_height/2) or down)) {
+        //Move until you hit it
         while !place_meeting(x, y + sign(yvel), Foreground) {
             y += sign(yvel);
         }

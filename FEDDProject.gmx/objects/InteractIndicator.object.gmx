@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>defx = x;
-defy = y;
+            <string>defy = y;
 
 time = 0;
 </string>
@@ -54,6 +53,9 @@ time = 0;
             <string>time += .1;
 
 y = defy + 3*sin(time);
+if instance_exists(object) {
+    x = object.x;
+}
 </string>
           </argument>
         </arguments>

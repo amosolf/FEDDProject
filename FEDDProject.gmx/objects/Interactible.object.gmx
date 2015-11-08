@@ -53,6 +53,7 @@
             <string>if place_meeting(x, y, Player) {
     if not(instance_exists(indicator)){
         indicator = instance_create(x, y-32, InteractIndicator);
+        indicator.object = id;
     }
 } else {
     if instance_exists(indicator) {
