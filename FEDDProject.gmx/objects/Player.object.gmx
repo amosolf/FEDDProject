@@ -91,9 +91,12 @@ xvel = move*spd;
 
 yvel = min(yvel + grav, 30);
 
-if place_meeting(x, y + 1, Foreground) {
-    if space {
-        yvel = -10;
+ground = instance_place(x, y + 1, Foreground);
+if instance_exists(ground) {
+    if not((object_get_parent(ground.object_index) = Platform) and ((ground.y - ground.sprite_height/2) &lt; round(y + sprite_height/2) or down)) and yvel &gt;= 0 {
+        if space {
+            yvel = -10;
+        }
     }
 }
 
@@ -107,14 +110,16 @@ if place_meeting(x + xvel, y, Foreground) {
 }
 x += xvel;
 
-ground = instance_place(x, y + yvel, Foreground);
-if instance_exists(ground) {
-    
-    while !place_meeting(x, y + sign(yvel), Foreground) {
-        y += sign(yvel);
+wall = instance_place(x, y + yvel, Foreground);
+if instance_exists(wall) {
+
+    if not((object_get_parent(wall.object_index) = Platform) and ((wall.y - wall.sprite_height/2) &lt; round(y + sprite_height/2) or down)) {
+        while !place_meeting(x, y + sign(yvel), Foreground) {
+            y += sign(yvel);
+        }
+        
+        yvel = 0;
     }
-    
-    yvel = 0;
 }
 y += yvel;
 
