@@ -85,6 +85,7 @@
       <object>objects\Foreground</object>
       <object>objects\Interactible</object>
       <object>objects\Particle</object>
+      <object>objects\Clickable</object>
     </objects>
     <objects name="NPCs">
       <object>objects\CompSciNPC</object>
