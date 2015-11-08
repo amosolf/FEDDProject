@@ -33,7 +33,7 @@ else
 {
     sprite_index = sBio_run;
 }
-if(!isGrounded)
+if not(isGrounded)
 {
     sprite_index = sBio_jump;
 }
