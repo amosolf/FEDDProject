@@ -62,6 +62,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\activate.gml</script>
+    <script>scripts\makeDialog.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fMenu</font>

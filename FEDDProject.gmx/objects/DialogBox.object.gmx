@@ -25,15 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>width = 200;
-height = 100;
-padding = 50;
-
-count = 0;
-
-//Message
-message = "This is the first line.#This is the second line.";
-str = "";
+            <string>print = "";
+time = 0;
+depth = depth - instance_number(DialogBox);
 </string>
           </argument>
         </arguments>
@@ -57,20 +51,20 @@ str = "";
           <argument>
             <kind>1</kind>
             <string>draw_set_font(fSmall);
-
 draw_set_alpha(0.5);
-draw_roundrect_color(x, y, x+width, y+height, c_black, c_black, false);
+draw_roundrect_color(view_xview[view_current], view_yview[view_current], view_xview[view_current]+maxLength, view_yview[view_current]+boxHeight, c_black, c_black, false);
 draw_set_alpha(1);
-
 draw_set_color(c_white);
-
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 //Draw the text
-str = string_copy(message, 1, count);
-if(count &lt; string_length(message))
+if(time &lt; textLength)
 {
-    count++;
+    time++;
+    print = string_copy(text,0,time);
 }
-draw_text(x+padding, y+padding, str); 
+draw_text_ext(view_xview[view_current]+padding,view_yview[view_current]+padding,print,font_size+(font_size/2),maxLength);
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>
