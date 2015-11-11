@@ -132,6 +132,7 @@
     <room>rooms\bossroom</room>
     <room>rooms\bioRoom</room>
     <room>rooms\tutorial</room>
+    <room>rooms\mechRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
