@@ -46,6 +46,9 @@ maxSlopeAngle = 60;
 xvel = 0;
 yvel = 0;
 
+text[0] = noone;
+myRoom = noone;
+
 
 event_inherited();
 </string>
