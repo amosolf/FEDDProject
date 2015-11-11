@@ -25,7 +25,60 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>makeDialog("Welcome to 8-Bit Engineers! This is a tutorial to help you learn how to play");
+            <string>str = "Welcome to 8-Bit Engineers! This is a tutorial to help you learn how to play";
+makeDialog(str);
+alarm[0]= string_length(str)*2 + 50
+
+depth = 1000;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>str = "Good Job! Now press escape and start the game!";
+makeDialog(str);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>str = "Move with the arrow keys and press space to jump";
+makeDialog(str);
+alarm[1] = string_length(str)*2 + 50;
 </string>
           </argument>
         </arguments>

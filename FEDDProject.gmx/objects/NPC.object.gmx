@@ -72,15 +72,18 @@ event_inherited();
             <kind>1</kind>
             <string>wait -= 1;
 
-if wait &lt;= 0{
-    if x = destination {
-        wait = irandom_range(60, 150);
-        while destination = x and abs(x-destination) &lt; 30 {
-            destination = irandom_range(defx - range, defx + range);
+if(!place_meeting(x,y,Player))
+{
+    if wait &lt;= 0{
+        if x = destination {
+            wait = irandom_range(60, 150);
+            while destination = x and abs(x-destination) &lt; 30 {
+                destination = irandom_range(defx - range, defx + range);
+            }
+            dir = (destination-x)/abs(destination-x);
+        } else {
+            x += dir*min(abs(x-destination), 1);
         }
-        dir = (destination-x)/abs(destination-x);
-    } else {
-        x += dir*min(abs(x-destination), 1);
     }
 }
 
