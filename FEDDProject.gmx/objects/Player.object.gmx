@@ -181,7 +181,7 @@ if isGrounded {
 ////Interactions////
 if up {
     pressed = true;
-    interactible = instance_place(x, y, Interactible);
+    interactible = collision_circle(x, y, 32, Interactible, false, true);
     if instance_exists(interactible) {
         with interactible {
             activate(object_get_name(object_index));

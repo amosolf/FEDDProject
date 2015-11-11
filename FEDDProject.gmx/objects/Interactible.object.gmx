@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>indicator = noone;
-
+dialog = noone;
 
 </string>
           </argument>
@@ -50,7 +50,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if place_meeting(x, y, Player) {
+            <string>if collision_circle(x, y, 32, Player, false, true) {
     if not(instance_exists(indicator)){
         indicator = instance_create(x, y-32, InteractIndicator);
         indicator.object = id;
@@ -63,9 +63,10 @@
             instance_destroy();
         }
     }
-    if instance_exists(DialogBox) {
-        with(DialogBox)
-        instance_destroy();
+    if instance_exists(dialog) {
+        with(dialog) {
+            instance_destroy();
+        }
     }
 }
 </string>

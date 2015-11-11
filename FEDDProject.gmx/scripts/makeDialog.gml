@@ -24,3 +24,5 @@ with(dbox)
     
     alarm[0] = string_length(text)*2 + 50
 }
+
+return dbox;
