@@ -97,7 +97,7 @@ space = keyboard_check(vk_space);
 ////Extra Controls////
 if keyboard_check(vk_escape) {
     room_goto(mainmenu);
-    //stop sound??
+    audio_stop_all();
 }
 
 if keyboard_check(ord('B')) {

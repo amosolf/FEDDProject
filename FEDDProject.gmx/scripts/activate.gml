@@ -9,5 +9,23 @@ switch argument0 {
         } else {
             room_goto(room0);
         }
+    case "CompSciNPC":
+        makeDialog("Hi! I'm a computer scientist.");
+        break;
+    case "ChemNPC":
+        makeDialog("Hi! I'm a chemical engineer.");
+        break;
+    case "BioNPC":
+        makeDialog("Hi! I'm a biomedical engineer.");
+        break;
+    case "MechNPC":
+        makeDialog("Hi! I'm a mechanical engineer.");
+        break;
+    case "MaterialNPC":
+        makeDialog("Hi! I'm a material engineer.");
+        break;
+    case "CivilNPC":
+        makeDialog("Hi! I'm a civil engineer.");
+        break;
     default: break;
 }
