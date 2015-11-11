@@ -91,7 +91,7 @@ draw_text_ext(view_xview[view_current]+padding,view_yview[view_current]+padding,
 
 if(print == text)
 {
-    draw_sprite(sInteract,0,x+maxLength-16, y+boxHeight);
+    
 }
 draw_set_alpha(1);
 </string>
