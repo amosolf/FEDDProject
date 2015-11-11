@@ -87,6 +87,12 @@ if(time &lt; textLength)
     print = string_copy(text,0,time);
 }
 draw_text_ext(view_xview[view_current]+padding,view_yview[view_current]+padding,print,font_size+(font_size/2),maxLength);
+
+
+if(print == text)
+{
+    draw_sprite(sInteract,0,x+maxLength-16, y+boxHeight);
+}
 draw_set_alpha(1);
 </string>
           </argument>
