@@ -55,6 +55,7 @@ time = 0;
 y = defy + 3*sin(time);
 if instance_exists(object) {
     x = object.x;
+    defy = object.y - 32;
 }
 </string>
           </argument>
