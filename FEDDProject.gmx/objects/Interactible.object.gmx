@@ -55,6 +55,7 @@
         indicator = instance_create(x, y-32, InteractIndicator);
         indicator.object = id;
         indicator.x = x;
+        indicator.y = y-32;
     }
 } else {
     if instance_exists(indicator) {

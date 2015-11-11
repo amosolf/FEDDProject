@@ -1,5 +1,9 @@
 //Takes 1 argument: message
-
+if(instance_exists(DialogBox))
+{
+    with(DialogBox)
+        instance_destroy();
+}
 dbox = instance_create(0,400,DialogBox);
 with(dbox)
 {
