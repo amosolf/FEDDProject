@@ -60,7 +60,7 @@ myRoom = bioRoom;
 }
 else
 {
-    sprite_index = sBio_run;
+    sprite_index = sBio_moving;
     if (destination &lt; x) {
         image_xscale = -1;
     } else {

@@ -100,10 +100,6 @@ if keyboard_check(vk_escape) {
     audio_stop_all();
 }
 
-if keyboard_check(ord('B')) {
-    room_goto(bioRoom);
-}
-
 ////Movement////
 move = right-left;
 if sign(move) != 0 {

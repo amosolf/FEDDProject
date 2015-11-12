@@ -12,15 +12,15 @@
   <sprites name="sprites">
     <sprites name="Engineers">
       <sprite>sprites\sEngiTemplate</sprite>
-      <sprite>sprites\sCivil</sprite>
+      <sprite>sprites\sCivil_idle</sprite>
       <sprite>sprites\sBio_idle</sprite>
-      <sprite>sprites\sBio_run</sprite>
+      <sprite>sprites\sBio_moving</sprite>
       <sprite>sprites\sBio_jump</sprite>
       <sprite>sprites\sMech_idle</sprite>
       <sprite>sprites\sCompSci_idle</sprite>
       <sprite>sprites\sCompSci_moving</sprite>
       <sprite>sprites\sMaterial_idle</sprite>
-      <sprite>sprites\sChem</sprite>
+      <sprite>sprites\sChem_idle</sprite>
     </sprites>
     <sprites name="Doors">
       <sprite>sprites\sMechDoor</sprite>
