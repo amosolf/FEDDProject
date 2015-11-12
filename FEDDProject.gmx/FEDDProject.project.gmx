@@ -133,6 +133,10 @@
     <room>rooms\bioRoom</room>
     <room>rooms\tutorial</room>
     <room>rooms\mechRoom</room>
+    <room>rooms\compSciRoom</room>
+    <room>rooms\chemRoom</room>
+    <room>rooms\matRoom</room>
+    <room>rooms\civilRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

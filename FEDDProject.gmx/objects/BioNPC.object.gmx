@@ -27,9 +27,9 @@
             <kind>1</kind>
             <string>event_inherited();
 
-text[0] = "I am a Biological Engineer";
-text[1] = "blah blah";
-text[2] = "goto my room";
+text[0] = "Hi! I'm a biomedical engineer.";
+text[1] = "My job is to isolate chemotherapy drugs from plants.";
+text[2] = "Want me to show you how I do it?";
 
 myRoom = bioRoom;
 </string>
