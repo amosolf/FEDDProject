@@ -49,6 +49,8 @@
     <sprite>sprites\sBigTarget</sprite>
     <sprite>sprites\sSmallTarget</sprite>
     <sprite>sprites\sMechFloor</sprite>
+    <sprite>sprites\sCompFloor</sprite>
+    <sprite>sprites\sStaircase</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -125,6 +127,8 @@
     <object>objects\Tree</object>
     <object>objects\TreeBranch</object>
     <object>objects\BioFlower</object>
+    <object>objects\CompFloor</object>
+    <object>objects\Staircase</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
@@ -133,7 +137,7 @@
     <room>rooms\bioRoom</room>
     <room>rooms\tutorial</room>
     <room>rooms\mechRoom</room>
-    <room>rooms\compSciRoom</room>
+    <room>rooms\computerRoom</room>
     <room>rooms\chemRoom</room>
     <room>rooms\matRoom</room>
     <room>rooms\civilRoom</room>
