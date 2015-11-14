@@ -50,7 +50,11 @@
     <sprite>sprites\sSmallTarget</sprite>
     <sprite>sprites\sMechFloor</sprite>
     <sprite>sprites\sCompFloor</sprite>
-    <sprite>sprites\sStaircase</sprite>
+    <sprite>sprites\sUpStaircase</sprite>
+    <sprite>sprites\sDownStaircase</sprite>
+    <sprite>sprites\sMainframe</sprite>
+    <sprite>sprites\sLaserSensor</sprite>
+    <sprite>sprites\sLaser</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -128,7 +132,11 @@
     <object>objects\TreeBranch</object>
     <object>objects\BioFlower</object>
     <object>objects\CompFloor</object>
-    <object>objects\Staircase</object>
+    <object>objects\UpStaircase</object>
+    <object>objects\DownStaircase</object>
+    <object>objects\Mainframe</object>
+    <object>objects\LaserSensor</object>
+    <object>objects\Laser</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
@@ -137,7 +145,7 @@
     <room>rooms\bioRoom</room>
     <room>rooms\tutorial</room>
     <room>rooms\mechRoom</room>
-    <room>rooms\computerRoom</room>
+    <room>rooms\compSciRoom</room>
     <room>rooms\chemRoom</room>
     <room>rooms\matRoom</room>
     <room>rooms\civilRoom</room>
