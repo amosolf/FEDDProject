@@ -55,6 +55,9 @@
     <sprite>sprites\sMainframe</sprite>
     <sprite>sprites\sLaserSensor</sprite>
     <sprite>sprites\sLaser</sprite>
+    <sprite>sprites\sRocket</sprite>
+    <sprite>sprites\sRocketTower</sprite>
+    <sprite>sprites\sRocketCatwalk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -137,6 +140,9 @@
     <object>objects\Mainframe</object>
     <object>objects\LaserSensor</object>
     <object>objects\Laser</object>
+    <object>objects\Rocket</object>
+    <object>objects\Tower</object>
+    <object>objects\RocketCatwalk</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
