@@ -143,6 +143,7 @@
     <object>objects\Rocket</object>
     <object>objects\Tower</object>
     <object>objects\RocketCatwalk</object>
+    <object>objects\MechFloor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
