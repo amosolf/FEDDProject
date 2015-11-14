@@ -28,4 +28,18 @@ if object_index = Button {
             instance_destroy();
         }
     }
+} else if object_get_parent(object_index) = ItemUser {
+    if item != noone and instance_exists(Inventory) {
+        var i;
+        for (i = 0; i < Inventory.slots; i += 1) {
+            if Inventory.slot[i] = item {
+                slot[i] = noone;
+                //Codes for resulting actions go here (i.e. what object does when given item)
+                break;
+            }
+        }
+        if i = inventory.slots {
+            makeDialog("You don't have the necessary item");
+        }
+    }
 }

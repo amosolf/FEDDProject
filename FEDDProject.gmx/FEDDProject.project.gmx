@@ -103,6 +103,7 @@
       <object>objects\Interactible</object>
       <object>objects\Particle</object>
       <object>objects\Clickable</object>
+      <object>objects\ItemUser</object>
       <object>objects\PickUp</object>
     </objects>
     <objects name="NPCs">
