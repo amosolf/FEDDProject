@@ -51,8 +51,55 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Wall" x="160" y="256" name="inst_FB68B8F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Mechanical" x="160" y="192" name="inst_A6E502AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="96" y="704" name="inst_7FAF265A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="128" y="704" name="inst_7F1CDC4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="160" y="704" name="inst_78DEBC5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="192" y="704" name="inst_CE24DD2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="224" y="704" name="inst_D470B69D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Rocket" x="352" y="387" name="inst_9D13C7C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="256" y="704" name="inst_1D9ADE1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="288" y="704" name="inst_B86247AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="320" y="704" name="inst_0962C477" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="352" y="704" name="inst_99772AE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="384" y="704" name="inst_ACAC4C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="416" y="704" name="inst_D1C56FA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="448" y="704" name="inst_377C42FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="480" y="704" name="inst_A70030F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="512" y="704" name="inst_44E56071" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="544" y="704" name="inst_8684245A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="576" y="704" name="inst_1F245B91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="608" y="704" name="inst_95D2B06D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="640" y="704" name="inst_F848D58D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="672" y="704" name="inst_A00BD54C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MechFloor" x="704" y="704" name="inst_3C9A959D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Tower" x="190" y="104" name="inst_FB5CAFAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="256" y="544" name="inst_45112C91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="288" y="544" name="inst_04294C0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="320" y="544" name="inst_DA483A00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="352" y="544" name="inst_61A08749" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="384" y="544" name="inst_FF8BE68D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="224" y="544" name="inst_6FD8DC89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="192" y="544" name="inst_B6337D40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="416" y="544" name="inst_A380D8AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="192" y="352" name="inst_7A8B3B10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="224" y="352" name="inst_A6D8A936" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="256" y="352" name="inst_C0390131" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="256" y="352" name="inst_3062D726" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="288" y="352" name="inst_3BF13236" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="320" y="352" name="inst_628AB607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="352" y="352" name="inst_BA9C005B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="384" y="352" name="inst_41CE8BAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="416" y="352" name="inst_D1CE90A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="192" y="160" name="inst_1444C4C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="224" y="160" name="inst_088493A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="256" y="160" name="inst_E0F0A491" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="288" y="160" name="inst_4715DB7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="320" y="160" name="inst_B5063A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="352" y="160" name="inst_D7CEC043" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="384" y="160" name="inst_622C3097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="RocketCatwalk" x="416" y="160" name="inst_96665693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Inventory" x="0" y="0" name="inst_1EE97E00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
