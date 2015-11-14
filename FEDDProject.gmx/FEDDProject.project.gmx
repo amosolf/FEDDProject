@@ -41,23 +41,29 @@
     <sprite>sprites\sParticle</sprite>
     <sprite>sprites\sInteract</sprite>
     <sprite>sprites\sHealthBar</sprite>
-    <sprite>sprites\sSpaceStation</sprite>
-    <sprite>sprites\sBioFloor</sprite>
-    <sprite>sprites\sTree</sprite>
-    <sprite>sprites\sTreeBranch</sprite>
-    <sprite>sprites\sBioFlower</sprite>
     <sprite>sprites\sBigTarget</sprite>
     <sprite>sprites\sSmallTarget</sprite>
-    <sprite>sprites\sMechFloor</sprite>
-    <sprite>sprites\sCompFloor</sprite>
-    <sprite>sprites\sUpStaircase</sprite>
-    <sprite>sprites\sDownStaircase</sprite>
-    <sprite>sprites\sMainframe</sprite>
-    <sprite>sprites\sLaserSensor</sprite>
-    <sprite>sprites\sLaser</sprite>
-    <sprite>sprites\sRocket</sprite>
-    <sprite>sprites\sRocketTower</sprite>
-    <sprite>sprites\sRocketCatwalk</sprite>
+    <sprite>sprites\sSpaceStation</sprite>
+    <sprites name="Bio">
+      <sprite>sprites\sBioFlower</sprite>
+      <sprite>sprites\sTreeBranch</sprite>
+      <sprite>sprites\sTree</sprite>
+      <sprite>sprites\sBioFloor</sprite>
+    </sprites>
+    <sprites name="CompSci">
+      <sprite>sprites\sLaserSensor</sprite>
+      <sprite>sprites\sDownStaircase</sprite>
+      <sprite>sprites\sCompFloor</sprite>
+      <sprite>sprites\sUpStaircase</sprite>
+      <sprite>sprites\sMainframe</sprite>
+      <sprite>sprites\sLaser</sprite>
+    </sprites>
+    <sprites name="Mech">
+      <sprite>sprites\sRocketTower</sprite>
+      <sprite>sprites\sRocketCatwalk</sprite>
+      <sprite>sprites\sMechFloor</sprite>
+      <sprite>sprites\sRocket</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -132,20 +138,26 @@
     <object>objects\Boss1</object>
     <object>objects\Target</object>
     <object>objects\Menu_obj</object>
-    <object>objects\BioFloor</object>
-    <object>objects\Tree</object>
-    <object>objects\TreeBranch</object>
-    <object>objects\BioFlower</object>
-    <object>objects\CompFloor</object>
-    <object>objects\UpStaircase</object>
-    <object>objects\DownStaircase</object>
-    <object>objects\Mainframe</object>
-    <object>objects\LaserSensor</object>
-    <object>objects\Laser</object>
-    <object>objects\Rocket</object>
-    <object>objects\Tower</object>
-    <object>objects\RocketCatwalk</object>
-    <object>objects\MechFloor</object>
+    <objects name="Bio">
+      <object>objects\BioFloor</object>
+      <object>objects\Tree</object>
+      <object>objects\BioFlower</object>
+      <object>objects\TreeBranch</object>
+    </objects>
+    <objects name="CompSci">
+      <object>objects\CompFloor</object>
+      <object>objects\UpStaircase</object>
+      <object>objects\DownStaircase</object>
+      <object>objects\Mainframe</object>
+      <object>objects\LaserSensor</object>
+      <object>objects\Laser</object>
+    </objects>
+    <objects name="Mech">
+      <object>objects\Rocket</object>
+      <object>objects\Tower</object>
+      <object>objects\MechFloor</object>
+      <object>objects\RocketCatwalk</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
