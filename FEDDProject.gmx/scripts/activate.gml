@@ -15,4 +15,17 @@ if object_index = Button {
     } else {
         dialog = makeDialog(text[0]);
     }
+} else if object_get_parent(object_index) = PickUp {
+    if instance_exists(Inventory) {
+        var i;
+        for (i = 0; i < Inventory.slots; i += 1) {
+            if Inventory.slot[i] = noone {
+                Inventory.slot[i] = object_index;
+                break;
+            }
+        }
+        if i != Inventory.slots {
+            instance_destroy();
+        }
+    }
 }

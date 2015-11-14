@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//Set Variables
 padding = 5;
-slotSize = 64;
+slotSize = 68;
 slots = 3;
 borderWidth = 3;
 innerColor = make_colour_rgb(64, 64, 64);
@@ -72,6 +72,9 @@ draw_roundrect_color(posX, posY, posX + width, posY + height, innerColor, innerC
 //Slots
 for (var i = 0; i &lt; slots; i += 1) {
     draw_roundrect_color(posX + padding*(i+1) + slotSize*i, posY + padding, posX + padding*(i+1) + slotSize*(i+1), posY + padding + slotSize, slotColor, slotColor, false);
+    if slot[i] != noone {
+        draw_sprite_ext(slot[i].sprite_index, 0, posX + padding*(i+1) + slotSize*i + (slotSize - slot[i].sprite_width*2)/2, posY + padding + (slotSize - slot[i].sprite_height*2)/2, 2, 2, 0, c_white, 1)
+    }
 }
 
 draw_set_alpha(1);
