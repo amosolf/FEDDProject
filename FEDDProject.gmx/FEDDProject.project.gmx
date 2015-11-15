@@ -48,6 +48,11 @@
       <sprite>sprites\sLever</sprite>
       <sprite>sprites\sMaterialFloor</sprite>
       <sprite>sprites\sLeverStand</sprite>
+      <sprite>sprites\sMaterialTester</sprite>
+      <sprite>sprites\sMaterialShape1</sprite>
+      <sprite>sprites\sInitialMaterial</sprite>
+      <sprite>sprites\sMaterialShape2</sprite>
+      <sprite>sprites\sMaterialChanger</sprite>
     </sprites>
     <sprites name="Bio">
       <sprite>sprites\sBioFlower</sprite>
@@ -72,11 +77,6 @@
       <sprite>sprites\sRocket</sprite>
       <sprite>sprites\sStepLadder</sprite>
     </sprites>
-    <sprite>sprites\sMaterialTester</sprite>
-    <sprite>sprites\sInitialMaterial</sprite>
-    <sprite>sprites\sMaterialShape1</sprite>
-    <sprite>sprites\sMaterialShape2</sprite>
-    <sprite>sprites\sMaterialChanger</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
