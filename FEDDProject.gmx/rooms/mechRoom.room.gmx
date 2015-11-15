@@ -102,6 +102,8 @@
     <instance objName="MechFloor" x="1440" y="704" name="inst_26C77BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="1472" y="704" name="inst_F4743434" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="1504" y="704" name="inst_2CC2CF95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stepLadder" x="218" y="660" name="inst_FDA06298" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stepLadder" x="1132" y="659" name="inst_00E9F148" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

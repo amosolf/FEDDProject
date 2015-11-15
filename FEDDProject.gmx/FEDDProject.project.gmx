@@ -63,6 +63,7 @@
       <sprite>sprites\sRocketCatwalk</sprite>
       <sprite>sprites\sMechFloor</sprite>
       <sprite>sprites\sRocket</sprite>
+      <sprite>sprites\sStepLadder</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -158,6 +159,7 @@
       <object>objects\Tower</object>
       <object>objects\MechFloor</object>
       <object>objects\RocketCatwalk</object>
+      <object>objects\stepLadder</object>
     </objects>
   </objects>
   <rooms name="rooms">

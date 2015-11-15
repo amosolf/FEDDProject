@@ -69,7 +69,6 @@
     <instance objName="LaserSensor" x="700" y="712" name="inst_64944B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompFloor" x="1040" y="729" name="inst_3ECD08B6" locked="0" code="" scaleX="1" scaleY="50" colour="4294967295" rotation="0"/>
     <instance objName="CompFloor" x="-15" y="704" name="inst_5911B23B" locked="0" code="" scaleX="1" scaleY="50" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_FEB0D06C" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="DownStaircase" x="1008" y="1040" name="inst_3EF262B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="16" y="688" name="inst_A0D9444A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="1008" y="336" name="inst_3ABC6585" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
