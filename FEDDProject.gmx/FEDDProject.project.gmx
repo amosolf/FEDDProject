@@ -61,7 +61,9 @@
       <sprite>sprites\sCompFloor</sprite>
       <sprite>sprites\sUpStaircase</sprite>
       <sprite>sprites\sMainframe</sprite>
+      <sprite>sprites\sBrokenWires</sprite>
       <sprite>sprites\sLaser</sprite>
+      <sprite>sprites\sFixedWires</sprite>
     </sprites>
     <sprites name="Mech">
       <sprite>sprites\sRocketTower</sprite>
@@ -172,6 +174,8 @@
       <object>objects\DownStaircase</object>
       <object>objects\Mainframe</object>
       <object>objects\LaserSensor</object>
+      <object>objects\BrokenWires</object>
+      <object>objects\FixedWires</object>
       <object>objects\Laser</object>
     </objects>
     <objects name="Mech">
