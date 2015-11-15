@@ -42,8 +42,13 @@
     <sprite>sprites\sInteract</sprite>
     <sprite>sprites\sHealthBar</sprite>
     <sprite>sprites\sBigTarget</sprite>
-    <sprite>sprites\sSmallTarget</sprite>
     <sprite>sprites\sSpaceStation</sprite>
+    <sprite>sprites\sSmallTarget</sprite>
+    <sprites name="Material">
+      <sprite>sprites\sLever</sprite>
+      <sprite>sprites\sMaterialFloor</sprite>
+      <sprite>sprites\sLeverStand</sprite>
+    </sprites>
     <sprites name="Bio">
       <sprite>sprites\sBioFlower</sprite>
       <sprite>sprites\sTreeBranch</sprite>
@@ -140,6 +145,11 @@
     <object>objects\Boss1</object>
     <object>objects\Target</object>
     <object>objects\Menu_obj</object>
+    <objects name="Material">
+      <object>objects\LeverStand</object>
+      <object>objects\Lever</object>
+      <object>objects\MaterialFloor</object>
+    </objects>
     <objects name="Bio">
       <object>objects\BioFloor</object>
       <object>objects\Tree</object>
