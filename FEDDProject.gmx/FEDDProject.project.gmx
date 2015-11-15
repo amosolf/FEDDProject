@@ -70,6 +70,11 @@
       <sprite>sprites\sRocket</sprite>
       <sprite>sprites\sStepLadder</sprite>
     </sprites>
+    <sprite>sprites\sMaterialTester</sprite>
+    <sprite>sprites\sInitialMaterial</sprite>
+    <sprite>sprites\sMaterialShape1</sprite>
+    <sprite>sprites\sMaterialShape2</sprite>
+    <sprite>sprites\sMaterialChanger</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -149,6 +154,11 @@
       <object>objects\LeverStand</object>
       <object>objects\Lever</object>
       <object>objects\MaterialFloor</object>
+      <object>objects\MaterialTester</object>
+      <object>objects\InitialMaterial</object>
+      <object>objects\MaterialShape1</object>
+      <object>objects\MaterialShape2</object>
+      <object>objects\MaterialChanger</object>
     </objects>
     <objects name="Bio">
       <object>objects\BioFloor</object>
