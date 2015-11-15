@@ -20,6 +20,7 @@
       <sprite>sprites\sCompSci_idle</sprite>
       <sprite>sprites\sCompSci_moving</sprite>
       <sprite>sprites\sMaterial_idle</sprite>
+      <sprite>sprites\sMaterial_moving</sprite>
       <sprite>sprites\sChem_idle</sprite>
     </sprites>
     <sprites name="Doors">
@@ -77,6 +78,7 @@
       <sprite>sprites\sRocket</sprite>
       <sprite>sprites\sStepLadder</sprite>
     </sprites>
+    <sprite>sprites\sCivil_moving</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
