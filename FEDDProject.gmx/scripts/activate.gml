@@ -44,4 +44,12 @@ if object_index = Button {
     }
 } else if object_index = Engine or object_index = GearBox{
     sprite_index = sFairing;
+} else if object_index = UpStaircase {
+    with (Player) {
+        y -= 352;
+    }
+} else if object_index = DownStaircase {
+    with (Player) {
+        y += 352;
+    }
 }
