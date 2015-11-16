@@ -68,6 +68,17 @@
     <instance objName="MissingBeam" x="800" y="544" name="inst_7EB49BED" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
     <instance objName="MissingBeam" x="736" y="544" name="inst_6749B2E8" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
     <instance objName="MissingBeam" x="864" y="544" name="inst_1117344F" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
+    <instance objName="BridgeBeam" x="64" y="224" name="inst_6ABA9BC8" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BridgeBeam" x="64" y="416" name="inst_06867E50" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="BridgeBeam" x="352" y="224" name="inst_EA9E2B99" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="45"/>
+    <instance objName="BridgeBeam" x="224" y="160" name="inst_3F2DCCC2" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="135"/>
+    <instance objName="CivilFloor" x="72" y="457" name="inst_529A0DD1" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="256" y="512" name="inst_4D93EBFF" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="384" y="416" name="inst_8B4D5953" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="224" y="352" name="inst_C16B37E2" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="64" y="256" name="inst_C23E74B1" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="352" y="256" name="inst_FC1A142E" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="224" y="192" name="inst_52D492EF" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
