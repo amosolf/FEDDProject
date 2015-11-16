@@ -25,19 +25,38 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Set Variables
-padding = 5;
+            <string>padding = 5;
 slotSize = 68;
 slots = 3;
 borderWidth = 3;
 innerColor = make_colour_rgb(64, 64, 64);
 outerColor = c_black;
 slotColor = make_color_rgb(128, 128, 128);
-for (var i = 0; i &lt; slots; i += 1) {
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>for (var i = 0; i &lt; slots; i += 1) {
     slot[i] = noone;
 }
-
-//Calculated Variables
 width = slotSize*slots + padding*(slots+1);
 height = slotSize + 2*padding;
 posX = window_get_width() - width - 2*padding;
