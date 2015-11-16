@@ -42,4 +42,14 @@ if object_index = Button {
             makeDialog("You don't have the necessary item");
         }
     }
+} else if object_index =  sEngine{
+    with(sEngine)
+    {
+        sprite_index = sFairing;
+    }
+} else if object_index =  sGearBox{
+    with(sGearBox)
+    {
+        sprite_index = sFairing;
+    }
 }

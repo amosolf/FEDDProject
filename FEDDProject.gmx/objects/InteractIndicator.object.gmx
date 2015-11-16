@@ -28,6 +28,7 @@
             <string>defy = y;
 
 time = 0;
+depth = -900;
 </string>
           </argument>
         </arguments>

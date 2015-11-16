@@ -78,6 +78,9 @@
       <sprite>sprites\sMechFloor</sprite>
       <sprite>sprites\sRocket</sprite>
       <sprite>sprites\sStepLadder</sprite>
+      <sprite>sprites\sFairing</sprite>
+      <sprite>sprites\sGearBox</sprite>
+      <sprite>sprites\sEngine</sprite>
     </sprites>
     <sprites name="Civil">
       <sprite>sprites\sBlueprint</sprite>
@@ -193,6 +196,8 @@
       <object>objects\MechFloor</object>
       <object>objects\RocketCatwalk</object>
       <object>objects\stepLadder</object>
+      <object>objects\GearBox</object>
+      <object>objects\Engine</object>
     </objects>
     <objects name="Civil">
       <object>objects\Blueprint</object>
