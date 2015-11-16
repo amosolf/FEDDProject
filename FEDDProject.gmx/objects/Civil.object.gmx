@@ -31,7 +31,7 @@
 }
 else
 {
-    sprite_index = sBio_moving;
+    sprite_index = sCivil_moving;
 }
 if not(isGrounded)
 {
