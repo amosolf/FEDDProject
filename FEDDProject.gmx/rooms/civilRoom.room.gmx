@@ -51,8 +51,23 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Civil" x="128" y="224" name="inst_E28D7725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="128" y="288" name="inst_9256A260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Civil" x="64" y="568" name="inst_E28D7725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="256" y="600" name="inst_39DB3986" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="16" y="384" name="inst_1917E312" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="16" y="384" name="inst_0339F95D" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="CivilFloor" x="960" y="600" name="inst_0244B11E" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blueprint" x="129" y="566" name="inst_C676269A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MissingBeam" x="766" y="688" name="inst_984EFB9A" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="MissingBeam" x="638" y="688" name="inst_82410B39" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="MissingBeam" x="576" y="593" name="inst_A963825E" locked="0" code="" scaleX="-5" scaleY="-4" colour="4294967295" rotation="90"/>
+    <instance objName="MissingBeam" x="704" y="593" name="inst_215D1B0E" locked="0" code="" scaleX="-5" scaleY="-4" colour="4294967295" rotation="90"/>
+    <instance objName="MissingBeam" x="832" y="593" name="inst_3D670ABE" locked="0" code="" scaleX="-5" scaleY="-4" colour="4294967295" rotation="90"/>
+    <instance objName="MissingBeam" x="608" y="544" name="inst_98C6EEB2" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
+    <instance objName="MissingBeam" x="544" y="544" name="inst_ED6115E1" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
+    <instance objName="MissingBeam" x="672" y="544" name="inst_8AFA9549" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
+    <instance objName="MissingBeam" x="800" y="544" name="inst_7EB49BED" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
+    <instance objName="MissingBeam" x="736" y="544" name="inst_6749B2E8" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
+    <instance objName="MissingBeam" x="864" y="544" name="inst_1117344F" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -13,6 +13,7 @@
     <sprites name="Engineers">
       <sprite>sprites\sEngiTemplate</sprite>
       <sprite>sprites\sCivil_idle</sprite>
+      <sprite>sprites\sCivil_moving</sprite>
       <sprite>sprites\sBio_idle</sprite>
       <sprite>sprites\sBio_moving</sprite>
       <sprite>sprites\sBio_jump</sprite>
@@ -78,7 +79,13 @@
       <sprite>sprites\sRocket</sprite>
       <sprite>sprites\sStepLadder</sprite>
     </sprites>
-    <sprite>sprites\sCivil_moving</sprite>
+    <sprites name="Civil">
+      <sprite>sprites\sBlueprint</sprite>
+      <sprite>sprites\sBridgeBeam</sprite>
+      <sprite>sprites\sCivilFloor</sprite>
+      <sprite>sprites\sBridgePieceConnector</sprite>
+      <sprite>sprites\sMissingBeam</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -186,6 +193,13 @@
       <object>objects\MechFloor</object>
       <object>objects\RocketCatwalk</object>
       <object>objects\stepLadder</object>
+    </objects>
+    <objects name="Civil">
+      <object>objects\Blueprint</object>
+      <object>objects\BridgeBeam</object>
+      <object>objects\CivilFloor</object>
+      <object>objects\MissingBeam</object>
+      <object>objects\BridgePieceConnector</object>
     </objects>
   </objects>
   <rooms name="rooms">
