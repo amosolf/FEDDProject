@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>depth = -400;
+
+event_inherited();
 </string>
           </argument>
         </arguments>

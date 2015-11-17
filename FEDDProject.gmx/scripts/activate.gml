@@ -42,8 +42,20 @@ if object_index = Button {
             makeDialog("You don't have the necessary item");
         }
     }
-} else if object_index = Engine or object_index = GearBox{
-    sprite_index = sFairing;
+} else if object_index = Engine {
+    if sprite_index != sFairing {
+        sprite_index = sFairing;
+    } else {
+        with (EngineUIManager) {
+            active = true;
+        }
+    }
+} else if object_index = GearBox{
+    if sprite_index != sFairing {
+        sprite_index = sFairing;
+    } else {
+        //set Gearbox UI to active
+    }
 } else if object_index = UpStaircase {
     with (Player) {
         y -= 352;
@@ -52,7 +64,7 @@ if object_index = Button {
     with (Player) {
         y += 352;
     }
-} /*else if object_index = BridgeBoxer {
+} else if object_get_parent(object_index) = BridgeBoxer {
     if instance_exists(Inventory) {
         var i;
         for (i = 0; i < Inventory.slots; i += 1) {
