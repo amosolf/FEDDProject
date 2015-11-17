@@ -54,6 +54,7 @@
       <sprite>sprites\sMaterialShape1</sprite>
       <sprite>sprites\sInitialMaterial</sprite>
       <sprite>sprites\sMaterialShape2</sprite>
+      <sprite>sprites\sDisplay</sprite>
       <sprite>sprites\sMaterialChanger</sprite>
     </sprites>
     <sprites name="Bio">
@@ -171,13 +172,16 @@
     <object>objects\Menu_obj</object>
     <objects name="Material">
       <object>objects\LeverStand</object>
-      <object>objects\Lever</object>
+      <object>objects\LeverUp</object>
+      <object>objects\TestButton</object>
+      <object>objects\LeverDown</object>
       <object>objects\MaterialFloor</object>
       <object>objects\MaterialTester</object>
       <object>objects\InitialMaterial</object>
       <object>objects\MaterialShape1</object>
       <object>objects\MaterialShape2</object>
       <object>objects\MaterialChanger</object>
+      <object>objects\Display</object>
     </objects>
     <objects name="Bio">
       <object>objects\BioFloor</object>

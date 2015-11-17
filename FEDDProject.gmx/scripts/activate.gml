@@ -91,4 +91,29 @@ if object_index = Button {
             makeDialog("Insufficient Space");
         }
     }
+} else if object_index = LeverUp {
+    with (Display) {
+        number = number+5;
+        if number > 100 {
+            number = 0;
+        }
+    }
+} else if object_index = LeverDown {
+    with (Display) {
+        number = number - 5;
+        if number < 0 {
+            number = 100;
+        }
+    }
+} else if object_index = TestButton {
+    if Display.number > Display.targetNumber {
+        //what to do if you're too high
+        makeDialog("Too High");
+    } else if Display.number < Display.targetNumber {
+        //what to do if you're too low
+        makeDialog("Too Low");
+    } else {
+        //what to do if you're right
+        makeDialog("Hooray!");
+    }
 }
