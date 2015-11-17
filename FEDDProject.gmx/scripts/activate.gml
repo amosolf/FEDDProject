@@ -52,4 +52,17 @@ if object_index = Button {
     with (Player) {
         y += 352;
     }
+} /*else if object_index = BridgeBoxer {
+    if instance_exists(Inventory) {
+        var i;
+        for (i = 0; i < Inventory.slots; i += 1) {
+            if Inventory.slot[i] = noone {
+                Inventory.slot[i] = BridgeBeam;
+                break;
+            }
+        }
+        if i != Inventory.slots {
+            instance_destroy();
+        }
+    }
 }

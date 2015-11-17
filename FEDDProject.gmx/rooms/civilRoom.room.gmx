@@ -78,7 +78,7 @@
     <instance objName="CivilFloor" x="352" y="256" name="inst_FC1A142E" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="CivilFloor" x="224" y="192" name="inst_52D492EF" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="Inventory" x="32" y="0" name="inst_16DAF119" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BridgeBox1" x="65" y="429" name="inst_2B90C294" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BridgeBox1" x="65" y="430" name="inst_2B90C294" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BridgeBox2" x="224" y="165" name="inst_7FDEBDFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BridgeBox3" x="351" y="229" name="inst_D755C5EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BridgeBox4" x="68" y="229" name="inst_55F996B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
