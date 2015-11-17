@@ -92,7 +92,7 @@ draw_roundrect_color(posX, posY, posX + width, posY + height, innerColor, innerC
 for (var i = 0; i &lt; slots; i += 1) {
     draw_roundrect_color(posX + padding*(i+1) + slotSize*i, posY + padding, posX + padding*(i+1) + slotSize*(i+1), posY + padding + slotSize, slotColor, slotColor, false);
     if slot[i] != noone {
-        draw_sprite_ext(slot[i].sprite_index, 0, posX + padding*(i+1) + slotSize*i + (slotSize)/2, posY + padding + (slotSize)/2, 2, 2, 0, c_white, 1)
+        draw_sprite_ext(object_get_sprite(slot[i]), 0, posX + padding*(i+1) + slotSize*i + (slotSize)/2, posY + padding + (slotSize)/2, 2, 2, 0, c_white, 1)
     }
 }
 

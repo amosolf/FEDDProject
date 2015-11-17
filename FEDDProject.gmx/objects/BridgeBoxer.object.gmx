@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>depth = -500;
 
+bridgeParts[0] = noone;
+
 event_inherited();
 </string>
           </argument>

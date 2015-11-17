@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>Interactible</parentName>
+  <parentName>BridgeBoxer</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -28,6 +28,9 @@
             <string>depth = -400;
 
 event_inherited();
+
+bridgeParts[0] = BridgeBeam;
+bridgeParts[1] = BridgeBeam;
 </string>
           </argument>
         </arguments>

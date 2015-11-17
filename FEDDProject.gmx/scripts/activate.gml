@@ -66,15 +66,29 @@ if object_index = Button {
     }
 } else if object_get_parent(object_index) = BridgeBoxer {
     if instance_exists(Inventory) {
+        //check if there's space
+        var freeSpace = 0;
         var i;
         for (i = 0; i < Inventory.slots; i += 1) {
             if Inventory.slot[i] = noone {
-                Inventory.slot[i] = BridgeBeam;
-                break;
+                freeSpace += 1;
             }
         }
-        if i != Inventory.slots {
+        if freeSpace >= array_length_1d(bridgeParts) {
+            //add to the inventory
+            var i;
+            for (i = 0; i < array_length_1d(bridgeParts); i += 1) {
+                var j;
+                for (j = 0; j < Inventory.slots; j += 1) {
+                    if Inventory.slot[j] = noone and bridgeParts[i] != noone {
+                        Inventory.slot[j] = bridgeParts[i];
+                        break;
+                    }
+                }
+            }
             instance_destroy();
+        } else {
+            makeDialog("Insufficient Space");
         }
     }
 }
