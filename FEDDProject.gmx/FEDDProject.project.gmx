@@ -81,6 +81,7 @@
       <sprite>sprites\sFairing</sprite>
       <sprite>sprites\sGearBox</sprite>
       <sprite>sprites\sEngine</sprite>
+      <sprite>sprites\sEngineUI</sprite>
     </sprites>
     <sprites name="Civil">
       <sprite>sprites\sBlueprint</sprite>
@@ -202,6 +203,8 @@
       <object>objects\stepLadder</object>
       <object>objects\GearBox</object>
       <object>objects\Engine</object>
+      <object>objects\EngineUI</object>
+      <object>objects\EngineUIManager</object>
     </objects>
     <objects name="Civil">
       <object>objects\Blueprint</object>
