@@ -95,6 +95,10 @@
       <sprite>sprites\sBridgeBox3</sprite>
       <sprite>sprites\sBridgeBox4</sprite>
     </sprites>
+    <sprites name="Chemical">
+      <sprite>sprites\sFurnace</sprite>
+      <sprite>sprites\sChemFloor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -221,6 +225,14 @@
       <object>objects\BridgeBox3</object>
       <object>objects\BridgeBox4</object>
       <object>objects\BridgeBoxer</object>
+    </objects>
+    <objects name="Chemical">
+      <object>objects\Furnace</object>
+      <object>objects\ChemFloor</object>
+      <object>objects\LeverUpChem</object>
+      <object>objects\DisplayChem</object>
+      <object>objects\LeverDownChem</object>
+      <object>objects\TestButtonChem</object>
     </objects>
   </objects>
   <rooms name="rooms">
