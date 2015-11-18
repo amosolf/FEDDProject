@@ -240,6 +240,7 @@
       <object>objects\TestButtonChem</object>
     </objects>
     <object>objects\InteractTarget</object>
+    <object>objects\MenuInteractTarget</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

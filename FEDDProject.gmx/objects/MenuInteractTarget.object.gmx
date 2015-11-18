@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scale = 0.25;
+            <string>depth = -100000
+scale = 0.25;
 object = noone;
+active = false;
 </string>
           </argument>
         </arguments>
@@ -66,13 +68,9 @@ else
 if(scale&gt;=1.7)
 {
     scale = 1.7;
-    interactible = collision_circle(x, y, 32, Interactible, false, true);
-    if instance_exists(interactible) {
-        with interactible {
-            activate(object_get_name(object_index));
-        }
-    }
-    instance_destroy();
+    active = true;
+} else {
+    active = false;
 }
 </string>
           </argument>
