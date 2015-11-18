@@ -30,7 +30,7 @@ grav = .4;
 //friction
 fric = 0.2;
 //movement speed
-spd = 3;
+spd = 4;
 
 xvel = 0;
 yvel = 0;
@@ -78,14 +78,17 @@ depth = -1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>////Eye Controls////
-/*
-up = dunno?
-down = mouse is down
-left = mouse is left
-right = mouse is right
-space = mouse is up
-*/
+            <string>if(global.eyeEnabled)
+{
+    if(mouse_y&lt;y-150)
+        space = 1;
+    if(mouse_y&lt;y+150)
+        down = 1;
+    if(mouse_x&gt;x+150)
+        right =1;
+    if (mouse_x&lt;x-150)
+        left = 1;
+}
 
 ////Normal Controls////
 up = keyboard_check_pressed(vk_up);
