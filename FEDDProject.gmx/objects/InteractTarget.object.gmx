@@ -25,36 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>indicator = noone;
-dialog = noone;
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="1" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if instance_exists(indicator) {
-    with (indicator) {
-        instance_destroy();
-    }
-}
+            <string>scale = 0.25;
+object = noone;
 </string>
           </argument>
         </arguments>
@@ -77,37 +49,56 @@ dialog = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x, y, 32, Player, false, true) {
-    if(global.eyeEnabled)
-    {
-        if not(instance_exists(indicator)){
-            indicator = instance_create(x, y-32, InteractTarget);
-            indicator.object = id;
-            indicator.x = x;
-            indicator.y = y-32;
-        }
-    }
-    else
-    {
-        if not(instance_exists(indicator)){
-            indicator = instance_create(x, y-32, InteractIndicator);
-            indicator.object = id;
-            indicator.x = x;
-            indicator.y = y-32;
-        }
-    }
-} else {
-    if instance_exists(indicator) {
-        with(indicator) {
-            instance_destroy();
-        }
-    }
-    if instance_exists(dialog) {
-        with(dialog) {
-            instance_destroy();
-        }
-    }
+            <string>if(abs(mouse_x-x)&lt;=16 &amp;&amp; abs(mouse_y-y)&lt;=16)
+{
+    if(scale&lt;1.7)
+        scale*=1.1;
 }
+else
+{
+    if(scale&gt;=0.25)
+        scale*=0.7;
+}
+if(scale&gt;=1.7)
+{
+    interactible = collision_circle(x, y, 32, Interactible, false, true);
+    if instance_exists(interactible) {
+        with interactible {
+            activate(object_get_name(object_index));
+        }
+    }
+    instance_destroy();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_font(fSmall)
+draw_set_halign(fa_middle);
+
+
+
+    draw_sprite_ext(sSmallTarget,0,x,y,scale,scale,0,c_white,1);
+    draw_sprite_ext(sBigTarget,0,x,y,0.25,0.25,0,c_white,1);
+
 </string>
           </argument>
         </arguments>

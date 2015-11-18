@@ -234,6 +234,7 @@
       <object>objects\LeverDownChem</object>
       <object>objects\TestButtonChem</object>
     </objects>
+    <object>objects\InteractTarget</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

@@ -80,22 +80,31 @@ depth = -1000;
             <kind>1</kind>
             <string>if(global.eyeEnabled)
 {
-    if(mouse_y&lt;y-150)
-        space = 1;
-    if(mouse_y&lt;y+150)
-        down = 1;
-    if(mouse_x&gt;x+150)
-        right =1;
-    if (mouse_x&lt;x-150)
-        left = 1;
+    if(window_mouse_get_y()&lt;y-100)
+        space = true;
+    else
+        space = false;
+    if(window_mouse_get_y()&lt;y+100)
+        down = true;
+    else
+        down = false
+    if(window_mouse_get_x()&gt;x+100)
+        right = true;
+    else
+        right = false
+    if (window_mouse_get_x()&lt;x-100)
+        left = true;
+    else
+        left = false;
 }
-
-////Normal Controls////
-up = keyboard_check_pressed(vk_up);
-down = keyboard_check(vk_down);
-left = keyboard_check(vk_left);
-right = keyboard_check(vk_right);
-space = keyboard_check(vk_space);
+else
+    ////Normal Controls////
+    up = keyboard_check_pressed(vk_up);
+    down = keyboard_check(vk_down);
+    left = keyboard_check(vk_left);
+    right = keyboard_check(vk_right);
+    space = keyboard_check(vk_space);
+}
 
 ////Extra Controls////
 if keyboard_check(vk_escape) {
