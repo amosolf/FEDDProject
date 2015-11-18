@@ -60,7 +60,7 @@ myRoom = civilRoom;
 }
 else
 {
-    sprite_index = sCivil_idle;
+    sprite_index = sCivil_moving;
     if (destination &lt; x) {
         image_xscale = -1;
     } else {

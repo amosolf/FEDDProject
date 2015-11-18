@@ -60,7 +60,7 @@ myRoom = mechRoom;
 }
 else
 {
-    sprite_index = sMech_idle;
+    sprite_index = sMech_moving;
     if (destination &lt; x) {
         image_xscale = -1;
     } else {

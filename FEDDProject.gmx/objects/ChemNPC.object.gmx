@@ -60,7 +60,7 @@ myRoom = chemRoom;
 }
 else
 {
-    sprite_index = sChem_idle;
+    sprite_index = sChem_moving;
     if (destination &lt; x) {
         image_xscale = -1;
     } else {

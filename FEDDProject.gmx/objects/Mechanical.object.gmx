@@ -31,11 +31,11 @@
 }
 else
 {
-    sprite_index = sBio_moving;
+    sprite_index = sMech_moving;
 }
 if not(isGrounded)
 {
-    sprite_index = sBio_jump;
+    //sprite_index = sBio_jump;
 }
 event_inherited();
 </string>

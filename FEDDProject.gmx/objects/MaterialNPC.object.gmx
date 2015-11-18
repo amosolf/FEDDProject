@@ -60,7 +60,7 @@ myRoom = matRoom;
 }
 else
 {
-    sprite_index = sMaterial_idle;
+    sprite_index = sMaterial_moving;
     if (destination &lt; x) {
         image_xscale = -1;
     } else {
