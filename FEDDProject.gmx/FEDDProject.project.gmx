@@ -58,6 +58,11 @@
       <sprite>sprites\sMaterialShape2</sprite>
       <sprite>sprites\sDisplay</sprite>
       <sprite>sprites\sMaterialChanger</sprite>
+      <sprite>sprites\sMoltenGlass</sprite>
+      <sprite>sprites\sInterlay</sprite>
+      <sprite>sprites\sHeat</sprite>
+      <sprite>sprites\sPressure</sprite>
+      <sprite>sprites\sVacuum</sprite>
     </sprites>
     <sprites name="Bio">
       <sprite>sprites\sBioFlower</sprite>
@@ -194,6 +199,9 @@
       <object>objects\MaterialShape2</object>
       <object>objects\MaterialChanger</object>
       <object>objects\Display</object>
+      <object>objects\Slot1</object>
+      <object>objects\Slot2</object>
+      <object>objects\Slot3</object>
     </objects>
     <objects name="Bio">
       <object>objects\BioFloor</object>

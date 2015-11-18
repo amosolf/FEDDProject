@@ -73,10 +73,11 @@ event_inherited();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>wait -= 1;
+            <string>
 
-if(!place_meeting(x,y,Player))
+if(!collision_circle(x,y,32, Player, false, true))
 {
+    wait -= 1;
     if wait &lt;= 0{
         if x = destination {
             wait = irandom_range(60, 150);
@@ -88,6 +89,8 @@ if(!place_meeting(x,y,Player))
             x += dir*min(abs(x-destination), 1);
         }
     }
+} else {
+    wait = 1;
 }
 
 //If you're going to hit something in the next frame
