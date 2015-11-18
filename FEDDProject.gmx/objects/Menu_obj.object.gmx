@@ -36,6 +36,8 @@ mpos = 0; //menu position
 
 rotation = 0;
 
+target = noone;
+
 </string>
           </argument>
         </arguments>
@@ -61,12 +63,16 @@ rotation = 0;
             <string>if global.eyeEnabled {
     for(m = 0; m &lt; array_length_1d(menu); m+= 1)//writes text for every line in menu[]
     {
-        if window_mouse_get_y() &gt; y+(m*space) and window_mouse_get_y() &lt; y+((m+1)*space) {
+        if window_mouse_get_y() &gt; y+(m*space)-sprite_get_height(sprite_index)/2 and window_mouse_get_y() &lt; y+((m+1)*space)-sprite_get_height(sprite_index)/2 {
             mpos = m;
             break;
         }
     }
-    target = instance_create(x + 100, y + mpos*space, MenuInteractTarget);
+    if not(instance_exists(target)) {
+        target = instance_create(x + 300, y + mpos*space, MenuInteractTarget);
+    } else {
+        target.y = y + mpos*space;
+    }
 } else {
     var move = 0;
     move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
