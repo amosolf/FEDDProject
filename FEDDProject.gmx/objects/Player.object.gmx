@@ -25,9 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//gravity
+            <string>//Eye Controls
+//distance from edge of screen to activate button
+border = 100;
+//Gravity
 grav = .4;
-//friction
+//Friction
 fric = 0.2;
 //movement speed
 spd = 4;
@@ -80,24 +83,12 @@ depth = -1000;
             <kind>1</kind>
             <string>if(global.eyeEnabled)
 {
-    if(window_mouse_get_y()&lt;y-100)
-        space = true;
-    else
-        space = false;
-    if(window_mouse_get_y()&lt;y+100)
-        down = true;
-    else
-        down = false
-    if(window_mouse_get_x()&gt;x+100)
-        right = true;
-    else
-        right = false
-    if (window_mouse_get_x()&lt;x-100)
-        left = true;
-    else
-        left = false;
+    space = window_mouse_get_y() &lt; border;
+    down = window_mouse_get_y() &gt; window_get_height() - border;
+    right = window_mouse_get_x() &gt; window_get_width() - border;
+    left = window_mouse_get_x() &lt; border;
 }
-else
+else {
     ////Normal Controls////
     up = keyboard_check_pressed(vk_up);
     down = keyboard_check(vk_down);
