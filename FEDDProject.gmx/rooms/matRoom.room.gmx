@@ -57,22 +57,22 @@
     <instance objName="MaterialFloor" x="16" y="383" name="inst_48EAC007" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="MaterialFloor" x="1008" y="383" name="inst_5683BE40" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="Material" x="48" y="720" name="inst_97C1DF58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverStand" x="288" y="704" name="inst_A5156684" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="MaterialTester" x="820" y="616" name="inst_7B82572A" locked="0" code="" scaleX="-1" scaleY="-1" colour="4294967295" rotation="90"/>
-    <instance objName="Display" x="288" y="640" name="inst_912CDA3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverUp" x="264" y="688" name="inst_3A73CF5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverDown" x="312" y="688" name="inst_9E71B266" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TestButton" x="384" y="704" name="inst_9FF70947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TestButton" x="640" y="704" name="inst_9FF70947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialManager" x="64" y="0" name="inst_C20E562A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="MoltenGlass" x="448" y="704" name="inst_141ECD35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Interlay" x="480" y="704" name="inst_305DB020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Heat" x="512" y="704" name="inst_48D08B31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Pressure" x="544" y="704" name="inst_805FB29E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Vacuum" x="576" y="704" name="inst_D7A5C5E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Slot1" x="640" y="704" name="inst_E93F6550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Slot2" x="672" y="704" name="inst_103AFB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Slot3" x="704" y="704" name="inst_DE7B26C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="MoltenGlass" x="128" y="640" name="inst_141ECD35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Interlay" x="224" y="640" name="inst_305DB020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Heat" x="320" y="640" name="inst_48D08B31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Pressure" x="256" y="576" name="inst_805FB29E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Vacuum" x="160" y="576" name="inst_D7A5C5E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Slot1" x="416" y="704" name="inst_E93F6550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Slot2" x="480" y="704" name="inst_103AFB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Slot3" x="544" y="704" name="inst_DE7B26C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Inventory" x="32" y="0" name="inst_92795B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="128" y="672" name="inst_1349A6DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="224" y="672" name="inst_54CB4519" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="320" y="672" name="inst_60AD6255" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="256" y="608" name="inst_37742DCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TreeBranch" x="160" y="608" name="inst_08CFF8FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
