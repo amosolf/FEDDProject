@@ -85,6 +85,7 @@
       <sprite>sprites\sGearBox</sprite>
       <sprite>sprites\sEngine</sprite>
       <sprite>sprites\sEngineUI</sprite>
+      <sprite>sprites\sMechBG</sprite>
     </sprites>
     <sprites name="Civil">
       <sprite>sprites\sBlueprint</sprite>
@@ -220,6 +221,7 @@
       <object>objects\Engine</object>
       <object>objects\EngineUI</object>
       <object>objects\EngineUIManager</object>
+      <object>objects\mechBG</object>
     </objects>
     <objects name="Civil">
       <object>objects\Blueprint</object>
