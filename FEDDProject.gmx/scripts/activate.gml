@@ -26,6 +26,10 @@ if object_index = Button {
         }
         if i != Inventory.slots {
             instance_destroy();
+        } else {
+            instance_create(x, y, Inventory.slot[array_length_1d(Inventory.slot)-1]);
+            Inventory.slot[array_length_1d(Inventory.slot)-1] = object_index;
+            instance_destroy();
         }
     }
 } else if object_get_parent(object_index) = ItemUser {
