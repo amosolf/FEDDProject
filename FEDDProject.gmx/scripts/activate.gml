@@ -86,7 +86,6 @@ if object_index = Button {
                     }
                 }
             }
-            instance_destroy();
         } else {
             makeDialog("Insufficient Space");
         }
