@@ -118,6 +118,7 @@
     <instance objName="TreeBranch" x="160" y="384" name="inst_5CA0E051" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BioFlower" x="184" y="366" name="inst_77DB5057" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Inventory" x="0" y="0" name="inst_9F2E6A8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioRoomManager" x="32" y="0" name="inst_08720037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

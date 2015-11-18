@@ -32,30 +32,7 @@ audio_stop_all();
 
 depth = 1000;
 
-makeDialog("Objective - Gather 5 flowers");
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>objective = "Objective: Gather " + string(instance_number(BioFlower)) + " flowers";
+makeDialog("Objective - Build a bridge");
 </string>
           </argument>
         </arguments>
@@ -86,6 +63,7 @@ for (i=-1; i&lt;right; i++)
     draw_background(clouds, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+150);
     draw_background(hills, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+450);
 }
+
 </string>
           </argument>
         </arguments>

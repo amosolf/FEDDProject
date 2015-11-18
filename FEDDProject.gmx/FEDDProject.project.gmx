@@ -170,6 +170,7 @@
       <object>objects\TutorialManager</object>
       <object>objects\BioRoomManager</object>
       <object>objects\Inventory</object>
+      <object>objects\CivilManager</object>
     </objects>
     <object>objects\Boss1</object>
     <object>objects\Target</object>

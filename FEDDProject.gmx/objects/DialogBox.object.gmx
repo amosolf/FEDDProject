@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>print = "";
 time = 0;
-depth = depth - instance_number(DialogBox);
+//depth = depth - instance_number(DialogBox);
+depth = -1000;
 </string>
           </argument>
         </arguments>
@@ -50,7 +51,9 @@ depth = depth - instance_number(DialogBox);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>//instance_destroy();
+
+//uncomment if you wanna destroy it after you read it
 </string>
           </argument>
         </arguments>
