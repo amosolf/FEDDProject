@@ -199,6 +199,7 @@
       <object>objects\MaterialShape2</object>
       <object>objects\MaterialChanger</object>
       <object>objects\Display</object>
+      <object>objects\Slot</object>
       <object>objects\Slot1</object>
       <object>objects\Slot2</object>
       <object>objects\Slot3</object>

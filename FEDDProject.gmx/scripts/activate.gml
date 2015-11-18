@@ -94,29 +94,91 @@ if object_index = Button {
             makeDialog("Insufficient Space");
         }
     }
-} else if object_index = LeverUp {
-    with (Display) {
-        number = number+5;
-        if number > 100 {
-            number = 0;
-        }
-    }
-} else if object_index = LeverDown {
-    with (Display) {
-        number = number - 5;
-        if number < 0 {
-            number = 100;
-        }
-    }
 } else if object_index = TestButton {
-    if Display.number > Display.targetNumber {
-        //what to do if you're too high
-        makeDialog("Too High");
-    } else if Display.number < Display.targetNumber {
-        //what to do if you're too low
-        makeDialog("Too Low");
+    var wrongSteps = 0;
+    var rightSpots = 0;
+    var noneEmpty = true;
+    if Slot1.operation = steps[0] {
+        rightSpots += 1;
     } else {
-        //what to do if you're right
-        makeDialog("Hooray!");
+        if not(Slot1.operation = noone) {
+            for (var i = 0; i < array_length_1d(otherSteps); i += 1) {
+                if otherSteps[i] = Slot1.operation {
+                    wrongSteps += 1;
+                    break;
+                }
+            }
+        } else {
+            noneEmpty = false;
+        }
     }
+    if Slot2.operation = steps[1] {
+        rightSpots += 1;
+    } else {
+        if not(Slot2.operation = noone) {
+            for (var i = 0; i < array_length_1d(otherSteps); i += 1) {
+                if otherSteps[i] = Slot2.operation {
+                    wrongSteps += 1;
+                    break;
+                }
+            }
+        } else {
+            noneEmpty = false;
+        }
+    }
+    if Slot3.operation = steps[2] {
+       rightSpots += 1;
+    } else {
+        if not(Slot3.operation = noone) {
+            for (var i = 0; i < array_length_1d(otherSteps); i += 1) {
+                if otherSteps[i] = Slot3.operation {
+                    wrongSteps += 1;
+                    break;
+                }
+            }
+        } else {
+            noneEmpty = false;
+        }
+    }
+    if rightSpots != 3 and noneEmpty{
+        if wrongSteps != 0 {
+            dialog = string(wrongSteps);
+        } else {
+            dialog = "None";
+        }
+        dialog += " of those steps ";
+        if wrongSteps = 1 {
+            dialog += "is";
+        } else {
+            dialog += "are";
+        }
+        dialog += " unnecessary, "
+        if rightSpots != 0 {
+            dialog += "but " + string(rightSpots);
+        } else {
+            if wrongSteps != 0 {
+                dialog += "and none";
+            } else {
+                dialog += "but none";
+            }
+        }
+        dialog += " of them ";
+        if rightSpots = 1 {
+            dialog += "is";
+        } else {
+            dialog += "are";
+        }
+        dialog += " in the right spot.";
+        makeDialog(dialog);
+    } else {
+        if noneEmpty {
+            makeDialog("Yes! I think that will work marvelously!");
+        } else {
+            makeDialog("You need to add more steps.");
+        }
+    }
+} else if object_get_parent(object_index) = Slot {
+    var temp = Inventory.slot[0];
+    Inventory.slot[0] = operation;
+    operation = temp;
 }
