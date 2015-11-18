@@ -49,7 +49,9 @@ object = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(abs(mouse_x-x)&lt;=16 &amp;&amp; abs(mouse_y-y)&lt;=16)
+            <string>x = object.x
+y = object.y-32
+if(abs(mouse_x-x)&lt;=16 &amp;&amp; abs(mouse_y-y)&lt;=16)
 {
     if(scale&lt;1.7)
         scale*=1.1;

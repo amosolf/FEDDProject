@@ -58,25 +58,39 @@ rotation = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var move = 0;
-move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
-move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
-
-if(move!=0) //Move the selector up/down. Make it cycle through the list.
-{
-    mpos += move;
-    if(mpos&lt;0)
+            <string>if global.eyeEnabled {
+    for(m = 0; m &lt; array_length_1d(menu); m+= 1)//writes text for every line in menu[]
     {
-        mpos = array_length_1d(menu)-1;
+        if window_mouse_get_y() &gt; y+(m*space) and window_mouse_get_y() &lt; y+((m+1)*space) {
+            mpos = m;
+            break;
+        }
     }
-    if(mpos&gt;array_length_1d(menu)-1)
+} else {
+    var move = 0;
+    move -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
+    move += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
+    
+    if(move!=0) //Move the selector up/down. Make it cycle through the list.
     {
-        mpos = 0;
+        mpos += move;
+        if(mpos&lt;0)
+        {
+            mpos = array_length_1d(menu)-1;
+        }
+        if(mpos&gt;array_length_1d(menu)-1)
+        {
+            mpos = 0;
+        }
     }
 }
+var push = 0; //check for confirmation key press
+if global.eyeEnabled {
+    push = max(keyboard_check_pressed(vk_enter),keyboard_check_pressed(vk_space),0);
+} else {
+    
+}
 
-var push; //check for confirmation key press
-push = max(keyboard_check_pressed(vk_enter),keyboard_check_pressed(vk_space),0);
 if(push == 1) //if pressed, go to whichever room you selected
 {
     switch(mpos)
@@ -112,7 +126,6 @@ if(push == 1) //if pressed, go to whichever room you selected
         }
     }
 }
-
 </string>
           </argument>
         </arguments>
