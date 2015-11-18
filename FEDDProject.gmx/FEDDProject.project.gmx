@@ -18,11 +18,13 @@
       <sprite>sprites\sBio_moving</sprite>
       <sprite>sprites\sBio_jump</sprite>
       <sprite>sprites\sMech_idle</sprite>
+      <sprite>sprites\sMech_moving</sprite>
       <sprite>sprites\sCompSci_idle</sprite>
       <sprite>sprites\sCompSci_moving</sprite>
       <sprite>sprites\sMaterial_idle</sprite>
       <sprite>sprites\sMaterial_moving</sprite>
       <sprite>sprites\sChem_idle</sprite>
+      <sprite>sprites\sChem_moving</sprite>
     </sprites>
     <sprites name="Doors">
       <sprite>sprites\sMechDoor</sprite>
@@ -99,7 +101,6 @@
       <sprite>sprites\sFurnace</sprite>
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
-    <sprite>sprites\sChem_moving</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -241,7 +242,7 @@
       <object>objects\TestButtonChem</object>
     </objects>
     <object>objects\InteractTarget</object>
-	<object>objects\MenuInteractTarget</object>
+    <object>objects\MenuInteractTarget</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
