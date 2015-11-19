@@ -32,7 +32,7 @@ audio_stop_all();
 
 depth = 1000;
 
-makeDialog("Objective - Gather 5 flowers");
+currentDisplay = 5;
 </string>
           </argument>
         </arguments>
@@ -56,6 +56,12 @@ makeDialog("Objective - Gather 5 flowers");
           <argument>
             <kind>1</kind>
             <string>objective = "Objective: Gather " + string(instance_number(BioFlower)) + " flowers";
+
+if not(instance_exists(DialogBox)) or currentDisplay != instance_number(BioFlower) {
+    dialogBox = makeDialog(objective);
+    dialogBox.shouldDestroy = false;
+    currentDisplay = instance_number(BioFlower);
+}
 </string>
           </argument>
         </arguments>

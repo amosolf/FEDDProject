@@ -31,8 +31,6 @@ audio_stop_all();
 //}
 
 depth = 1000;
-
-makeDialog("Objective - Fix the gearbox");
 </string>
           </argument>
         </arguments>
@@ -57,6 +55,11 @@ makeDialog("Objective - Fix the gearbox");
             <kind>1</kind>
             <string>//if you've fixed the gearbox
 //makeDialog("Objective - Fix the engine");
+
+if not(instance_exists(DialogBox)) {
+    dialogBox = makeDialog("Objective - Fix the gearbox");
+    dialogBox.shouldDestroy = false;
+}
 </string>
           </argument>
         </arguments>
