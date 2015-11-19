@@ -29,6 +29,9 @@
 audio_stop_all();
 audio_play_sound(main,1,true);
 }
+else{ 
+audio_play_sound(bossmusic,1,true);
+}
 
 depth = 1000;
 

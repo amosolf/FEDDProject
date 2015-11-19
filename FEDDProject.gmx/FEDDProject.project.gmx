@@ -251,6 +251,14 @@
     </objects>
     <object>objects\InteractTarget</object>
     <object>objects\MenuInteractTarget</object>
+    <objects name="Boss">
+      <object>objects\JaneBlond</object>
+      <object>objects\MattGlass</object>
+      <object>objects\BridgeBridgington</object>
+      <object>objects\SteveNylon</object>
+      <object>objects\MayCanical</object>
+      <object>objects\PerryWinkle</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
