@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>1408</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -60,13 +60,6 @@
     <instance objName="UpStaircase" x="1008" y="656" name="inst_69129245" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="UpStaircase" x="17" y="1008" name="inst_4AA9D65E" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Mainframe" x="32" y="288" name="inst_9F596C07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="350" y="712" name="inst_BAB3E60A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="425" y="712" name="inst_3B9F510A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="250" y="712" name="inst_26234D27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="200" y="712" name="inst_FE026F62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="525" y="712" name="inst_9534F8CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="800" y="712" name="inst_D307583D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LaserSensor" x="700" y="712" name="inst_64944B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompFloor" x="-15" y="704" name="inst_5911B23B" locked="0" code="" scaleX="1" scaleY="44" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="1008" y="1040" name="inst_3EF262B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="16" y="688" name="inst_A0D9444A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -75,6 +68,12 @@
     <instance objName="BrokenWires" x="450" y="638" name="inst_2F81389F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BrokenWires" x="800" y="638" name="inst_E5C7C074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompSciManager" x="32" y="0" name="inst_8225AA4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LaserShooter" x="208" y="720" name="inst_51591381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LaserShooter" x="320" y="720" name="inst_67DFF7DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LaserShooter" x="432" y="720" name="inst_E7477B45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LaserShooter" x="544" y="720" name="inst_0569908C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LaserShooter" x="656" y="720" name="inst_0AEE1338" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LaserShooter" x="784" y="720" name="inst_48EE0BCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
