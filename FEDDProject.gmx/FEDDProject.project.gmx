@@ -107,6 +107,7 @@
       <sprite>sprites\sFurnace</sprite>
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
+    <sprite>sprites\sRobot_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
