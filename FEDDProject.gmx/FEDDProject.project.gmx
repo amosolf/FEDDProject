@@ -137,6 +137,7 @@
       <object>objects\Material</object>
       <object>objects\CompSci</object>
       <object>objects\Civil</object>
+      <object>objects\Robot</object>
     </objects>
     <objects name="Parents">
       <object>objects\Door</object>
