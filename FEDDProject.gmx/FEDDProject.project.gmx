@@ -107,6 +107,7 @@
       <sprite>sprites\sFurnace</sprite>
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
+    <sprite>sprites\sRobot_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -136,6 +137,7 @@
       <object>objects\Material</object>
       <object>objects\CompSci</object>
       <object>objects\Civil</object>
+      <object>objects\Robot</object>
     </objects>
     <objects name="Parents">
       <object>objects\Door</object>
