@@ -268,9 +268,11 @@
       <object>objects\Furnace</object>
       <object>objects\LeverStand</object>
       <object>objects\ChemFloor</object>
-      <object>objects\LeverUpChem</object>
+      <object>objects\LeverUpHeat</object>
+      <object>objects\LeverUpPress</object>
       <object>objects\DisplayChem</object>
-      <object>objects\LeverDownChem</object>
+      <object>objects\LeverDownHeat</object>
+      <object>objects\LeverDownPress</object>
       <object>objects\TestButtonChem</object>
     </objects>
     <object>objects\InteractTarget</object>
