@@ -101,6 +101,7 @@
       <sprite>sprites\sBridgeBox1</sprite>
       <sprite>sprites\sBridgeBox2</sprite>
       <sprite>sprites\sBridgeBox3</sprite>
+      <sprite>sprites\sAngledBeam</sprite>
       <sprite>sprites\sBridgeBox4</sprite>
     </sprites>
     <sprites name="Chemical">
@@ -108,8 +109,8 @@
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
     <sprite>sprites\sRobot_idle</sprite>
-    <sprite>sprites\sAngledBeam</sprite>
     <sprite>sprites\sSign</sprite>
+    <sprite>sprites\sbossStation</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -120,6 +121,7 @@
     <background>background\star3</background>
     <background>background\station</background>
     <background>background\clouds</background>
+    <background>background\bossBack</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -219,6 +221,7 @@
       <object>objects\LaserSensor</object>
       <object>objects\BrokenWires</object>
       <object>objects\FixedWires</object>
+      <object>objects\LaserShooter</object>
       <object>objects\Laser</object>
     </objects>
     <objects name="Mech">
@@ -245,6 +248,8 @@
       <object>objects\BridgeBox3</object>
       <object>objects\BridgeBox4</object>
       <object>objects\BridgeBoxer</object>
+      <object>objects\AngledBeam</object>
+      <object>objects\FallingBridgeBeam</object>
     </objects>
     <objects name="Chemical">
       <object>objects\Furnace</object>
@@ -264,10 +269,8 @@
       <object>objects\SteveNylon</object>
       <object>objects\MayCanical</object>
       <object>objects\PerryWinkle</object>
+      <object>objects\bossStation</object>
     </objects>
-    <object>objects\AngledBeam</object>
-    <object>objects\LaserShooter</object>
-    <object>objects\FallingBridgeBeam</object>
     <object>objects\InfoSign</object>
   </objects>
   <rooms name="rooms">

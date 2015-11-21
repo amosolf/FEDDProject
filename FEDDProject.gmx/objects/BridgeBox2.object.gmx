@@ -30,7 +30,7 @@
 event_inherited();
 
 bridgeParts[0] = BridgeBeam;
-bridgeParts[1] = BridgeBeam;
+
 </string>
           </argument>
         </arguments>

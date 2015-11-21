@@ -71,7 +71,12 @@ for (i=-1; i&lt;right; i++)
         
     }
 depth = 10;
+if room = room0 {
 draw_background(station,1006-375,610-375);
+}
+if room = bossroom {
+draw_background(bossBack,1006-375,610-375);
+}
 depth = 1000;
 </string>
           </argument>
