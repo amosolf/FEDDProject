@@ -285,6 +285,10 @@
     <object>objects\InfoSign</object>
     <object>objects\FadeOut</object>
     <object>objects\FadeIn</object>
+    <object>objects\Dragable</object>
+    <object>objects\DropSpot</object>
+    <object>objects\DragTest</object>
+    <object>objects\DropTest</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
