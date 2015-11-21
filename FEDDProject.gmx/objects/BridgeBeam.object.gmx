@@ -47,6 +47,13 @@
         bit.image_angle = image_angle;
         bit.image_xscale = image_xscale;
         bit.image_yscale = image_yscale;
+        supports = collision_circle(x, y - 16, 32, AngledBeam, false, true)
+        while instance_exists(supports) {
+            with(supports) {
+                instance_destroy();
+            }
+            supports = collision_circle(x, y - 16, 32, AngledBeam, false, true);
+        }
         instance_destroy();
     }
 }
