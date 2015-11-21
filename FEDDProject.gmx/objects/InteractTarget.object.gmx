@@ -66,9 +66,8 @@ else
 if(scale&gt;=1.7)
 {
     scale = 1.7;
-    interactible = collision_circle(x, y, 32, Interactible, false, true);
-    if instance_exists(interactible) {
-        with interactible {
+    if instance_exists(object) {
+        with object {
             activate(object_get_name(object_index));
         }
     }
