@@ -211,6 +211,7 @@
     <objects name="CompSci">
       <object>objects\CompFloor</object>
       <object>objects\UpStaircase</object>
+      <object>objects\InactiveStairsUp</object>
       <object>objects\DownStaircase</object>
       <object>objects\Mainframe</object>
       <object>objects\LaserSensor</object>

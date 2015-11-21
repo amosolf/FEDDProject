@@ -58,15 +58,14 @@
     <instance objName="CompFloor" x="384" y="336" name="inst_E333CF8C" locked="0" code="" scaleX="24" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="UpStaircase" x="751" y="1360" name="inst_44494083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="UpStaircase" x="752" y="656" name="inst_69129245" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="UpStaircase" x="17" y="1008" name="inst_4AA9D65E" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Mainframe" x="32" y="288" name="inst_9F596C07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompFloor" x="-15" y="704" name="inst_5911B23B" locked="0" code="" scaleX="1" scaleY="44" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="753" y="1041" name="inst_3EF262B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="16" y="688" name="inst_A0D9444A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DownStaircase" x="752" y="336" name="inst_3ABC6585" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BrokenWires" x="195" y="960" name="inst_5C527625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BrokenWires" x="390" y="960" name="inst_2F81389F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BrokenWires" x="585" y="960" name="inst_E5C7C074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BrokenWires" x="195" y="992" name="inst_5C527625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BrokenWires" x="390" y="992" name="inst_2F81389F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BrokenWires" x="585" y="992" name="inst_E5C7C074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompSciManager" x="32" y="0" name="inst_8225AA4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompFloor" x="783" y="704" name="inst_8D26B2DE" locked="0" code="" scaleX="1" scaleY="44" colour="4294967295" rotation="0"/>
     <instance objName="LaserShooter" x="144" y="368" name="inst_AA5A1EA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -74,6 +73,7 @@
     <instance objName="LaserShooter" x="384" y="368" name="inst_08CD8197" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="LaserShooter" x="528" y="368" name="inst_7FA74E06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="LaserShooter" x="640" y="368" name="inst_640170FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InactiveStairsUp" x="16" y="1008" name="inst_EE7BA97C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
