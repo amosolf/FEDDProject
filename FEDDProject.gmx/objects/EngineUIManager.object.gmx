@@ -55,6 +55,10 @@ parts[0] = noone;
             instance_activate_object(parts[i]);
         }
     }
+    if keyboard_check(ord("X")) {
+        active = false;
+        Player.paused = false;
+    }
 } else {
     for (var i = 0; i &lt; array_length_1d(parts); i += 1) {
         if instance_exists(parts[i]) {

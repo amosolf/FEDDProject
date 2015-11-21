@@ -66,6 +66,7 @@ if object_index = Button {
         with (EngineUIManager) {
             active = true;
         }
+        Player.paused = true;
     }
 } else if object_index = GearBox{
     if sprite_index != sFairing {

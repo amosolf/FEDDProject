@@ -158,6 +158,7 @@
     <instance objName="MechFloor" x="960" y="160" name="inst_37C0926C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="1216" y="160" name="inst_B483DA95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mechBG" x="626" y="271" name="inst_D38529E5" locked="0" code="" scaleX="0.995199978351593" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="EngineUI" x="1056" y="224" name="inst_B50F3D83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
