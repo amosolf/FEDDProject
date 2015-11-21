@@ -263,11 +263,8 @@
       <object>objects\MayCanical</object>
       <object>objects\PerryWinkle</object>
     </objects>
-<<<<<<< HEAD
     <object>objects\AngledBeam</object>
-=======
     <object>objects\LaserShooter</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
