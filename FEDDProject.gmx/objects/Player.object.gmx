@@ -99,6 +99,12 @@ depth = -1000;
         right = keyboard_check(vk_right);
         space = keyboard_check(vk_space);
     }
+} else {
+    up = false;
+    down = false;
+    left = false;
+    right = false;
+    space = false;
 }
 
 ////Extra Controls////
