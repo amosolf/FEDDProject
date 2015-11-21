@@ -12,6 +12,8 @@
   <sprites name="sprites">
     <sprites name="Engineers">
       <sprite>sprites\sEngiTemplate</sprite>
+      <sprite>sprites\sRobot_idle</sprite>
+      <sprite>sprites\sRobot_moving</sprite>
       <sprite>sprites\sCivil_idle</sprite>
       <sprite>sprites\sCivil_moving</sprite>
       <sprite>sprites\sBio_idle</sprite>
@@ -111,7 +113,6 @@
       <sprite>sprites\sFurnace</sprite>
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
-    <sprite>sprites\sRobot_idle</sprite>
     <sprite>sprites\sSign</sprite>
     <sprite>sprites\sbossStation</sprite>
     <sprite>sprites\sTerminal</sprite>
