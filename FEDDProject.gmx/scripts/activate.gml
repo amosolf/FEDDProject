@@ -186,7 +186,8 @@ if object_index = Button {
         makeDialog(dialog);
     } else {
         if noneEmpty {
-            makeDialog("Yes! I think that will work marvelously!");
+            textBox = makeDialog("Yes! I think that will work marvelously!");
+            textBox.isEnding = true;
         } else {
             makeDialog("You need to add more steps.");
         }
