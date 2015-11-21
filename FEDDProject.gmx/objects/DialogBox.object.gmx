@@ -54,10 +54,7 @@ isEnding = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if isEnding {
-    instance_create(x, y, FadeOut);
-}
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -79,7 +76,9 @@ isEnding = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if shouldDestroy {
+            <string>if isEnding {
+    instance_create(x, y, FadeOut);
+} else if shouldDestroy {
     instance_destroy();
 }
 
