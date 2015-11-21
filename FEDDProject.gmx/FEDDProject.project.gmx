@@ -261,6 +261,7 @@
       <object>objects\MayCanical</object>
       <object>objects\PerryWinkle</object>
     </objects>
+    <object>objects\LaserShooter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
