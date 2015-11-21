@@ -266,6 +266,7 @@
     </objects>
     <object>objects\AngledBeam</object>
     <object>objects\LaserShooter</object>
+    <object>objects\FallingBridgeBeam</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

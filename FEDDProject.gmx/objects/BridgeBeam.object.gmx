@@ -26,11 +26,27 @@
           <argument>
             <kind>1</kind>
             <string>if place_meeting(x, y - 2, Player) {
-    if instance_number(MissingBeam) + instance_number(MissingAngleBeam) != 0 {
+    beam = instance_nearest(x, y, MissingBeam);
+    support = instance_nearest(x, y, MissingAngleBeam);
+    if instance_exists(beam) {
+        distBeam = sqrt(sqr(beam.x - x) + sqr(beam.y - y));
+    } else {
+        distBeam = 200;
+    }
+    if instance_exists(support) {
+        distSupport = sqrt(sqr(support.x - x) + sqr(support.y - y));
+    } else {
+        distSupport = 200;
+    }
+    if min(distBeam, distSupport) &lt; 128 {
         spot = instance_create(x, y, MissingBeam);
         spot.image_angle = image_angle;
         spot.image_xscale = image_xscale;
         spot.image_yscale = image_yscale;
+        bit = instance_create(x, y, FallingBridgeBeam);
+        bit.image_angle = image_angle;
+        bit.image_xscale = image_xscale;
+        bit.image_yscale = image_yscale;
         instance_destroy();
     }
 }
