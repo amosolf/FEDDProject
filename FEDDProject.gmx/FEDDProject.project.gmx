@@ -237,6 +237,7 @@
       <object>objects\BridgeBeam</object>
       <object>objects\CivilFloor</object>
       <object>objects\MissingBeam</object>
+      <object>objects\MissingAngleBeam</object>
       <object>objects\BridgePieceConnector</object>
       <object>objects\BridgeBox1</object>
       <object>objects\BridgeBox2</object>

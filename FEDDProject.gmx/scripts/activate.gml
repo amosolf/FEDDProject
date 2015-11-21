@@ -37,12 +37,25 @@ if object_index = Button {
         var i;
         for (i = 0; i < Inventory.slots; i += 1) {
             if Inventory.slot[i] = item {
-                slot[i] = noone;
+                Inventory.slot[i] = noone;
                 //Codes for resulting actions go here (i.e. what object does when given item)
+                if object_index = MissingBeam {
+                    beam = instance_create(x, y, BridgeBeam);
+                    beam.image_angle = image_angle;
+                    beam.image_xscale = image_xscale;
+                    beam.image_yscale = image_yscale;
+                    instance_destroy();
+                } else if object_index = MissingAngleBeam {
+                    beam = instance_create(x, y, AngledBeam);
+                    beam.image_angle = image_angle;
+                    beam.image_xscale = image_xscale;
+                    beam.image_yscale = image_yscale;
+                    instance_destroy();
+                }
                 break;
             }
         }
-        if i = inventory.slots {
+        if i = Inventory.slots {
             makeDialog("You don't have the necessary item");
         }
     }

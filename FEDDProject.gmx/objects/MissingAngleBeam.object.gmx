@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 
-item = BridgeBeam;
+item = AngledBeam;
 </string>
           </argument>
         </arguments>
