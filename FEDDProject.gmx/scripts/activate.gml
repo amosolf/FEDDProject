@@ -205,5 +205,6 @@ if object_index = Button {
 } else if object_index = InfoSign {
     dialog = makeDialog(info);
 } else if object_index = Mainframe {
+    Player.paused = true;
     instance_create(x, y, TerminalScreen);
 }

@@ -35,6 +35,8 @@ fric = 0.2;
 //movement speed
 spd = 4;
 
+paused = false;
+
 xvel = 0;
 yvel = 0;
 
@@ -81,20 +83,22 @@ depth = -1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.eyeEnabled)
-{
-    space = window_mouse_get_y() &lt; border;
-    down = window_mouse_get_y() &gt; window_get_height() - border;
-    right = window_mouse_get_x() &gt; window_get_width() - border;
-    left = window_mouse_get_x() &lt; border;
-}
-else {
-    ////Normal Controls////
-    up = keyboard_check_pressed(vk_up);
-    down = keyboard_check(vk_down);
-    left = keyboard_check(vk_left);
-    right = keyboard_check(vk_right);
-    space = keyboard_check(vk_space);
+            <string>if not(paused) {
+    if(global.eyeEnabled)
+    {
+        space = window_mouse_get_y() &lt; border;
+        down = window_mouse_get_y() &gt; window_get_height() - border;
+        right = window_mouse_get_x() &gt; window_get_width() - border;
+        left = window_mouse_get_x() &lt; border;
+    }
+    else {
+        ////Normal Controls////
+        up = keyboard_check_pressed(vk_up);
+        down = keyboard_check(vk_down);
+        left = keyboard_check(vk_left);
+        right = keyboard_check(vk_right);
+        space = keyboard_check(vk_space);
+    }
 }
 
 ////Extra Controls////
