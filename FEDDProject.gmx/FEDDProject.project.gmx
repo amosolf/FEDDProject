@@ -278,6 +278,7 @@
     </objects>
     <object>objects\InfoSign</object>
     <object>objects\FadeOut</object>
+    <object>objects\FadeIn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

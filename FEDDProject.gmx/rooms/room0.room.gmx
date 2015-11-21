@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>//STATION OBJECT MUST BE AT 1006 x 610!</code>
+  <code>//STATION OBJECT MUST BE AT 1006 x 610!
+
+instance_create(0, 0, FadeIn);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
