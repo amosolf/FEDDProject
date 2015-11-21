@@ -109,6 +109,7 @@
     </sprites>
     <sprite>sprites\sRobot_idle</sprite>
     <sprite>sprites\sAngledBeam</sprite>
+    <sprite>sprites\sSign</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -267,6 +268,7 @@
     <object>objects\AngledBeam</object>
     <object>objects\LaserShooter</object>
     <object>objects\FallingBridgeBeam</object>
+    <object>objects\InfoSign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

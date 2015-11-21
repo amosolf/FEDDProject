@@ -202,4 +202,6 @@ if object_index = Button {
         stairs.active = true;
     }
     instance_destroy();
+} else if object_index = InfoSign {
+    dialog = makeDialog(info);
 }

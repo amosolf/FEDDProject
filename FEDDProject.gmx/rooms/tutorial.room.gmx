@@ -10,7 +10,16 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>makeDialog("Welcome! Press up to interact with things!");
+
+sign1 = instance_find(InfoSign, 0);
+sign1.info = "Nice! You can move around with the arrow keys!";
+
+sign2 = instance_find(InfoSign, 1);
+sign2.info = "Great! Now try jumping by pressing space!";
+
+sign3 = instance_find(InfoSign, 2);
+sign3.info = "Good job! Finally, you can fall through platforms by pressing the down arrow!";</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -51,7 +60,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="TutorialManager" x="128" y="160" name="inst_C81912E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Biological" x="224" y="640" name="inst_4C03AFE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="192" y="704" name="inst_D5B008F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="224" y="704" name="inst_601D37C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -123,6 +131,9 @@
     <instance objName="Ledge" x="192" y="608" name="inst_D6B0BBED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="192" y="480" name="inst_B037CE21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="288" y="480" name="inst_1E8AB1FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InfoSign" x="224" y="672" name="inst_9E8E2B6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InfoSign" x="352" y="672" name="inst_ED944063" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="InfoSign" x="288" y="576" name="inst_82DFFE9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
