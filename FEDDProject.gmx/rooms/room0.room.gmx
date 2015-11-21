@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="Biological" xview="256" yview="300" wview="512" hview="384" xport="0" yport="0" wport="512" hport="384" hborder="256" vborder="300" hspeed="100" vspeed="100"/>
+    <view visible="-1" objName="Robot" xview="256" yview="300" wview="512" hview="384" xport="0" yport="0" wport="512" hport="384" hborder="256" vborder="300" hspeed="100" vspeed="100"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -57,7 +57,6 @@
     <instance objName="BioNPC" x="785" y="883" name="inst_CD4585B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialNPC" x="728" y="663" name="inst_5CE28965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpaceManager" x="116" y="72" name="inst_1CDDC441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Biological" x="1023" y="580" name="inst_3FE1900B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpaceStation" x="1004" y="610" name="inst_5804F67E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Button" x="1023" y="620" name="inst_DFF927B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompSciNPC" x="783" y="441" name="inst_6DB12B03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -84,6 +83,7 @@
     <instance objName="Ledge" x="1239" y="407" name="inst_D75449B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="1271" y="407" name="inst_52D9A747" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="1303" y="407" name="inst_A93B5CF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Robot" x="995" y="617" name="inst_C8B3297C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
