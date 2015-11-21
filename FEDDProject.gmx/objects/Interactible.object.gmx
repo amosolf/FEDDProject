@@ -28,6 +28,7 @@
             <string>indicator = noone;
 dialog = noone;
 
+primed = false;
 </string>
           </argument>
         </arguments>
@@ -55,6 +56,11 @@ dialog = noone;
         instance_destroy();
     }
 }
+if instance_exists(dialog) {
+        with(dialog) {
+            instance_destroy();
+        }
+    }
 </string>
           </argument>
         </arguments>
@@ -77,7 +83,7 @@ dialog = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if collision_circle(x, y, 32, Player, false, true) {
+            <string>if primed {
     if(global.eyeEnabled)
     {
         if not(instance_exists(indicator)){

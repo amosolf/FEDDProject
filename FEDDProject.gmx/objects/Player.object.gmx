@@ -61,6 +61,8 @@ switch global.door {
 }
 
 depth = -1000;
+
+interact = noone;
 </string>
           </argument>
         </arguments>
@@ -188,11 +190,23 @@ if isGrounded {
     }
 }
 ////Interactions////
+if interact != instance_nearest(x, y, Interactible) and instance_exists(interact) {
+    interact.primed = false;
+}
+interact = instance_nearest(x, y, Interactible);
+if sqrt(sqr(interact.x - x) + sqr(interact.y - y)) &gt; 64 {
+    interact.primed = false;
+    interact = noone;
+}
+
+if instance_exists(interact) {
+    interact.primed = true;
+}
+
 if up {
     pressed = true;
-    interactible = collision_circle(x, y, 32, Interactible, false, true);
-    if instance_exists(interactible) {
-        with interactible {
+    if instance_exists(interact) {
+        with interact {
             activate(object_get_name(object_index));
         }
     }
