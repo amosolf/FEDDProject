@@ -209,8 +209,55 @@ if object_index = Button {
 } else if object_index = Mainframe {
     Player.paused = true;
     instance_create(x, y, TerminalScreen);
+} else if object_index = Blueprint {
+    instance_destroy();
+} else if object_index = LeverUpHeat {
+    Furnace.heat += 5;
+} else if object_index = LeverDownHeat {
+    Furnace.heat -= 5;
+} else if object_index = LeverUpPress {
+    Furnace.pressure += 5;
+} else if object_index = LeverDownPress {
+    Furnace.pressure -= 5;
+} else if object_index = TestButtonChem {
+    var correct = 0;
+    var tooHigh = 0;
+    var tooLow = 0;
+    
+    if Furnace.heat = Furnace.targetHeat {
+        correct += 1;
+    } else if Furnace.heat < Furnace.targetHeat {
+        tooLow += 1;    
+    } else {
+        tooHigh += 1;
+    }
+    if Furnace.pressure = Furnace.targetPressure {
+        correct += 1;
+    } else if Furnace.pressure < Furnace.targetPressure {
+        tooLow += 1;
+    } else {
+        tooHigh += 1;
+    }
+    
+    if correct != 2 {
+        text = "";
+        if tooHigh = 2 {
+            text = "Both of those are too high.";
+        } else if tooLow = 2 {
+            text = "Both of those are too low.";
+        } else if tooHigh = 1 {
+            text = "One of those is too high, and the other is ";
+            if tooLow = 1 {
+                text += "too low.";
+            } else {
+                text += "just right.";
+            }
+        } else {
+            text = "One of those is too low, and the other is just right";
+        }
+    } else {
+        dialog = makeDialog("Great job that should make great nylon!");
+        dialog.isEnding = true;
+    }
 }
 
-if object_index = Blueprint {
-instance_destroy();
-}
