@@ -25,10 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if (audio_is_playing(bioMusic)==false){
-audio_stop_all();
-//audio_play_sound(bioMusic,1,true);
-//}
+            <string>
 
 depth = 1000;
 </string>

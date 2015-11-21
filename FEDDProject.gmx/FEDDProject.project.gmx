@@ -252,7 +252,7 @@
       <object>objects\MissingBeam</object>
       <object>objects\MissingAngleBeam</object>
       <object>objects\BridgePieceConnector</object>
-      <object>objects\BridgeBox2</object>
+      <object>objects\BridgeBox1</object>
       <object>objects\BridgeBox2</object>
       <object>objects\BridgeBox3</object>
       <object>objects\BridgeBox4</object>
