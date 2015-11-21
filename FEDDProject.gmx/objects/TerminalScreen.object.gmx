@@ -50,7 +50,8 @@ depth = -1100
           <argument>
             <kind>1</kind>
             <string>if keyboard_check(vk_enter) {
-    //this is where we'll end the room, or add the exit door I guess
+    dialog = makeDialog("We did it! The mainframe is fixed! Let's head back.");
+    dialog.isEnding = true;
     instance_destroy();
 }
 </string>

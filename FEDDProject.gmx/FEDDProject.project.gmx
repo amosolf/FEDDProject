@@ -277,6 +277,7 @@
       <object>objects\bossStation</object>
     </objects>
     <object>objects\InfoSign</object>
+    <object>objects\FadeOut</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
