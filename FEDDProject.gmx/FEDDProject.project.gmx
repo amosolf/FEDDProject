@@ -212,6 +212,7 @@
     <objects name="CompSci">
       <object>objects\CompFloor</object>
       <object>objects\UpStaircase</object>
+      <object>objects\InactiveStairsUp</object>
       <object>objects\DownStaircase</object>
       <object>objects\Mainframe</object>
       <object>objects\LaserSensor</object>
@@ -262,7 +263,11 @@
       <object>objects\MayCanical</object>
       <object>objects\PerryWinkle</object>
     </objects>
+<<<<<<< HEAD
     <object>objects\AngledBeam</object>
+=======
+    <object>objects\LaserShooter</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

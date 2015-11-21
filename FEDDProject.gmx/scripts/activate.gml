@@ -60,7 +60,7 @@ if object_index = Button {
     } else {
         //set Gearbox UI to active
     }
-} else if object_index = UpStaircase {
+} else if object_index = UpStaircase or (object_index = InactiveStairsUp and active = true) {
     with (Player) {
         y -= 352;
     }
@@ -181,4 +181,12 @@ if object_index = Button {
     var temp = Inventory.slot[0];
     Inventory.slot[0] = operation;
     operation = temp;
+} else if object_index = BrokenWires {
+    instance_create(x, y, FixedWires);
+    var wires = instance_number(BrokenWires);
+    if wires = 1 {
+        stairs = instance_find(InactiveStairsUp, 0);
+        stairs.active = true;
+    }
+    instance_destroy();
 }
