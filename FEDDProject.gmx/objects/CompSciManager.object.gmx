@@ -83,9 +83,9 @@ depth = 1000;
 right=view_xview[view_current]/width+view_wview[view_current]/width+1;
 for (i=-1; i&lt;right; i++)
     {
-        draw_background(star3, view_xview[view_current]/2 mod width+width*i,(view_yview[view_current]/1.5)-100);
-        draw_background(star2, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+450);
-        draw_background(star1, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+450);
+        draw_background(star3, view_xview[view_current]/1 mod width+width*i,(view_yview[view_current]/1)-100);
+        draw_background(star2, view_xview[view_current]/1.4 mod width+width*i,(view_yview[view_current]/1.4)+450);
+        draw_background(star1, view_xview[view_current]/1.7 mod width+width*i,(view_yview[view_current]/1.7)+450);
         
     }
 for (i=-1; i&lt;right; i++)
