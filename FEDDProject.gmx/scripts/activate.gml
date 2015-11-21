@@ -209,3 +209,7 @@ if object_index = Button {
     Player.paused = true;
     instance_create(x, y, TerminalScreen);
 }
+
+if object_index = Blueprint {
+instance_destroy();
+}

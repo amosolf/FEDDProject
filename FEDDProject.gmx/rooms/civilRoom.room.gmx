@@ -59,11 +59,6 @@
     <instance objName="CivilFloor" x="16" y="384" name="inst_0339F95D" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="CivilFloor" x="960" y="600" name="inst_0244B11E" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blueprint" x="129" y="566" name="inst_C676269A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="MissingBeam" x="766" y="688" name="inst_984EFB9A" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="MissingBeam" x="638" y="688" name="inst_82410B39" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="MissingBeam" x="576" y="593" name="inst_A963825E" locked="0" code="" scaleX="-5" scaleY="-4" colour="4294967295" rotation="90"/>
-    <instance objName="MissingBeam" x="704" y="593" name="inst_215D1B0E" locked="0" code="" scaleX="-5" scaleY="-4" colour="4294967295" rotation="90"/>
-    <instance objName="MissingBeam" x="832" y="593" name="inst_3D670ABE" locked="0" code="" scaleX="-5" scaleY="-4" colour="4294967295" rotation="90"/>
     <instance objName="CivilFloor" x="72" y="457" name="inst_529A0DD1" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="CivilFloor" x="256" y="512" name="inst_4D93EBFF" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="CivilFloor" x="384" y="416" name="inst_8B4D5953" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
@@ -81,12 +76,6 @@
     <instance objName="AngledBeam" x="928" y="40" name="inst_FA175D6B" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
     <instance objName="AngledBeam" x="800" y="40" name="inst_B2624529" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
     <instance objName="BridgeBeam" x="832" y="128" name="inst_C3ED63BD" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="45"/>
-    <instance objName="MissingAngleBeam" x="608" y="544" name="inst_85943C54" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
-    <instance objName="MissingAngleBeam" x="544" y="544" name="inst_7ACF781C" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
-    <instance objName="MissingAngleBeam" x="800" y="544" name="inst_5FB02982" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
-    <instance objName="MissingAngleBeam" x="864" y="544" name="inst_17582851" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
-    <instance objName="MissingAngleBeam" x="736" y="544" name="inst_2693D665" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
-    <instance objName="MissingAngleBeam" x="672" y="544" name="inst_163A02BC" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
     <instance objName="BridgeBeam" x="960" y="128" name="inst_1D17295B" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="135"/>
     <instance objName="CivilRoomEnd" x="928" y="544" name="inst_3F4B1530" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BridgeBox2" x="73" y="421" name="inst_90FDADFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

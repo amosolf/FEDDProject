@@ -5,9 +5,63 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>Interactible</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>pieceH1 = instance_create(576,593,MissingBeam);
+pieceH2 = instance_create(704,593,MissingBeam);
+pieceH3 = instance_create(832,593,MissingBeam);
+
+pieceV1 = instance_create(638,688,MissingBeam);
+pieceV2 = instance_create(766,688,MissingBeam);
+
+pieceS1 = instance_create(544,544,MissingAngleBeam);
+pieceS2 = instance_create(608,544,MissingAngleBeam);
+pieceS3 = instance_create(672,544,MissingAngleBeam);
+pieceS4 = instance_create(736,544,MissingAngleBeam);
+pieceS5 = instance_create(800,544,MissingAngleBeam);
+pieceS6 = instance_create(864,544,MissingAngleBeam);
+
+pieceH1.image_xscale = 5; pieceH1.image_yscale = 4; pieceH1.image_angle = 90;
+pieceH2.image_xscale = 5; pieceH2.image_yscale = 4; pieceH2.image_angle = 90;
+pieceH3.image_xscale = 5; pieceH3.image_yscale = 4; pieceH3.image_angle = 90;
+
+pieceV1.image_xscale = 5; pieceV1.image_yscale = 5; 
+pieceV2.image_xscale = 5; pieceV2.image_yscale = 5; 
+
+pieceS1.image_xscale = 3; pieceS1.image_yscale = 3; pieceS1.image_angle = 135;
+pieceS3.image_xscale = 3; pieceS3.image_yscale = 3; pieceS3.image_angle = 135;
+pieceS5.image_xscale = 3; pieceS5.image_yscale = 3; pieceS5.image_angle = 135;
+
+pieceS2.image_xscale = 3; pieceS2.image_yscale = 3; pieceS2.image_angle = 45;
+pieceS4.image_xscale = 3; pieceS4.image_yscale = 3; pieceS4.image_angle = 45;
+pieceS6.image_xscale = 3; pieceS6.image_yscale = 3; pieceS6.image_angle = 45;
+
+
+event_inherited();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
