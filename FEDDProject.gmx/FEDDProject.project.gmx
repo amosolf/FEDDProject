@@ -217,7 +217,6 @@
       <object>objects\BrokenWires</object>
       <object>objects\FixedWires</object>
       <object>objects\Laser</object>
-      <object>objects\LaserShooter</object>
     </objects>
     <objects name="Mech">
       <object>objects\Rocket</object>
