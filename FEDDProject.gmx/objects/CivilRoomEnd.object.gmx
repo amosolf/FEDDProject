@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>if instance_exists(Player) {
-    if Player.x &gt; x {
+    if Player.x &gt; x and instance_number(MissingBeam) + instance_number(MissingAngleBeam) = 0{
         if instance_exists(DialogBox) {
             if DialogBox.text != "Great job with the bridge! I think we can head back now." {
                 dialog = makeDialog("Great job with the bridge! I think we can head back now.");
