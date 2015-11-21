@@ -25,6 +25,9 @@
       <sprite>sprites\sMaterial_moving</sprite>
       <sprite>sprites\sChem_idle</sprite>
       <sprite>sprites\sChem_moving</sprite>
+      <sprite>sprites\sChem_jump</sprite>
+      <sprite>sprites\sCompSci_jump</sprite>
+      <sprite>sprites\sCivil_jump</sprite>
     </sprites>
     <sprites name="Doors">
       <sprite>sprites\sMechDoor</sprite>

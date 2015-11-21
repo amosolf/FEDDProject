@@ -44,7 +44,7 @@ left = false;
 right = false;
 
 isGrounded = false;
-image_speed = 1/6;
+image_speed = 1/4;
 
 pressed = false;
 
