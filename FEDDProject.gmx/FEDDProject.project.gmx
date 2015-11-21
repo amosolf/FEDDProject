@@ -218,6 +218,7 @@
       <object>objects\Tree</object>
       <object>objects\BioFlower</object>
       <object>objects\TreeBranch</object>
+      <object>objects\BioRoomEnd</object>
     </objects>
     <objects name="CompSci">
       <object>objects\CompFloor</object>
