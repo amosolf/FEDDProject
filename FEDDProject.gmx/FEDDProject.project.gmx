@@ -114,6 +114,7 @@
     <sprite>sprites\sRobot_idle</sprite>
     <sprite>sprites\sSign</sprite>
     <sprite>sprites\sbossStation</sprite>
+    <sprite>sprites\sTerminal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -226,6 +227,7 @@
       <object>objects\FixedWires</object>
       <object>objects\LaserShooter</object>
       <object>objects\Laser</object>
+      <object>objects\TerminalScreen</object>
     </objects>
     <objects name="Mech">
       <object>objects\Rocket</object>

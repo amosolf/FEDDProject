@@ -204,4 +204,6 @@ if object_index = Button {
     instance_destroy();
 } else if object_index = InfoSign {
     dialog = makeDialog(info);
+} else if object_index = Mainframe {
+    instance_create(x, y, TerminalScreen);
 }
