@@ -79,7 +79,22 @@ depth = 1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>width=background_get_width(star1);
+right=view_xview[view_current]/width+view_wview[view_current]/width+1;
+for (i=-1; i&lt;right; i++)
+    {
+        draw_background(star3, view_xview[view_current]/2 mod width+width*i,(view_yview[view_current]/1.5)-100);
+        draw_background(star2, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+450);
+        draw_background(star1, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+450);
+        
+    }
+for (i=-1; i&lt;right; i++)
+{
+    draw_background(mountain_dark, view_xview[view_current]/2 mod width+width*i,(view_yview[view_current]/1.5)+150);
+    draw_background(clouds_dark, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+450);
+    draw_background(hills_dark, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+835);
+}
+</string>
           </argument>
         </arguments>
       </action>
