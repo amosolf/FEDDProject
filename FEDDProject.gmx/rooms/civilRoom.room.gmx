@@ -83,6 +83,17 @@
     <instance objName="BridgeBox3" x="351" y="229" name="inst_D755C5EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BridgeBox4" x="68" y="229" name="inst_55F996B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CivilManager" x="64" y="0" name="inst_9B31976D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="AngledBeam" x="672" y="32" name="inst_9F755576" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
+    <instance objName="AngledBeam" x="992" y="32" name="inst_5B9BBC58" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
+    <instance objName="AngledBeam" x="864" y="32" name="inst_85FF9F17" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
+    <instance objName="AngledBeam" x="736" y="32" name="inst_9BC69244" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="45"/>
+    <instance objName="AngledBeam" x="928" y="32" name="inst_FA175D6B" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
+    <instance objName="AngledBeam" x="800" y="32" name="inst_B2624529" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="135"/>
+    <instance objName="BridgeBeam" x="704" y="64" name="inst_0E4BF2F4" locked="0" code="" scaleX="5" scaleY="4" colour="4294967295" rotation="90"/>
+    <instance objName="BridgeBeam" x="960" y="64" name="inst_70CD4AA2" locked="0" code="" scaleX="5" scaleY="4" colour="4294967295" rotation="90"/>
+    <instance objName="BridgeBeam" x="832" y="64" name="inst_4D2D982D" locked="0" code="" scaleX="5" scaleY="4" colour="4294967295" rotation="90"/>
+    <instance objName="BridgeBeam" x="766" y="146" name="inst_C3ED63BD" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="BridgeBeam" x="894" y="147" name="inst_2157EBB5" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

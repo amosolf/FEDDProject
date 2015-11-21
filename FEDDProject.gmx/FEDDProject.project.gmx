@@ -108,6 +108,7 @@
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
     <sprite>sprites\sRobot_idle</sprite>
+    <sprite>sprites\sAngledBeam</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -261,6 +262,7 @@
       <object>objects\MayCanical</object>
       <object>objects\PerryWinkle</object>
     </objects>
+    <object>objects\AngledBeam</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
