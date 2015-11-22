@@ -50,6 +50,7 @@ yvel = 0;
 
 text[0] = noone;
 myRoom = noone;
+item = noone;
 
 
 event_inherited();

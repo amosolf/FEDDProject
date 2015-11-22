@@ -314,6 +314,7 @@
       <object>objects\BlastDoor</object>
       <object>objects\LightSwitch</object>
       <object>objects\Darkness</object>
+      <object>objects\MedKit</object>
     </objects>
     <object>objects\InfoSign</object>
     <object>objects\FadeOut</object>

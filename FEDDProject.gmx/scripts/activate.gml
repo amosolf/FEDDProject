@@ -10,7 +10,11 @@ if object_index = Button {
                         dialog.shouldDestroy = false;
                     }
                 } else {
-                    room_goto(myRoom);
+                    if myRoom != noone {
+                        room_goto(myRoom);
+                    } else if item != noone {
+                        Inventory.slot[0] = item;
+                    }
                 }
                 break;
             }
@@ -286,5 +290,7 @@ if object_index = Button {
     }
     MattGlass.dying = false;
     instance_deactivate_object(Darkness);
+    textBox = makeDialog("Alright, come to my medlab, we need to get something for Matt");
+    textBox.shouldDestroy = false;
 }
 

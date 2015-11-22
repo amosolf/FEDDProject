@@ -62,8 +62,11 @@ if time &gt; 359 {
 if dying {
     sprite_index = sMaterial_Dying;
     image_angle = 10*sin(time) + 250;
-} else {
+} else if KOed{
     sprite_index = sMaterial_idle;
+    image_angle = 270;
+} else {
+    event_inherited();
 }
 </string>
           </argument>
