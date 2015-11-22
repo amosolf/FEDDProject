@@ -86,6 +86,7 @@
       <sprite>sprites\sBrokenWires</sprite>
       <sprite>sprites\sLaser</sprite>
       <sprite>sprites\sFixedWires</sprite>
+      <sprite>sprites\sTerminal</sprite>
     </sprites>
     <sprites name="Mech">
       <sprite>sprites\sRocketTower</sprite>
@@ -98,6 +99,12 @@
       <sprite>sprites\sEngine</sprite>
       <sprite>sprites\sEngineUI</sprite>
       <sprite>sprites\sMechBG</sprite>
+      <sprite>sprites\sBattery</sprite>
+      <sprite>sprites\sElectrode</sprite>
+      <sprite>sprites\sInsulator</sprite>
+      <sprite>sprites\sElectrodeSpot</sprite>
+      <sprite>sprites\sInsulatorSpot</sprite>
+      <sprite>sprites\sBatterySpot</sprite>
     </sprites>
     <sprites name="Civil">
       <sprite>sprites\sBlueprint</sprite>
@@ -115,17 +122,13 @@
       <sprite>sprites\sFurnace</sprite>
       <sprite>sprites\sChemFloor</sprite>
     </sprites>
+    <sprites name="Boss">
+      <sprite>sprites\sbossStation</sprite>
+      <sprite>sprites\sSpaceCthulu</sprite>
+      <sprite>sprites\sBlastDoor</sprite>
+      <sprite>sprites\sAsteroid</sprite>
+    </sprites>
     <sprite>sprites\sSign</sprite>
-    <sprite>sprites\sbossStation</sprite>
-    <sprite>sprites\sTerminal</sprite>
-    <sprite>sprites\sBattery</sprite>
-    <sprite>sprites\sElectrode</sprite>
-    <sprite>sprites\sInsulator</sprite>
-    <sprite>sprites\sBatterySpot</sprite>
-    <sprite>sprites\sElectrodeSpot</sprite>
-    <sprite>sprites\sInsulatorSpot</sprite>
-    <sprite>sprites\sAsteroid</sprite>
-    <sprite>sprites\sSpaceCthulu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -255,6 +258,12 @@
       <object>objects\Engine</object>
       <object>objects\EngineUI</object>
       <object>objects\EngineUIManager</object>
+      <object>objects\Insulator</object>
+      <object>objects\Battery</object>
+      <object>objects\BatterySpot</object>
+      <object>objects\InsulatorSpot</object>
+      <object>objects\ElectrodeSpot</object>
+      <object>objects\Electrode</object>
       <object>objects\mechBG</object>
     </objects>
     <objects name="Civil">
@@ -298,6 +307,9 @@
       <object>objects\MayCanical</object>
       <object>objects\PerryWinkle</object>
       <object>objects\bossStation</object>
+      <object>objects\Asteroid</object>
+      <object>objects\SpaceCthulu</object>
+      <object>objects\BlastDoor</object>
     </objects>
     <object>objects\InfoSign</object>
     <object>objects\FadeOut</object>
@@ -306,14 +318,6 @@
     <object>objects\DropSpot</object>
     <object>objects\DragTest</object>
     <object>objects\DropTest</object>
-    <object>objects\Insulator</object>
-    <object>objects\Electrode</object>
-    <object>objects\Battery</object>
-    <object>objects\BatterySpot</object>
-    <object>objects\ElectrodeSpot</object>
-    <object>objects\InsulatorSpot</object>
-    <object>objects\Asteroid</object>
-    <object>objects\SpaceCthulu</object>
     <object>objects\LabelPlatform</object>
   </objects>
   <rooms name="rooms">
