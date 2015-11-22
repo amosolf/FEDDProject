@@ -338,6 +338,7 @@
     <room>rooms\chemRoom</room>
     <room>rooms\matRoom</room>
     <room>rooms\civilRoom</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
