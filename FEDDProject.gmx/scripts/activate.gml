@@ -191,6 +191,7 @@ if object_index = Button {
     } else {
         if noneEmpty {
             textBox = makeDialog("Yes! I think that will work marvelously!");
+            global.matCleared = true;
             textBox.isEnding = true;
         } else {
             makeDialog("You need to add more steps.");
@@ -274,6 +275,7 @@ if object_index = Button {
         makeDialog(text);
     } else {
         dialog = makeDialog("Great job that should make great nylon!");
+        global.chemCleared = true;
         dialog.isEnding = true;
     }
 }

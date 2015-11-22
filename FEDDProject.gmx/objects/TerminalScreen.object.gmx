@@ -51,6 +51,7 @@ depth = -1100
             <kind>1</kind>
             <string>if keyboard_check(vk_enter) {
     dialog = makeDialog("We did it! The mainframe is fixed! Let's head back.");
+    global.compSciCleared = true;
     dialog.isEnding = true;
     Player.paused = false;
     instance_destroy();

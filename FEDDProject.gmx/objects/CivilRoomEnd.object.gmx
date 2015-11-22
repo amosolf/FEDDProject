@@ -30,10 +30,12 @@
         if instance_exists(DialogBox) {
             if DialogBox.text != "Great job with the bridge! I think we can head back now." {
                 dialog = makeDialog("Great job with the bridge! I think we can head back now.");
+                global.civilCleared = true;
                 dialog.isEnding = true;
             }
         } else {
             dialog = makeDialog("Great job with the bridge! I think we can head back now.");
+            global.civilCleared = true;
             dialog.isEnding = true;
         }
     }

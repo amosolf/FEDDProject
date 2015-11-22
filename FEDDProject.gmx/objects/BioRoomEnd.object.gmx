@@ -29,10 +29,12 @@
     if instance_exists(DialogBox) {
         if DialogBox.text != "Nice! With this we can save a lot of people. Let's head back." {
             dialog = makeDialog("Nice! With this we can save a lot of people. Let's head back.");
+            global.bioCleared = true;
             dialog.isEnding = true;
         }
     } else {
         dialog = makeDialog("Nice! With this we can save a lot of people. Let's head back.");
+        global.bioCleared = true;
         dialog.isEnding = true;
     }
 }
