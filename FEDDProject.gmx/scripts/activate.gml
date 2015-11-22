@@ -6,6 +6,7 @@ if object_index = Button {
             if dialog.text = text[i] {
                 if (i != array_length_1d(text)-1) {
                     dialog = makeDialog(text[i+1]);
+                    dialog.shouldDestroy = false;
                 } else {
                     room_goto(myRoom);
                 }
@@ -14,6 +15,7 @@ if object_index = Button {
         }
     } else {
         dialog = makeDialog(text[0]);
+        dialog.shouldDestroy = false;
     }
 } else if object_get_parent(object_index) = PickUp {
     if instance_exists(Inventory) {
