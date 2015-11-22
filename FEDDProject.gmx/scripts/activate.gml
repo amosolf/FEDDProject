@@ -332,5 +332,16 @@ if object_index = Button {
     instance_deactivate_object(Darkness);
     textBox = makeDialog("Alright, come to my medlab, we need to get something for Matt");
     textBox.shouldDestroy = false;
+} else if object_index = BlastDoorInteract {
+    if Inventory.slot[0] = WallReplacement {
+        Inventory.slot[0] = noone;
+        wallReplace = instance_create(x-32, y - 16, WallReplacement);
+        with(BlastDoor) {
+            instance_destroy();
+        }
+        instance_destroy();
+    } else {
+        makeDialog("Don't open that yet! You don't want the air to rush out again!");
+    }
 }
 

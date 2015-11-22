@@ -120,6 +120,11 @@ if dying {
             image_xscale = 1;
         }
     }
+    
+    if Inventory.slot[0] = ChemicalX {
+        text[0] = "Go ahead and take that to the Mechanical and Civil Engineers.";
+        text[1] = "They should be able to do something with it.";
+    }
 }
 </string>
           </argument>

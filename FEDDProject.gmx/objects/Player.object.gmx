@@ -125,7 +125,7 @@ xvel = move*spd;
 //Terminal Velocity and Gravity
 yvel = min(yvel + grav, 30);
 
-if instance_exists(bossStation) and not(instance_exists(BlastDoor)){
+if instance_exists(bossStation) and not(instance_exists(BlastDoor) or instance_exists(WallReplacement)){
     if sqrt(sqr(x - bossStation.x) + sqr(y - bossStation.y)) &lt;= 140 or abs(y - bossStation.y) &lt;= 25 {
         xvel = max(xvel - grav, -30);
     }

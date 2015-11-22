@@ -311,10 +311,12 @@
       <object>objects\Asteroid</object>
       <object>objects\SpaceCthulu</object>
       <object>objects\BlastDoor</object>
+      <object>objects\BlastDoorInteract</object>
       <object>objects\LightSwitch</object>
       <object>objects\Darkness</object>
       <object>objects\MedKit</object>
       <object>objects\ChemicalX</object>
+      <object>objects\WallReplacement</object>
     </objects>
     <object>objects\InfoSign</object>
     <object>objects\FadeOut</object>

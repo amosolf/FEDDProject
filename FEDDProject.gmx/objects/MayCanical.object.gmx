@@ -68,18 +68,22 @@ if dying {
     image_angle = 0;
     
     if(wait &gt; 0)
-{
-    sprite_index = sMech_idle;
-}
-else
-{
-    sprite_index = sMech_moving;
-    if (destination &lt; x) {
-        image_xscale = -1;
-    } else {
-        image_xscale = 1;
+    {
+        sprite_index = sMech_idle;
     }
-}
+    else
+    {
+        sprite_index = sMech_moving;
+        if (destination &lt; x) {
+            image_xscale = -1;
+        } else {
+            image_xscale = 1;
+        }
+    }
+    
+    if Inventory.slot[0] = ChemicalX {
+        text[0] = "Talk to Mr. Bridgington the Civil Engineer, he has the blueprint.";
+    }
 }
 </string>
           </argument>

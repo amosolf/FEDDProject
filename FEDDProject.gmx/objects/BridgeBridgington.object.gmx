@@ -82,6 +82,12 @@ if dying {
             image_xscale = 1;
         }
     }
+    if Inventory.slot[0] = ChemicalX {
+        text[0] = "Great, May and I have worked together to design something.";
+        text[1] = "It should keep strain from building up in one spot, and integrate with the stations systems."
+        text[2] = "Go ahead and replace the wall.";
+        item = WallReplacement;
+    }
 }
 </string>
           </argument>
