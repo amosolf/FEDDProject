@@ -90,6 +90,7 @@ for (i=-1; i&lt;right; i++)
     draw_background(clouds_dark, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+450);
     draw_background(hills_dark, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+835);
 }
+draw_background(CompSciBG,0,0);
 </string>
           </argument>
         </arguments>
