@@ -38,7 +38,7 @@
     } else {
         distSupport = 200;
     }
-    if min(distBeam, distSupport) &lt; 128 {
+    if min(distBeam, distSupport) &lt; 100 {
         spot = instance_create(x, y, MissingBeam);
         spot.image_angle = image_angle;
         spot.image_xscale = image_xscale;

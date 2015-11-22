@@ -7,9 +7,9 @@ if(instance_exists(DialogBox))
 dbox = instance_create(0,400,DialogBox);
 with(dbox)
 {
-    maxLength = view_wview[0]-2;
     height = 100;
     padding = 16;
+    maxLength = view_wview[0]-2-padding*2;
     font = fSmall;
     draw_set_font(font);
     text = argument0;
