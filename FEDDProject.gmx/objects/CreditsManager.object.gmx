@@ -60,7 +60,9 @@ if(skip || y&lt;-450)
 
     if fade &gt; 1 {
         room_goto(mainmenu);
+        audio_stop_all();
     }
+    
 }
 </string>
           </argument>
