@@ -56,11 +56,6 @@ primed = false;
         instance_destroy();
     }
 }
-if instance_exists(dialog) {
-        with(dialog) {
-            instance_destroy();
-        }
-    }
 </string>
           </argument>
         </arguments>

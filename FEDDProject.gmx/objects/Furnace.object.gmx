@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>heat = 50;
-pressure = 50;
+            <string>heat = 250;
+pressure = 5;
 
-targetHeat = 75;
-targetPressure = 75;
+targetHeat = 285;
+targetPressure = 3;
 </string>
           </argument>
         </arguments>

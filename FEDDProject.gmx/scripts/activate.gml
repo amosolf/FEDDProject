@@ -213,12 +213,24 @@ if object_index = Button {
     instance_destroy();
 } else if object_index = LeverUpHeat {
     Furnace.heat += 5;
+    if Furnace.heat > 300 {
+        Furnace.heat = 200;
+    }
 } else if object_index = LeverDownHeat {
     Furnace.heat -= 5;
+    if Furnace.heat < 200 {
+        Furnace.heat = 300;
+    }
 } else if object_index = LeverUpPress {
-    Furnace.pressure += 5;
+    Furnace.pressure += 1;
+    if Furnace.pressure > 10 {
+        Furnace.pressure = 0;
+    }
 } else if object_index = LeverDownPress {
-    Furnace.pressure -= 5;
+    Furnace.pressure -= 1;
+    if Furnace.pressure < 0 {
+        Furnace.pressure = 10;
+    }
 } else if object_index = TestButtonChem {
     var correct = 0;
     var tooHigh = 0;
