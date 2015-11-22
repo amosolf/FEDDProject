@@ -143,6 +143,7 @@
     <background>background\hills_dark</background>
     <background>background\clouds_dark</background>
     <background>background\mountain_dark</background>
+    <background>background\CompSciBG</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
