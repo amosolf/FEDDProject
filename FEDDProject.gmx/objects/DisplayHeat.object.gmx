@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>draw_sprite(sprite_index, 0, x, y);
+draw_set_font(fSmall);
 draw_text(x-16, y-16, string(Furnace.heat));
 </string>
           </argument>
