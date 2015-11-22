@@ -49,7 +49,23 @@ parts[0] = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if active {
+            <string>var done = true;
+for (var i = 0; i &lt; array_length_1d(parts); i += 1) {
+    if object_is_ancestor(parts[i], Draggable) {
+        if !parts[i].placed {
+            done = false;
+            break;
+        }
+    }
+}
+
+if done {
+    active = false;
+    dialog = makeDialog("Great! The spark plug has been built! We can head back now.");
+    dialog.isEnding = true;
+}
+
+if active {
     for (var i = 0; i &lt; array_length_1d(parts); i += 1) {
         if not(instance_exists(parts[i])) {
             instance_activate_object(parts[i]);
