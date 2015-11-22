@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>NPC</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>time = 0;
+            <string>event_inherited();
+
+text[0] = "'Sup";
+
+time = 0;
 
 defAngle = image_angle;
 
@@ -65,6 +69,37 @@ if dying {
     sprite_index = sMaterial_Dying;
     image_angle = 10*sin(time) - 20 + defAngle;
 } else if KOed{
+    if primed {
+        if(global.eyeEnabled)
+        {
+            if not(instance_exists(indicator)){
+                indicator = instance_create(x, y-32, InteractTarget);
+                indicator.object = id;
+                indicator.x = x;
+                indicator.y = y-32;
+            }
+        }
+        else
+        {
+            if not(instance_exists(indicator)){
+                indicator = instance_create(x, y-32, InteractIndicator);
+                indicator.object = id;
+                indicator.x = x;
+                indicator.y = y-32;
+            }
+        }
+    } else {
+        if instance_exists(indicator) {
+            with(indicator) {
+                instance_destroy();
+            }
+        }
+        if instance_exists(dialog) {
+            with(dialog) {
+                instance_destroy();
+            }
+        }
+    }
     sprite_index = sMaterial_idle;
     image_angle = 270;
 } else {

@@ -1,5 +1,13 @@
 if object_index = Button {
     instance_create(x, y, Firework);
+} else if object_index = MattGlass and MattGlass.KOed = true {
+    if Inventory.slot[0] = MedKit {
+        KOed = false;
+        Inventory.slot[0] = noone;
+    } else {
+        dialog = makeDialog("Ugh. Go get help. From the doctor.");
+        dialog.shouldDestroy = false;
+    }
 } else if object_get_parent(object_index) = NPC {
     if instance_exists(dialog) {
         for (var i=0; i < array_length_1d(text); i += 1) {
