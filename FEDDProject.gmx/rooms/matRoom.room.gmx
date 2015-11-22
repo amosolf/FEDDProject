@@ -12,7 +12,22 @@
   <showcolour>-1</showcolour>
   <code>with(Inventory) {
     slots = 1;
-}</code>
+}
+
+plat = instance_find(LabelPlatform, 0);
+plat.label = "Melt";
+
+plat = instance_find(LabelPlatform, 1);
+plat.label = "Laminate";
+
+plat = instance_find(LabelPlatform, 2);
+plat.label = "Heat";
+
+plat = instance_find(LabelPlatform, 3);
+plat.label = "Vacuum";
+
+plat = instance_find(LabelPlatform, 4);
+plat.label = "Pressure";</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -68,11 +83,11 @@
     <instance objName="Slot2" x="480" y="704" name="inst_103AFB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Slot3" x="544" y="704" name="inst_DE7B26C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Inventory" x="32" y="0" name="inst_92795B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="128" y="672" name="inst_1349A6DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="224" y="672" name="inst_54CB4519" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="320" y="672" name="inst_60AD6255" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="256" y="608" name="inst_37742DCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TreeBranch" x="160" y="608" name="inst_08CFF8FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LabelPlatform" x="128" y="672" name="inst_6042AB8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LabelPlatform" x="224" y="672" name="inst_DA128740" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LabelPlatform" x="320" y="672" name="inst_595AEEEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LabelPlatform" x="160" y="608" name="inst_D8C445B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LabelPlatform" x="256" y="608" name="inst_EB5C2D9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -149,6 +149,7 @@
     <font>fonts\fMenu</font>
     <font>fonts\fDialog</font>
     <font>fonts\fSmall</font>
+    <font>fonts\fReallySmall</font>
   </fonts>
   <objects name="objects">
     <objects name="Engineers">
@@ -313,6 +314,7 @@
     <object>objects\InsulatorSpot</object>
     <object>objects\Asteroid</object>
     <object>objects\SpaceCthulu</object>
+    <object>objects\LabelPlatform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
