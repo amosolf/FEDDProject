@@ -275,7 +275,7 @@
       <object>objects\DisplayHeat</object>
       <object>objects\DisplayPressure</object>
       <object>objects\LeverDownHeat</object>
-      <object>objects\LeverDownPress</object>
+      <object>objects\TestButtonChem</object>
       <object>objects\TestButtonChem</object>
     </objects>
     <object>objects\InteractTarget</object>
