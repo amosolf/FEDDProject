@@ -16,8 +16,12 @@ instance_create(0, 0, FadeIn);
 
 global.roomsCleared = global.bioCleared + global.mechCleared + global.chemCleared + global.compSciCleared + global.matCleared + global.civilCleared;
 
-Asteroid.image_xscale = global.roomsCleared;
-Asteroid.image_yscale = global.roomsCleared;</code>
+if global.roomsCleared = 6 {
+    room_goto(bossroom);
+}
+
+Asteroid.image_xscale = .05*(global.roomsCleared + 1);
+Asteroid.image_yscale = .05*(global.roomsCleared + 1);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
