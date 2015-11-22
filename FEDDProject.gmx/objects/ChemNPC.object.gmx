@@ -28,7 +28,7 @@
             <string>event_inherited();
 
 text[0] = "Hi! I'm a chemical engineer.";
-text[1] = "I work with chemicals.";
+text[1] = "I use chemical reactions to make Nylon.";
 text[2] = "Want me to teach you?";
 
 myRoom = chemRoom;

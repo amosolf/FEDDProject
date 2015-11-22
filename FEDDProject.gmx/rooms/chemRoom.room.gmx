@@ -2,15 +2,17 @@
 <room>
   <caption></caption>
   <width>1024</width>
-  <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <height>384</height>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>sign1 = instance_find(InfoSign, 0);
+sign1.info = "You're making nylon in a big pressure cooker called an autoclave. 
+Use the left levers to change the temperature (C) and the right lever to change the pressure (atm)";</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -51,18 +53,102 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Chemical" x="48" y="720" name="inst_71ECEC6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ChemFloor" x="512" y="752" name="inst_8AA53DCC" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ChemFloor" x="16" y="384" name="inst_97535F45" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
-    <instance objName="LeverStand" x="192" y="704" name="inst_742AFA3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Furnace" x="416" y="640" name="inst_01936DB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ChemManager" x="64" y="0" name="inst_E506E22D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DisplayHeat" x="192" y="640" name="inst_A0FB6F7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverUpHeat" x="160" y="704" name="inst_1A820051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverDownHeat" x="224" y="704" name="inst_CF82E8F0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverStand" x="640" y="704" name="inst_880AF08C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LeverUpPress" x="608" y="704" name="inst_A2070E28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="DisplayPressure" x="640" y="640" name="inst_9974235E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chemical" x="48" y="336" name="inst_71ECEC6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LeverStand" x="192" y="320" name="inst_742AFA3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Furnace" x="416" y="293" name="inst_01936DB4" locked="0" code="" scaleX="0.5799999833107" scaleY="0.5799999833107" colour="4294967295" rotation="0"/>
+    <instance objName="ChemManager" x="32" y="32" name="inst_E506E22D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DisplayHeat" x="192" y="256" name="inst_A0FB6F7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LeverUpHeat" x="168" y="320" name="inst_1A820051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LeverDownHeat" x="216" y="320" name="inst_CF82E8F0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LeverStand" x="640" y="320" name="inst_880AF08C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="LeverUpPress" x="616" y="320" name="inst_A2070E28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="DisplayPressure" x="640" y="256" name="inst_9974235E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="112" y="368" name="inst_A29CC291" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="176" y="368" name="inst_838C4F6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="144" y="368" name="inst_E3064997" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="368" name="inst_1E063435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="48" y="368" name="inst_39AC6435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="80" y="368" name="inst_D5346748" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="208" y="368" name="inst_ED4A71B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="240" y="368" name="inst_87A1D4A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="272" y="368" name="inst_2B9464A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="304" y="368" name="inst_5BC69F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="336" y="368" name="inst_311BCC9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="368" y="368" name="inst_C1E6E05C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="400" y="368" name="inst_9793EC9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="432" y="368" name="inst_24878F19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="464" y="368" name="inst_C4A120D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="496" y="368" name="inst_4DF88297" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="528" y="368" name="inst_FD1BAEF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="560" y="368" name="inst_D6118B6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="592" y="368" name="inst_FA2451FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="624" y="368" name="inst_FE7D02BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="656" y="368" name="inst_6AAC804E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="688" y="368" name="inst_B27D1085" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="720" y="368" name="inst_03A168FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="752" y="368" name="inst_3F4FFF89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="784" y="368" name="inst_479A294A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="816" y="368" name="inst_E0430DC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="848" y="368" name="inst_83959BDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="880" y="368" name="inst_EFFD59B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="912" y="368" name="inst_76240FC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="944" y="368" name="inst_EFBFE8C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="976" y="368" name="inst_42619583" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="368" name="inst_0F162E9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="336" name="inst_A12243FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="304" name="inst_F49AA14F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="272" name="inst_BC34344D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="240" name="inst_968009AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="208" name="inst_E2F7B374" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="176" name="inst_EBC210B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="144" name="inst_54614501" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="112" name="inst_EAE92360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="80" name="inst_1963C051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="48" name="inst_6FFBD771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="1008" y="16" name="inst_2EFC8C2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="336" name="inst_CFACB5E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="304" name="inst_935B50FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="272" name="inst_89672DFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="240" name="inst_EA85F475" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="208" name="inst_3BCE6379" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="176" name="inst_47105428" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="144" name="inst_A8D1EFF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="112" name="inst_641BBFFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="80" name="inst_9A917337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="48" name="inst_21FAB2D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="272" y="16" name="inst_D8B1C70B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="304" y="16" name="inst_CB9ECC31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="336" y="16" name="inst_21FFC724" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="784" y="16" name="inst_CA1C2CC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="816" y="16" name="inst_0F91DE75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="848" y="16" name="inst_2BAABD6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="880" y="16" name="inst_D60A4D86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="912" y="16" name="inst_1D7A5250" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="240" y="16" name="inst_9A585C13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="208" y="16" name="inst_D2315EE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="176" y="16" name="inst_AF4A99E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="144" y="16" name="inst_BFF9F745" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="112" y="16" name="inst_DBE3079A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="80" y="16" name="inst_82E57445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="48" y="16" name="inst_DC9E7EE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="16" y="16" name="inst_34400884" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="752" y="16" name="inst_AA2C050D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="720" y="16" name="inst_E39DD7D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="432" y="16" name="inst_2DB6999D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="400" y="16" name="inst_995A4796" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="368" y="16" name="inst_12E00791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="944" y="16" name="inst_ECCCF146" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="688" y="16" name="inst_1B3702B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="656" y="16" name="inst_45AC9C22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="624" y="16" name="inst_BB8AB0B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="592" y="16" name="inst_7512C1FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="560" y="16" name="inst_5CC80CA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="528" y="16" name="inst_6F1EBBDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="496" y="16" name="inst_01E7AFAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="464" y="16" name="inst_89349157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ChemFloor" x="976" y="16" name="inst_539E0B15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TestButtonChem" x="409" y="296" name="inst_1069E421" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="InfoSign" x="96" y="336" name="inst_A34D4BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
