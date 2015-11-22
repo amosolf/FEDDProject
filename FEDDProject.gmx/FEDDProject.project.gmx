@@ -297,11 +297,14 @@
       <object>objects\bossStation</object>
     </objects>
     <object>objects\InfoSign</object>
+    <object>objects\FadeOut</object>
+    <object>objects\FadeIn</object>
     <object>objects\Dragable</object>
     <object>objects\Dragable</object>
     <object>objects\Dragable</object>
     <object>objects\DropSpot</object>
     <object>objects\DragTest</object>
+    <object>objects\DropTest</object>
     <object>objects\Insulator</object>
     <object>objects\Insulator</object>
     <object>objects\Electrode</object>
