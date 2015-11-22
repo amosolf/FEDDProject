@@ -280,5 +280,11 @@ if object_index = Button {
         global.chemCleared = true;
         dialog.isEnding = true;
     }
+} else if object_index = LightSwitch {
+    for (var i = 0; i < array_length_1d(doors); i += 1) {
+        instance_activate_object(doors[i]);
+    }
+    MattGlass.dying = false;
+    instance_deactivate_object(Darkness);
 }
 

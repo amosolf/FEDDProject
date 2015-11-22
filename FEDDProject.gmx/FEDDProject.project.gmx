@@ -28,6 +28,7 @@
       <sprite>sprites\sCompSci_moving</sprite>
       <sprite>sprites\sCompSci_jump</sprite>
       <sprite>sprites\sMaterial_idle</sprite>
+      <sprite>sprites\sMaterial_Dying</sprite>
       <sprite>sprites\sMaterial_moving</sprite>
       <sprite>sprites\sMaterial_jump</sprite>
       <sprite>sprites\sChem_idle</sprite>
@@ -311,6 +312,8 @@
       <object>objects\Asteroid</object>
       <object>objects\SpaceCthulu</object>
       <object>objects\BlastDoor</object>
+      <object>objects\LightSwitch</object>
+      <object>objects\Darkness</object>
     </objects>
     <object>objects\InfoSign</object>
     <object>objects\FadeOut</object>
