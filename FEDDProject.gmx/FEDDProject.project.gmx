@@ -124,6 +124,7 @@
     <sprite>sprites\sElectrodeSpot</sprite>
     <sprite>sprites\sInsulatorSpot</sprite>
     <sprite>sprites\sAsteroid</sprite>
+    <sprite>sprites\sSpaceCthulu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -311,6 +312,7 @@
     <object>objects\ElectrodeSpot</object>
     <object>objects\InsulatorSpot</object>
     <object>objects\Asteroid</object>
+    <object>objects\SpaceCthulu</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
