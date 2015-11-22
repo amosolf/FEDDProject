@@ -69,6 +69,22 @@ if dying {
     image_angle = 270;
 } else {
     event_inherited();
+    
+    image_angle = 0;
+    
+    if(wait &gt; 0)
+    {
+        sprite_index = sMaterial_idle;
+    }
+    else
+    {
+        sprite_index = sMaterial_moving;
+        if (destination &lt; x) {
+            image_xscale = -1;
+        } else {
+            image_xscale = 1;
+        }
+    }
 }
 </string>
           </argument>

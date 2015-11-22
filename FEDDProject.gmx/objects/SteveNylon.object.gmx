@@ -64,6 +64,22 @@ if dying {
     image_angle = 10*sin(time) - 20 + defAngle;
 } else {
     event_inherited();
+    
+    image_angle = 0;
+    
+    if(wait &gt; 0)
+    {
+        sprite_index = sChem_idle;
+    }
+    else
+    {
+        sprite_index = sChem_moving;
+        if (destination &lt; x) {
+            image_xscale = -1;
+        } else {
+            image_xscale = 1;
+        }
+    }
 }
 </string>
           </argument>
