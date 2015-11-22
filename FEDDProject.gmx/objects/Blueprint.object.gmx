@@ -25,12 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>pieceH1 = instance_create(576,593,MissingBeam);
-pieceH2 = instance_create(704,593,MissingBeam);
-pieceH3 = instance_create(832,593,MissingBeam);
+            <string>pieceH1 = instance_create(576,597,MissingBeam);
+pieceH2 = instance_create(704,597,MissingBeam);
+pieceH3 = instance_create(832,597,MissingBeam);
 
-pieceV1 = instance_create(638,688,MissingBeam);
-pieceV2 = instance_create(766,688,MissingBeam);
+pieceV1 = instance_create(638,684,MissingBeam);
+pieceV2 = instance_create(766,684,MissingBeam);
 
 pieceS1 = instance_create(544,544,MissingAngleBeam);
 pieceS2 = instance_create(608,544,MissingAngleBeam);
@@ -46,13 +46,13 @@ pieceH3.image_xscale = 5; pieceH3.image_yscale = 4; pieceH3.image_angle = 90;
 pieceV1.image_xscale = 5; pieceV1.image_yscale = 5; 
 pieceV2.image_xscale = 5; pieceV2.image_yscale = 5; 
 
-pieceS1.image_xscale = 3; pieceS1.image_yscale = 3; pieceS1.image_angle = 135;
-pieceS3.image_xscale = 3; pieceS3.image_yscale = 3; pieceS3.image_angle = 135;
-pieceS5.image_xscale = 3; pieceS5.image_yscale = 3; pieceS5.image_angle = 135;
+pieceS1.image_xscale = 3; pieceS1.image_yscale = 3.5; pieceS1.image_angle = 135;
+pieceS3.image_xscale = 3; pieceS3.image_yscale = 3.5; pieceS3.image_angle = 135;
+pieceS5.image_xscale = 3; pieceS5.image_yscale = 3.5; pieceS5.image_angle = 135;
 
-pieceS2.image_xscale = 3; pieceS2.image_yscale = 3; pieceS2.image_angle = 45;
-pieceS4.image_xscale = 3; pieceS4.image_yscale = 3; pieceS4.image_angle = 45;
-pieceS6.image_xscale = 3; pieceS6.image_yscale = 3; pieceS6.image_angle = 45;
+pieceS2.image_xscale = 3; pieceS2.image_yscale = 3.5; pieceS2.image_angle = 45;
+pieceS4.image_xscale = 3; pieceS4.image_yscale = 3.5; pieceS4.image_angle = 45;
+pieceS6.image_xscale = 3; pieceS6.image_yscale = 3.5; pieceS6.image_angle = 45;
 
 
 event_inherited();
