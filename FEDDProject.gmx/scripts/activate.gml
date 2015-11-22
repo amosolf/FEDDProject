@@ -4,6 +4,8 @@ if object_index = Button {
     if Inventory.slot[0] = MedKit {
         KOed = false;
         Inventory.slot[0] = noone;
+        y -= 9;
+        defx = 1248;
     } else {
         dialog = makeDialog("Ugh. Go get help. From the doctor.");
         dialog.shouldDestroy = false;
