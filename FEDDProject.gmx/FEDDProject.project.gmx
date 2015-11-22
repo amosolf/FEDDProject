@@ -123,6 +123,7 @@
     <sprite>sprites\sBatterySpot</sprite>
     <sprite>sprites\sElectrodeSpot</sprite>
     <sprite>sprites\sInsulatorSpot</sprite>
+    <sprite>sprites\sAsteroid</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -300,18 +301,16 @@
     <object>objects\FadeOut</object>
     <object>objects\FadeIn</object>
     <object>objects\Dragable</object>
-    <object>objects\Dragable</object>
-    <object>objects\Dragable</object>
     <object>objects\DropSpot</object>
     <object>objects\DragTest</object>
     <object>objects\DropTest</object>
-    <object>objects\Insulator</object>
     <object>objects\Insulator</object>
     <object>objects\Electrode</object>
     <object>objects\Battery</object>
     <object>objects\BatterySpot</object>
     <object>objects\ElectrodeSpot</object>
     <object>objects\InsulatorSpot</object>
+    <object>objects\Asteroid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

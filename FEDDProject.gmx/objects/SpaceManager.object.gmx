@@ -35,6 +35,7 @@ audio_stop_all();
 audio_play_sound(bossmusic,1,true);
 }
 
+// instance_create(x-something*(roomsCleared+1),y+something*(roomsCleared+1),Asteroid); Asteriod.image_xscale = .05*r(roomsCleared+1); Asteroid.image_yscale = .05*(roomsCleared+1);
 
 depth = 1000;
 

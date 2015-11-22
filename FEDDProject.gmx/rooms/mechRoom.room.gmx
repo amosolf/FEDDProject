@@ -164,7 +164,6 @@
     <instance objName="MechFloor" x="1216" y="160" name="inst_B483DA95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mechBG" x="608" y="271" name="inst_D38529E5" locked="0" code="" scaleX="0.995199978351593" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="EngineUI" x="1056" y="224" name="inst_13C41996" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Insulator" x="1152" y="128" name="inst_A46EF269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Electrode" x="1152" y="224" name="inst_CD884DCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Battery" x="1152" y="320" name="inst_25C9F14D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BatterySpot" x="960" y="128" name="inst_8F09A463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
