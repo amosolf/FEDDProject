@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//Eye Controls
 //distance from edge of screen to activate button
-border = 100;
+border = 220;
 //Gravity
 grav = .4;
 //Friction

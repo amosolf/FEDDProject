@@ -131,6 +131,7 @@
     </sprites>
     <sprite>sprites\sSign</sprite>
     <sprite>sprites\sPortal</sprite>
+    <sprite>sprites\sCredits</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -214,6 +215,7 @@
       <object>objects\ChemManager</object>
       <object>objects\MaterialManager</object>
       <object>objects\MechManager</object>
+      <object>objects\CreditsManager</object>
     </objects>
     <object>objects\Boss1</object>
     <object>objects\Target</object>
@@ -331,7 +333,6 @@
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
     <room>rooms\room0</room>
-    <room>rooms\bossroom</room>
     <room>rooms\bioRoom</room>
     <room>rooms\tutorial</room>
     <room>rooms\mechRoom</room>
@@ -339,6 +340,7 @@
     <room>rooms\chemRoom</room>
     <room>rooms\matRoom</room>
     <room>rooms\civilRoom</room>
+    <room>rooms\bossroom</room>
     <room>rooms\credits</room>
   </rooms>
   <help>
