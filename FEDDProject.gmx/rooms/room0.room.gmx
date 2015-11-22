@@ -12,7 +12,12 @@
   <showcolour>-1</showcolour>
   <code>//STATION OBJECT MUST BE AT 1006 x 610!
 
-instance_create(0, 0, FadeIn);</code>
+instance_create(0, 0, FadeIn);
+
+global.roomsCleared = global.bioCleared + global.mechCleared + global.chemCleared + global.compSciCleared + global.matCleared + global.civilCleared;
+
+Asteroid.image_xscale = global.roomsCleared;
+Asteroid.image_yscale = global.roomsCleared;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
