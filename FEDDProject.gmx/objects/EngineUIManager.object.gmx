@@ -61,8 +61,16 @@ for (var i = 0; i &lt; array_length_1d(parts); i += 1) {
 
 if done {
     active = false;
-    dialog = makeDialog("Great! The spark plug has been built! We can head back now.");
-    dialog.isEnding = true;
+    Player.paused = false;
+    if instance_exists(DialogBox) {
+        if DialogBox.text != "Great! The spark plug has been built! We can head back now." {
+            dialog = makeDialog("Great! The spark plug has been built! We can head back now.");
+            dialog.isEnding = true;
+        }
+    } else {
+        dialog = makeDialog("Great! The spark plug has been built! We can head back now.");
+        dialog.isEnding = true;
+    }
 }
 
 if active {
