@@ -35,7 +35,7 @@ else
 }
 if not(isGrounded)
 {
-    sprite_index = sMech_idle;
+    sprite_index = sMech_Jump;
 }
 event_inherited();
 </string>

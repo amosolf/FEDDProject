@@ -31,6 +31,7 @@
       <sprite>sprites\sChem_jump</sprite>
       <sprite>sprites\sCompSci_jump</sprite>
       <sprite>sprites\sCivil_jump</sprite>
+      <sprite>sprites\sMech_Jump</sprite>
     </sprites>
     <sprites name="Doors">
       <sprite>sprites\sMechDoor</sprite>
