@@ -27,9 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 
-text[0] = "Hi";
-text[1] = "Hello";
-text[2] = "Sup";
+text[0] = "Matt needs help! Talk to the doctor.";
 
 cleared = false;
 

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited()
 
-text[0] = "Hello";
+text[0] = "Please, go help Matt first! Go to the medlab.";
 
 dying = true;
 defAngle = image_angle;

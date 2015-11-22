@@ -7,6 +7,20 @@ if object_index = Button {
         y -= 8;
         defx = 1248;
         dialog = makeDialog("Thanks for the help. Come with me to talk to Steve, the Chemical Engineer.");
+        PerryWinkle.text[0] = "Great, Matt seems better.";
+        PerryWinkle.text[1] = "You should go do something about that hole, though.";
+        PerryWinkle.text[2] = "Talk to Steve the Chemical Engineer if you haven't yet.";
+        PerryWinkle.item = noone;
+    
+        SteveNylon.item = ChemicalX;
+        SteveNylon.text[0] = "Me and Matt have developed this material.";
+        SteveNylon.text[1] = "It should be able to withstand the pressure differential.";
+        
+        MattGlass.text[0] = "Talk to Steve, he and I made something for you.";
+        
+        MayCanical.text[0] = "You should talk to Steve the Chemical engineer first.";
+        
+        BridgeBridgington.text[0] = "We need a material to build the replacement wall out of.";
     } else {
         dialog = makeDialog("Ugh. Go get help. From the doctor.");
         dialog.shouldDestroy = false;
