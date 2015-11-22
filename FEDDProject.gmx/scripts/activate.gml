@@ -15,6 +15,7 @@ if object_index = Button {
         SteveNylon.item = ChemicalX;
         SteveNylon.text[0] = "Me and Matt have developed this material.";
         SteveNylon.text[1] = "It should be able to withstand the pressure differential.";
+        SteveNylon.text[2] = "Go see what May and Mr. Bridgington can do with that, they're in the bottom left pod.";
         
         MattGlass.text[0] = "Talk to Steve, he and I made something for you.";
         
