@@ -117,6 +117,12 @@
     <sprite>sprites\sSign</sprite>
     <sprite>sprites\sbossStation</sprite>
     <sprite>sprites\sTerminal</sprite>
+    <sprite>sprites\sBattery</sprite>
+    <sprite>sprites\sElectrode</sprite>
+    <sprite>sprites\sInsulator</sprite>
+    <sprite>sprites\sBatterySpot</sprite>
+    <sprite>sprites\sElectrodeSpot</sprite>
+    <sprite>sprites\sInsulatorSpot</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -296,6 +302,12 @@
     <object>objects\DropSpot</object>
     <object>objects\DragTest</object>
     <object>objects\DropTest</object>
+    <object>objects\Insulator</object>
+    <object>objects\Electrode</object>
+    <object>objects\Battery</object>
+    <object>objects\BatterySpot</object>
+    <object>objects\ElectrodeSpot</object>
+    <object>objects\InsilatorSpot</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>
