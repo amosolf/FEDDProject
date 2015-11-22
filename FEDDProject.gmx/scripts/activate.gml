@@ -255,6 +255,7 @@ if object_index = Button {
         } else {
             text = "One of those is too low, and the other is just right";
         }
+        makeDialog(text);
     } else {
         dialog = makeDialog("Great job that should make great nylon!");
         dialog.isEnding = true;
