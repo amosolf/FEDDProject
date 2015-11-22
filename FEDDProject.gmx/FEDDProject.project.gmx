@@ -78,6 +78,7 @@
     </sprites>
     <sprites name="CompSci">
       <sprite>sprites\sLaserSensor</sprite>
+      <sprite>sprites\sLaserShooter</sprite>
       <sprite>sprites\sDownStaircase</sprite>
       <sprite>sprites\sCompFloor</sprite>
       <sprite>sprites\sUpStaircase</sprite>
@@ -125,7 +126,6 @@
     <sprite>sprites\sInsulatorSpot</sprite>
     <sprite>sprites\sAsteroid</sprite>
     <sprite>sprites\sSpaceCthulu</sprite>
-    <sprite>sprites\sLaserShooter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
