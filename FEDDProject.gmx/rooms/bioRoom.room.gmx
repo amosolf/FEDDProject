@@ -15,7 +15,7 @@
 }
 
 sign1 = instance_find(InfoSign, 0);
-sign1.info = "Jump up on these tree branches to gather Madagascar Periwinkles";</code>
+sign1.info = "Jump up on these tree branches to gather Madagascar Periwinkles.";</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

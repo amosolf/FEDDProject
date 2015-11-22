@@ -105,7 +105,7 @@ isEnding = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fDialog);
+            <string>draw_set_font(font);
 draw_set_alpha(0.5);
 draw_roundrect_color(0, 0, window_get_width(), boxHeight, c_black, c_black, false);
 draw_set_alpha(1);
