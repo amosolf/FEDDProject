@@ -190,32 +190,32 @@ if isGrounded {
     }
 }
 ////Interactions////
-if interact != instance_nearest(x, y, Interactible) and instance_exists(interact) {
-    interact.primed = false;
-}
-interact = instance_nearest(x, y, Interactible);
-if sqrt(sqr(interact.x - x) + sqr(interact.y - y)) &gt; 64 {
-    interact.primed = false;
-    interact = noone;
-}
-
-if instance_exists(interact) {
-    interact.primed = true;
-}
-
-if up {
-    pressed = true;
+if instance_exists(Interactible) {
+    if interact != instance_nearest(x, y, Interactible) and instance_exists(interact) {
+        interact.primed = false;
+    }
+    interact = instance_nearest(x, y, Interactible);
+    if sqrt(sqr(interact.x - x) + sqr(interact.y - y)) &gt; 64 {
+        interact.primed = false;
+        interact = noone;
+    }
+    
     if instance_exists(interact) {
-        with interact {
-            activate(object_get_name(object_index));
+        interact.primed = true;
+    }
+    
+    if up {
+        pressed = true;
+        if instance_exists(interact) {
+            with interact {
+                activate(object_get_name(object_index));
+            }
         }
     }
-}
-
-//So, for eye controls, this will need some tweaking,
-//I don't know how you want to check if they're releasing it
-if keyboard_check_released(vk_up) {
-    pressed = false;
+    
+    if keyboard_check_released(vk_up) {
+        pressed = false;
+    }
 }
 </string>
           </argument>
