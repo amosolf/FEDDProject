@@ -46,12 +46,14 @@ if object_index = Button {
                     beam.image_angle = image_angle;
                     beam.image_xscale = image_xscale;
                     beam.image_yscale = image_yscale;
+                    beam.depth = depth;
                     instance_destroy();
                 } else if object_index = MissingAngleBeam {
                     beam = instance_create(x, y, AngledBeam);
                     beam.image_angle = image_angle;
                     beam.image_xscale = image_xscale;
                     beam.image_yscale = image_yscale;
+                    beam.depth = depth;
                     instance_destroy();
                 }
                 break;
