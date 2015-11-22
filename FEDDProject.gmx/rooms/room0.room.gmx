@@ -21,7 +21,10 @@ if global.roomsCleared = 6 {
 }
 
 Asteroid.image_xscale = .05*(global.roomsCleared + 1);
-Asteroid.image_yscale = .05*(global.roomsCleared + 1);</code>
+Asteroid.image_yscale = .05*(global.roomsCleared + 1);
+
+sign1 = instance_find(InfoSign, 0);
+sign1.info = "Go ahead and talk to the Engineers by pressing up!";</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -69,7 +72,6 @@ Asteroid.image_yscale = .05*(global.roomsCleared + 1);</code>
     <instance objName="MaterialNPC" x="728" y="663" name="inst_5CE28965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpaceManager" x="116" y="72" name="inst_1CDDC441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpaceStation" x="1006" y="610" name="inst_5804F67E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Button" x="1023" y="620" name="inst_DFF927B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompSciNPC" x="783" y="441" name="inst_6DB12B03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="880" y="650" name="inst_F31057DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="912" y="650" name="inst_056C794F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -97,6 +99,7 @@ Asteroid.image_yscale = .05*(global.roomsCleared + 1);</code>
     <instance objName="Robot" x="995" y="617" name="inst_C8B3297C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Asteroid" x="1410" y="194" name="inst_8390D48C" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="SpaceCthulu" x="1467" y="157" name="inst_06DB03E8" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="InfoSign" x="1038" y="618" name="inst_FD00B44F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
