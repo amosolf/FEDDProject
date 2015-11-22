@@ -288,7 +288,12 @@ if object_index = Button {
     for (var i = 0; i < array_length_1d(doors); i += 1) {
         instance_activate_object(doors[i]);
     }
+    JaneBlond.dying = false;
     MattGlass.dying = false;
+    BridgeBridgington.dying = false;
+    SteveNylon.dying = false;
+    MayCanical.dying = false;
+    PerryWinkle.dying = false;
     instance_deactivate_object(Darkness);
     textBox = makeDialog("Alright, come to my medlab, we need to get something for Matt");
     textBox.shouldDestroy = false;

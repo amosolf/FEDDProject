@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>time = 0;
 
+defAngle = image_angle;
+
 dying = true;
 
 KOed = true;
@@ -61,7 +63,7 @@ if time &gt; 359 {
 
 if dying {
     sprite_index = sMaterial_Dying;
-    image_angle = 10*sin(time) + 250;
+    image_angle = 10*sin(time) - 20 + defAngle;
 } else if KOed{
     sprite_index = sMaterial_idle;
     image_angle = 270;
