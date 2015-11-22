@@ -343,5 +343,7 @@ if object_index = Button {
     } else {
         makeDialog("Don't open that yet! You don't want the air to rush out again!");
     }
+} else if object_index = Portal {
+    instance_create(x, y, FadeOut);
 }
 

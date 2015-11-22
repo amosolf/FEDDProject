@@ -130,6 +130,7 @@
       <sprite>sprites\sAsteroid</sprite>
     </sprites>
     <sprite>sprites\sSign</sprite>
+    <sprite>sprites\sPortal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\sky</background>
@@ -235,7 +236,6 @@
       <object>objects\Tree</object>
       <object>objects\BioFlower</object>
       <object>objects\TreeBranch</object>
-      <object>objects\BioRoomEnd</object>
     </objects>
     <objects name="CompSci">
       <object>objects\CompFloor</object>
@@ -326,6 +326,7 @@
     <object>objects\DragTest</object>
     <object>objects\DropTest</object>
     <object>objects\LabelPlatform</object>
+    <object>objects\Portal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainmenu</room>

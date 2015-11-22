@@ -62,6 +62,20 @@ if not(instance_exists(DialogBox)) or currentDisplay != instance_number(BioFlowe
     dialogBox.shouldDestroy = false;
     currentDisplay = instance_number(BioFlower);
 }
+
+if instance_number(BioFlower) = 0{
+    if instance_exists(DialogBox) {
+        if DialogBox.text != "Nice! With this we can save a lot of people. Let's head back." {
+            dialog = makeDialog("Nice! With this we can save a lot of people. Let's head back.");
+            global.bioCleared = true;
+            dialog.isEnding = true;
+        }
+    } else {
+        dialog = makeDialog("Nice! With this we can save a lot of people. Let's head back.");
+        global.bioCleared = true;
+        dialog.isEnding = true;
+    }
+}
 </string>
           </argument>
         </arguments>
