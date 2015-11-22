@@ -4,8 +4,9 @@ if object_index = Button {
     if Inventory.slot[0] = MedKit {
         KOed = false;
         Inventory.slot[0] = noone;
-        y -= 9;
+        y -= 8;
         defx = 1248;
+        dialog = makeDialog("Thanks for the help. Come with me to talk to Steve, the Chemical Engineer.");
     } else {
         dialog = makeDialog("Ugh. Go get help. From the doctor.");
         dialog.shouldDestroy = false;
@@ -24,6 +25,9 @@ if object_index = Button {
                         room_goto(myRoom);
                     } else if item != noone {
                         Inventory.slot[0] = item;
+                        with(dialog) {
+                            instance_destroy();
+                        }
                     }
                 }
                 break;
@@ -299,11 +303,17 @@ if object_index = Button {
         instance_activate_object(doors[i]);
     }
     JaneBlond.dying = false;
+    JaneBlond.y -= 8;
     MattGlass.dying = false;
     BridgeBridgington.dying = false;
+    BridgeBridgington.y -= 8;
     SteveNylon.dying = false;
+    SteveNylon.y -= 8;
     MayCanical.dying = false;
+    MayCanical.y -= 8;
+    MayCanical.defx = 805;
     PerryWinkle.dying = false;
+    PerryWinkle.y -= 8;
     instance_deactivate_object(Darkness);
     textBox = makeDialog("Alright, come to my medlab, we need to get something for Matt");
     textBox.shouldDestroy = false;

@@ -96,6 +96,12 @@ if(!collision_circle(x,y,32, Player, false, true))
     wait = 1;
 }
 
+yvel += grav;
+
+if place_meeting(x, y + 1, Foreground) or place_meeting(x, y + 1, Platform) {
+    yvel = 0;
+}
+
 //If you're going to hit something in the next frame
 if place_meeting(x + xvel, y, Foreground) {
     //if it's not a step (height &lt;= sprite_height/4)
@@ -154,6 +160,8 @@ if yvel &gt; 0 {
         }
     }
 }
+
+y += yvel;
 //if you're walking up a ramp
 if place_meeting(x, y + sprite_height/4, Foreground) &amp;&amp; yvel = 0 {
     //move down as necessary
