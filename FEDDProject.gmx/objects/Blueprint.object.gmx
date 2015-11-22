@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>pieceH1 = instance_create(576,597,MissingBeam);
-pieceH2 = instance_create(704,597,MissingBeam);
-pieceH3 = instance_create(832,597,MissingBeam);
+            <string>pieceH1 = instance_create(576,600,MissingBeam);
+pieceH2 = instance_create(704,600,MissingBeam);
+pieceH3 = instance_create(832,600,MissingBeam);
 
 pieceV1 = instance_create(638,684,MissingBeam);
 pieceV2 = instance_create(766,684,MissingBeam);
@@ -39,20 +39,20 @@ pieceS4 = instance_create(736,544,MissingAngleBeam);
 pieceS5 = instance_create(800,544,MissingAngleBeam);
 pieceS6 = instance_create(864,544,MissingAngleBeam);
 
-pieceH1.image_xscale = 5; pieceH1.image_yscale = 4; pieceH1.image_angle = 90;
-pieceH2.image_xscale = 5; pieceH2.image_yscale = 4; pieceH2.image_angle = 90;
-pieceH3.image_xscale = 5; pieceH3.image_yscale = 4; pieceH3.image_angle = 90;
+pieceH1.image_xscale = 5; pieceH1.image_yscale = 4; pieceH1.image_angle = 90; pieceH1.depth=-100;
+pieceH2.image_xscale = 5; pieceH2.image_yscale = 4; pieceH2.image_angle = 90; pieceH2.depth=-100;
+pieceH3.image_xscale = 5; pieceH3.image_yscale = 4; pieceH3.image_angle = 90; pieceH3.depth=-100;
 
-pieceV1.image_xscale = 5; pieceV1.image_yscale = 5; 
-pieceV2.image_xscale = 5; pieceV2.image_yscale = 5; 
+pieceV1.image_xscale = 5; pieceV1.image_yscale = 5; pieceV1.depth=-50;
+pieceV2.image_xscale = 5; pieceV2.image_yscale = 5; pieceV2.depth=-50;
 
-pieceS1.image_xscale = 3; pieceS1.image_yscale = 3.5; pieceS1.image_angle = 135;
-pieceS3.image_xscale = 3; pieceS3.image_yscale = 3.5; pieceS3.image_angle = 135;
-pieceS5.image_xscale = 3; pieceS5.image_yscale = 3.5; pieceS5.image_angle = 135;
+pieceS1.image_xscale = 3; pieceS1.image_yscale = 4.4; pieceS1.image_angle = 150; pieceS1.depth=10;
+pieceS3.image_xscale = 3; pieceS3.image_yscale = 4.4; pieceS3.image_angle = 150; pieceS3.depth=10;
+pieceS5.image_xscale = 3; pieceS5.image_yscale = 4.4; pieceS5.image_angle = 150; pieceS5.depth=10;
 
-pieceS2.image_xscale = 3; pieceS2.image_yscale = 3.5; pieceS2.image_angle = 45;
-pieceS4.image_xscale = 3; pieceS4.image_yscale = 3.5; pieceS4.image_angle = 45;
-pieceS6.image_xscale = 3; pieceS6.image_yscale = 3.5; pieceS6.image_angle = 45;
+pieceS2.image_xscale = 3; pieceS2.image_yscale = 4.4; pieceS2.image_angle = 30; pieceS2.depth=10;
+pieceS4.image_xscale = 3; pieceS4.image_yscale = 4.4; pieceS4.image_angle = 30; pieceS4.depth=10;
+pieceS6.image_xscale = 3; pieceS6.image_yscale = 4.4; pieceS6.image_angle = 30; pieceS6.depth=10;
 
 
 event_inherited();
