@@ -65,13 +65,13 @@ sign1.info = "Go ahead and talk to the Engineers by pressing up!";</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="CivilNPC" x="1220" y="441" name="inst_BC820692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="SpaceStation" x="1006" y="610" name="inst_5804F67E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CivilNPC" x="786" y="884" name="inst_BC820692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ChemNPC" x="1284" y="662" name="inst_53E68D4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechNPC" x="1226" y="884" name="inst_762AF126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BioNPC" x="785" y="883" name="inst_CD4585B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BioNPC" x="1221" y="442" name="inst_CD4585B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialNPC" x="728" y="663" name="inst_5CE28965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SpaceManager" x="116" y="72" name="inst_1CDDC441" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="SpaceStation" x="1006" y="610" name="inst_5804F67E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CompSciNPC" x="783" y="441" name="inst_6DB12B03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="880" y="650" name="inst_F31057DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="912" y="650" name="inst_056C794F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -91,11 +91,11 @@ sign1.info = "Go ahead and talk to the Engineers by pressing up!";</code>
     <instance objName="Ledge" x="1071" y="568" name="inst_D058180D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="1103" y="568" name="inst_35A6EC8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="1135" y="568" name="inst_0C24142B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ledge" x="1175" y="407" name="inst_D6A0182A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ledge" x="1207" y="407" name="inst_E31BC006" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ledge" x="1239" y="407" name="inst_D75449B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ledge" x="1271" y="407" name="inst_52D9A747" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Ledge" x="1290" y="407" name="inst_A93B5CF5" locked="0" code="" scaleX="0.200000002980232" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="734" y="843" name="inst_D6A0182A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="766" y="843" name="inst_E31BC006" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="798" y="843" name="inst_D75449B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="830" y="843" name="inst_52D9A747" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Ledge" x="849" y="843" name="inst_A93B5CF5" locked="0" code="" scaleX="0.200000002980232" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Robot" x="995" y="617" name="inst_C8B3297C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Asteroid" x="1410" y="194" name="inst_8390D48C" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="SpaceCthulu" x="1505" y="119" name="inst_06DB03E8" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
