@@ -62,7 +62,6 @@
     <instance objName="LeverDownHeat" x="224" y="704" name="inst_CF82E8F0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="LeverStand" x="640" y="704" name="inst_880AF08C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="LeverUpPress" x="608" y="704" name="inst_A2070E28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="672" y="704" name="inst_07EEA441" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="DisplayPressure" x="640" y="640" name="inst_9974235E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="TestButtonChem" x="416" y="704" name="inst_245CB67D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

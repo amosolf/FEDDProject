@@ -57,8 +57,10 @@ place[1] = 0;
           <argument>
             <kind>1</kind>
             <string>if mouse_check_button_pressed(mb_left) {
-    dragging = true;
-    placed = false;
+    if instance_position(mouse_x, mouse_y, Dragable) = id {
+        dragging = true;
+        placed = false;
+    }
 }
 
 if mouse_check_button_released(mb_left) {
