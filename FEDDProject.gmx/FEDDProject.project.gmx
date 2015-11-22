@@ -17,21 +17,22 @@
       <sprite>sprites\sRobot_jump</sprite>
       <sprite>sprites\sCivil_idle</sprite>
       <sprite>sprites\sCivil_moving</sprite>
+      <sprite>sprites\sCivil_jump</sprite>
       <sprite>sprites\sBio_idle</sprite>
       <sprite>sprites\sBio_moving</sprite>
       <sprite>sprites\sBio_jump</sprite>
       <sprite>sprites\sMech_idle</sprite>
       <sprite>sprites\sMech_moving</sprite>
+      <sprite>sprites\sMech_jump</sprite>
       <sprite>sprites\sCompSci_idle</sprite>
       <sprite>sprites\sCompSci_moving</sprite>
+      <sprite>sprites\sCompSci_jump</sprite>
       <sprite>sprites\sMaterial_idle</sprite>
       <sprite>sprites\sMaterial_moving</sprite>
+      <sprite>sprites\sMaterial_jump</sprite>
       <sprite>sprites\sChem_idle</sprite>
       <sprite>sprites\sChem_moving</sprite>
       <sprite>sprites\sChem_jump</sprite>
-      <sprite>sprites\sCompSci_jump</sprite>
-      <sprite>sprites\sCivil_jump</sprite>
-      <sprite>sprites\sMech_Jump</sprite>
     </sprites>
     <sprites name="Doors">
       <sprite>sprites\sMechDoor</sprite>
