@@ -28,6 +28,8 @@
             <string>spot[0] = x;
 spot[1] = y;
 
+target = noone;
+
 dragging = false;
 
 placed = false;
@@ -73,7 +75,7 @@ if dragging {
 } else {
     if not(placed) {
         dropSpot = instance_place(x, y, DropSpot);
-        if instance_exists(dropSpot) {
+        if instance_exists(dropSpot) and dropSpot.object_index = target {
             placed = true;
             place[0] = dropSpot.x;
             place[1] = dropSpot.y;

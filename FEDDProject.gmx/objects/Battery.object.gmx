@@ -28,6 +28,8 @@
             <string>depth = -1202;
 
 event_inherited();
+
+target = BatterySpot;
 </string>
           </argument>
         </arguments>
