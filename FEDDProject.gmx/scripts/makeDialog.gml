@@ -9,7 +9,7 @@ with(dbox)
 {
     height = 100;
     padding = 16;
-    maxLength = view_wview[0]-2-padding*2;
+    maxLength = window_get_width()-2-padding*2;
     font = fSmall;
     draw_set_font(font);
     text = argument0;
@@ -19,8 +19,8 @@ with(dbox)
     textWidth = string_width_ext(text,font_size+(font_size/2),maxLength);
     textHeight = string_height_ext(text,font_size+(font_size/2),maxLength);
     
-    boxWidth = textWidth + (padding*2);
-    boxHeight = textHeight + (padding*2);
+    boxWidth = textWidth + (padding*3);
+    boxHeight = textHeight + (padding*3);
     
     alarm[0] = string_length(text)*2 + 50
 }

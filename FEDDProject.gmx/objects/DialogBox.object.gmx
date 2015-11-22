@@ -88,7 +88,7 @@ isEnding = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -105,9 +105,9 @@ isEnding = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fSmall);
+            <string>draw_set_font(fDialog);
 draw_set_alpha(0.5);
-draw_roundrect_color(view_xview[view_current], view_yview[view_current], view_xview[view_current]+maxLength+16, view_yview[view_current]+boxHeight, c_black, c_black, false);
+draw_roundrect_color(0, 0, window_get_width(), boxHeight, c_black, c_black, false);
 draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_halign(fa_left);
@@ -118,7 +118,7 @@ if(time &lt; textLength)
     time++;
     print = string_copy(text,0,time);
 }
-draw_text_ext(view_xview[view_current]+padding,view_yview[view_current]+padding,print,font_size+(font_size/2),maxLength);
+draw_text_ext(padding,padding,print,font_size+(font_size/2),maxLength);
 
 
 if(print == text)
