@@ -32,6 +32,8 @@ text[1] = "I work with chemicals.";
 text[2] = "Want me to teach you?";
 
 myRoom = chemRoom;
+
+cleared = global.chemCleared;
 </string>
           </argument>
         </arguments>

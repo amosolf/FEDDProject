@@ -32,6 +32,8 @@ text[1] = "My job is to manage computer systems.";
 text[2] = "Shall I show you what I do?";
 
 myRoom = compSciRoom;
+
+cleared = global.compSciCleared;
 </string>
           </argument>
         </arguments>

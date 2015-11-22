@@ -32,6 +32,8 @@ text[1] = "I repair infrastructure, especially BRIDGES!";
 text[2] = "Wanna see me build a bridge?";
 
 myRoom = civilRoom;
+
+cleared = global.civilCleared;
 </string>
           </argument>
         </arguments>

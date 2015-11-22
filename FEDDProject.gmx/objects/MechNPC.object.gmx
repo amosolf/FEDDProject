@@ -32,6 +32,8 @@ text[1] = "I'm in charge of repairing the rocket that resupplies this space stat
 text[2] = "Want to help me out?";
 
 myRoom = mechRoom;
+
+cleared = global.mechCleared;
 </string>
           </argument>
         </arguments>

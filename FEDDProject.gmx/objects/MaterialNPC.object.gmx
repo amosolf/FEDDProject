@@ -32,6 +32,8 @@ text[1] = "I make materials with the correct properties for my customers.";
 text[2] = "Should I show you?";
 
 myRoom = matRoom;
+
+cleared = global.matCleared;
 </string>
           </argument>
         </arguments>

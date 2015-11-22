@@ -5,8 +5,10 @@ if object_index = Button {
         for (var i=0; i < array_length_1d(text); i += 1) {
             if dialog.text = text[i] {
                 if (i != array_length_1d(text)-1) {
-                    dialog = makeDialog(text[i+1]);
-                    dialog.shouldDestroy = false;
+                    if i != array_length_1d(text)-2 or not(cleared) {
+                        dialog = makeDialog(text[i+1]);
+                        dialog.shouldDestroy = false;
+                    }
                 } else {
                     room_goto(myRoom);
                 }

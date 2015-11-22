@@ -32,6 +32,8 @@ text[1] = "My job is to isolate chemotherapy drugs from plants.";
 text[2] = "Want me to show you how I do it?";
 
 myRoom = bioRoom;
+
+cleared = global.bioCleared;
 </string>
           </argument>
         </arguments>

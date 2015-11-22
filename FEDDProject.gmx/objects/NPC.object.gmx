@@ -33,6 +33,8 @@ friction = .2;
 depth = -1000;
 image_speed = 1/6;
 
+cleared = false;
+
 //gravity
 grav = .4;
 //friction
