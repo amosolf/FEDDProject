@@ -113,7 +113,6 @@
       <sprite>sprites\sBridgePieceConnector</sprite>
       <sprite>sprites\sMissingBeam</sprite>
       <sprite>sprites\sBridgeBox1</sprite>
-      <sprite>sprites\sBridgeBox2</sprite>
       <sprite>sprites\sBridgeBox3</sprite>
       <sprite>sprites\sAngledBeam</sprite>
       <sprite>sprites\sBridgeBox4</sprite>
@@ -275,7 +274,6 @@
       <object>objects\MissingAngleBeam</object>
       <object>objects\BridgePieceConnector</object>
       <object>objects\BridgeBox1</object>
-      <object>objects\BridgeBox2</object>
       <object>objects\BridgeBox3</object>
       <object>objects\BridgeBox4</object>
       <object>objects\BridgeBoxer</object>
