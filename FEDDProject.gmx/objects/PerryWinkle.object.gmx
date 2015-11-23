@@ -29,7 +29,7 @@
 
 text[0] = "Here, take this to Matt.";
 text[1] = "He's the Material Engineer.";
-text[2] = "It should bring him back to health.";
+text[2] = "It should make him better.";
 
 item = MedKit;
 

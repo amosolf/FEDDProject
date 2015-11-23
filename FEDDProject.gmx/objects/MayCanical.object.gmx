@@ -82,7 +82,11 @@ if dying {
     }
     
     if Inventory.slot[0] = ChemicalX {
-        text[0] = "Talk to Mr. Bridgington the Civil Engineer, he has the blueprint.";
+        text[0] = "Mr. Bridgington and I have put together a design for the wall.";
+        text[1] = "It should integrate well with the stations systems, and be structurally sound.";
+        text[2] = "Go fix up the hole with it will you?";
+        
+        item = WallReplacement;
     }
 }
 </string>

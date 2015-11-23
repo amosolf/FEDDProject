@@ -332,7 +332,7 @@ if object_index = Button {
     PerryWinkle.dying = false;
     PerryWinkle.y -= 8;
     instance_deactivate_object(Darkness);
-    textBox = makeDialog("Alright, come to my medlab, we need to get something for Matt");
+    textBox = makeDialog("The Material Engineer is hurt. Maybe someone can help?");
     textBox.shouldDestroy = false;
 } else if object_index = BlastDoorInteract {
     if Inventory.slot[0] = WallReplacement {
