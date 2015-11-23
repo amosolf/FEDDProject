@@ -77,6 +77,7 @@
       <sprite>sprites\sHeat</sprite>
       <sprite>sprites\sPressure</sprite>
       <sprite>sprites\sVacuum</sprite>
+      <sprite>sprites\sAssemblyLine</sprite>
     </sprites>
     <sprites name="Bio">
       <sprite>sprites\sBioFlower</sprite>
@@ -241,6 +242,7 @@
       <object>objects\Heat</object>
       <object>objects\Pressure</object>
       <object>objects\Vacuum</object>
+      <object>objects\AssemblyLine</object>
     </objects>
     <objects name="Bio">
       <object>objects\BioFloor</object>

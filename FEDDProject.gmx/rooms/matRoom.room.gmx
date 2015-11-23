@@ -60,16 +60,16 @@ sign1.info = "Pick up the steps and put them in the correct order to make Lamina
     <instance objName="MaterialFloor" x="0" y="0" name="inst_48EAC007" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="MaterialFloor" x="700" y="0" name="inst_5683BE40" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="Material" x="32" y="352" name="inst_97C1DF58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TestButton" x="640" y="352" name="inst_9FF70947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TestButton" x="595" y="339" name="inst_9FF70947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialManager" x="64" y="32" name="inst_C20E562A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MoltenGlass" x="128" y="288" name="inst_141ECD35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Interlay" x="224" y="288" name="inst_305DB020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Heat" x="320" y="288" name="inst_48D08B31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Pressure" x="256" y="224" name="inst_805FB29E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Vacuum" x="160" y="224" name="inst_D7A5C5E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Slot1" x="416" y="352" name="inst_E93F6550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Slot2" x="480" y="352" name="inst_103AFB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Slot3" x="544" y="352" name="inst_DE7B26C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Slot1" x="416" y="320" name="inst_E93F6550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Slot2" x="480" y="320" name="inst_103AFB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Slot3" x="544" y="320" name="inst_DE7B26C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Inventory" x="32" y="32" name="inst_92795B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="LabelPlatform" x="128" y="320" name="inst_6042AB8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="LabelPlatform" x="224" y="320" name="inst_DA128740" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -108,6 +108,7 @@ sign1.info = "Pick up the steps and put them in the correct order to make Lamina
     <instance objName="MaterialFloor" x="864" y="0" name="inst_2429002A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialFloor" x="928" y="0" name="inst_B066ABC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MaterialFloor" x="960" y="0" name="inst_1F0BDC3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="AssemblyLine" x="501" y="318" name="inst_47815A52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
