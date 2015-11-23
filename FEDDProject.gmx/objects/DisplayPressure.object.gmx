@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>draw_sprite(sprite_index, 0, x, y);
 draw_set_font(fSmall);
-draw_text(x-16, y-16, string(Furnace.pressure));
+draw_set_color(c_black);
+draw_text(x-6, y-10, string(Furnace.pressure));
 </string>
           </argument>
         </arguments>
