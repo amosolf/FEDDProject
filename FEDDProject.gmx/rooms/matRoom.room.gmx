@@ -12,22 +12,7 @@
   <showcolour>-1</showcolour>
   <code>with(Inventory) {
     slots = 1;
-}
-
-plat = instance_find(LabelPlatform, 0);
-plat.label = "Melt";
-
-plat = instance_find(LabelPlatform, 1);
-plat.label = "Laminate";
-
-plat = instance_find(LabelPlatform, 2);
-plat.label = "Heat";
-
-plat = instance_find(LabelPlatform, 3);
-plat.label = "Vacuum";
-
-plat = instance_find(LabelPlatform, 4);
-plat.label = "Pressure";</code>
+}</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
