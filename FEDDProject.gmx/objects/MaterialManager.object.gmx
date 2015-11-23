@@ -80,10 +80,11 @@ depth = 1000;
 right=view_xview[view_current]/width+view_wview[view_current]/width+1;
 for (i=-1; i&lt;right; i++)
 {
-    draw_background(mountain, view_xview[view_current]/2 mod width+width*i,(view_yview[view_current]/1.5)-0);
-    draw_background(clouds, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+150);
-    draw_background(hills, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+450);
+    draw_background(mountain, view_xview[view_current]/2 mod width+width*i,(view_yview[view_current]/1.5)-120);
+    draw_background(clouds, view_xview[view_current]/3 mod width+width*i,(view_yview[view_current]/3)+0);
+    draw_background(hills, view_xview[view_current]/4 mod width+width*i,(view_yview[view_current]/3)+400);
 }
+draw_background(ChemBG,0,0);
 </string>
           </argument>
         </arguments>
