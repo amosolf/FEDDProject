@@ -29,6 +29,7 @@
 spot.image_angle = image_angle;
 spot.image_xscale = image_xscale;
 spot.image_yscale = image_yscale;
+spot.depth = depth;
 bit = instance_create(x, y, FallingAngleBeam);
 bit.image_angle = image_angle;
 bit.image_xscale = image_xscale;
