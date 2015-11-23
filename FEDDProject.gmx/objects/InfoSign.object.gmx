@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>event_inherited();
 
+depth = -990;
+
 info = "";
 </string>
           </argument>
