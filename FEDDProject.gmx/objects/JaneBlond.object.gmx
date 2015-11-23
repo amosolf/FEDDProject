@@ -64,7 +64,7 @@ if time &gt; 359 {
 }
 
 if dying {
-    sprite_index = sCompSci_idle;
+    sprite_index = sCompSci_dying;
     image_angle = 10*sin(time) - 20 + defAngle;
 } else {    
     event_inherited();

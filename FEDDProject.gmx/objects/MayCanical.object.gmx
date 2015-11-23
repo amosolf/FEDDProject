@@ -60,7 +60,7 @@ if time &gt; 359 {
 }
 
 if dying {
-    sprite_index = sMech_idle;
+    sprite_index = sMech_dying;
     image_angle = 10*sin(time) - 20 + defAngle;
 } else {
     event_inherited();

@@ -22,35 +22,37 @@ if object_index = Button {
         MayCanical.text[0] = "You should talk to Steve the Chemical engineer first.";
         
         BridgeBridgington.text[0] = "We need a material to build the replacement wall out of.";
-    } else {
+    } else if dying = false{
         dialog = makeDialog("Ugh. Go get help. From the doctor.");
         dialog.shouldDestroy = false;
     }
 } else if object_get_parent(object_index) = NPC {
-    if instance_exists(dialog) {
-        for (var i=0; i < array_length_1d(text); i += 1) {
-            if dialog.text = text[i] {
-                if (i != array_length_1d(text)-1) {
-                    if i != array_length_1d(text)-2 or not(cleared) {
-                        dialog = makeDialog(text[i+1]);
-                        dialog.shouldDestroy = false;
-                    }
-                } else {
-                    if myRoom != noone {
-                        room_goto(myRoom);
-                    } else if item != noone {
-                        Inventory.slot[0] = item;
-                        with(dialog) {
-                            instance_destroy();
+    if dying = false {
+        if instance_exists(dialog) {
+            for (var i=0; i < array_length_1d(text); i += 1) {
+                if dialog.text = text[i] {
+                    if (i != array_length_1d(text)-1) {
+                        if i != array_length_1d(text)-2 or not(cleared) {
+                            dialog = makeDialog(text[i+1]);
+                            dialog.shouldDestroy = false;
+                        }
+                    } else {
+                        if myRoom != noone {
+                            room_goto(myRoom);
+                        } else if item != noone {
+                            Inventory.slot[0] = item;
+                            with(dialog) {
+                                instance_destroy();
+                            }
                         }
                     }
+                    break;
                 }
-                break;
             }
+        } else {
+            dialog = makeDialog(text[0]);
+            dialog.shouldDestroy = false;
         }
-    } else {
-        dialog = makeDialog(text[0]);
-        dialog.shouldDestroy = false;
     }
 } else if object_get_parent(object_index) = PickUp {
     if instance_exists(Inventory) {
