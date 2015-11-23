@@ -53,7 +53,7 @@ depth = 1000;
 //makeDialog("Objective - Fix the engine");
 
 if not(instance_exists(DialogBox)) {
-    dialogBox = makeDialog("Objective - Fix the engine");
+    dialogBox = makeDialog("Objective - Assemble the spark plug");
     dialogBox.shouldDestroy = false;
 }
 </string>
