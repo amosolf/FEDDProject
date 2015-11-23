@@ -79,6 +79,8 @@ if room = bossroom {
 draw_background(bossBack,1006-375,610-375);
 }
 depth = 1000;
+
+draw_sprite_ext(sMainframe,0,787,416,.5,.5,0,c_white,1);
 </string>
           </argument>
         </arguments>

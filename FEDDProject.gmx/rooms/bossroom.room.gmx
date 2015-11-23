@@ -71,7 +71,7 @@ dialog.shouldDestroy = false;</code>
     <instance objName="Inventory" x="96" y="160" name="inst_681EA4C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlastDoor" x="838" y="595" name="inst_D7F26D47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Darkness" x="192" y="192" name="inst_23D9D0F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="LightSwitch" x="784" y="416" name="inst_F739437B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="LightSwitch" x="787" y="416" name="inst_F739437B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="Ledge" x="839" y="846" name="inst_F80A723D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BlastDoorInteract" x="838" y="626" name="inst_1C7058DE" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
   </instances>

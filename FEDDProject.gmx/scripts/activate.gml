@@ -334,6 +334,7 @@ if object_index = Button {
     instance_deactivate_object(Darkness);
     textBox = makeDialog("The Material Engineer is hurt. Maybe someone can help?");
     textBox.shouldDestroy = false;
+    instance_destroy();
 } else if object_index = BlastDoorInteract {
     if Inventory.slot[0] = WallReplacement {
         Inventory.slot[0] = noone;
