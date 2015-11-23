@@ -130,7 +130,9 @@
     </sprites>
     <sprites name="Boss">
       <sprite>sprites\sEndChemical</sprite>
+      <sprite>sprites\sWallReplacement</sprite>
       <sprite>sprites\sbossStation</sprite>
+      <sprite>sprites\sMedKit</sprite>
       <sprite>sprites\sSpaceCthulu</sprite>
       <sprite>sprites\sBlastDoor</sprite>
       <sprite>sprites\sAsteroid</sprite>
