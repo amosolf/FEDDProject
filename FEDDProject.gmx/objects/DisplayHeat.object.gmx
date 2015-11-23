@@ -27,8 +27,7 @@
             <kind>1</kind>
             <string>draw_sprite(sprite_index, 0, x, y);
 draw_set_font(fSmall);
-draw_set_colour(c_black);
-draw_text(x-15, y-10, string(Furnace.heat));
+draw_text(x-16, y-16, string(Furnace.heat));
 </string>
           </argument>
         </arguments>
