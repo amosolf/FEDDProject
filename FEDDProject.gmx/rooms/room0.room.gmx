@@ -18,8 +18,7 @@ global.roomsCleared = global.bioCleared + global.mechCleared + global.chemCleare
 
 if global.gameCleared {
     room_goto(credits);
-}
-if global.roomsCleared = 6 {
+} else if global.roomsCleared = 6 {
     room_goto(bossroom);
 }
 

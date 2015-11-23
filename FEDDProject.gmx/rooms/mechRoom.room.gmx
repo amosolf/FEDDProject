@@ -85,7 +85,6 @@ sign1.info = "Open up the fairings near the engine and fix the ignition mechanis
     <instance objName="MechFloor" x="640" y="384" name="inst_F848D58D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="672" y="384" name="inst_A00BD54C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="704" y="384" name="inst_3C9A959D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Inventory" x="0" y="-320" name="inst_1EE97E00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="736" y="384" name="inst_8225CDD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="768" y="384" name="inst_F19531A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="MechFloor" x="800" y="384" name="inst_04E1CF75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
