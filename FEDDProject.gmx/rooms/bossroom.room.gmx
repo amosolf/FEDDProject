@@ -14,7 +14,7 @@
     slots = 1;
 }
 
-dialog = makeDialog("Oh no! You have to reset the mainframe! Quickly!");
+dialog = makeDialog("Oh no! We've been hit by an asteroid! You have to reset the mainframe to close the blast door! Quickly!");
 dialog.shouldDestroy = false;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
