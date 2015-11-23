@@ -78,7 +78,13 @@ event_inherited();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>if primed = false {
+    if instance_exists(dialog) {
+        with (dialog) {
+            instance_destroy();
+        }
+    }
+}
 
 if(!collision_circle(x,y,32, Player, false, true))
 {
