@@ -117,7 +117,7 @@ if object_index = Button {
         }
         Player.paused = true;
         } else {
-            EngineUIManager.done = true;
+            EngineUIManager.override = true;
         }
     }
 } else if object_index = GearBox{

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>active = false;
 parts[0] = noone;
+override = false;
 </string>
           </argument>
         </arguments>
@@ -59,7 +60,7 @@ for (var i = 0; i &lt; array_length_1d(parts); i += 1) {
     }
 }
 
-if done {
+if done or override{
     active = false;
     Player.paused = false;
     if instance_exists(DialogBox) {
