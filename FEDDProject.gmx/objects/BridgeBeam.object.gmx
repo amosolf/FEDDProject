@@ -27,18 +27,25 @@
             <kind>1</kind>
             <string>if place_meeting(x, y - 2, Player) {
     beam = instance_nearest(x, y, MissingBeam);
-    support = instance_nearest(x, y, MissingAngleBeam);
+    strut = instance_nearest(x, y, MissingAngleBeam);
+    support = instance_nearest(x, y, MissingSupport);
+    
     if instance_exists(beam) {
         distBeam = sqrt(sqr(beam.x - x) + sqr(beam.y - y));
     } else {
         distBeam = 200;
+    }
+    if instance_exists(strut) {
+        distStrut = sqrt(sqr(strut.x - x) + sqr(strut.y - y));
+    } else {
+        distStrut = 200;
     }
     if instance_exists(support) {
         distSupport = sqrt(sqr(support.x - x) + sqr(support.y - y));
     } else {
         distSupport = 200;
     }
-    if min(distBeam, distSupport) &lt; 100 {
+    if min(distBeam, distStrut, distSupport) &lt; 150 {
         spot = instance_create(x, y, MissingBeam);
         spot.image_angle = image_angle;
         spot.image_xscale = image_xscale;
@@ -48,12 +55,12 @@
         bit.image_angle = image_angle;
         bit.image_xscale = image_xscale;
         bit.image_yscale = image_yscale;
-        supports = collision_circle(x, y - 16, 32, AngledBeam, false, true)
-        while instance_exists(supports) {
-            with(supports) {
+        struts = collision_circle(x, y - 112, 32, AngledBeam, false, true)
+        while instance_exists(struts) {
+            with(struts) {
                 instance_destroy();
             }
-            supports = collision_circle(x, y - 16, 32, AngledBeam, false, true);
+            struts = collision_circle(x, y - 112, 32, AngledBeam, false, true);
         }
         instance_destroy();
     }

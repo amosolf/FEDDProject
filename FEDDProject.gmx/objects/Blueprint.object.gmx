@@ -29,8 +29,8 @@
 pieceH2 = instance_create(704,600,MissingBeam);
 pieceH3 = instance_create(832,600,MissingBeam);
 
-pieceV1 = instance_create(638,684,MissingBeam);
-pieceV2 = instance_create(766,684,MissingBeam);
+pieceV1 = instance_create(638,684,MissingSupport);
+pieceV2 = instance_create(766,684,MissingSupport);
 
 pieceS1 = instance_create(544,544,MissingAngleBeam);
 pieceS2 = instance_create(608,544,MissingAngleBeam);
@@ -38,6 +38,9 @@ pieceS3 = instance_create(672,544,MissingAngleBeam);
 pieceS4 = instance_create(736,544,MissingAngleBeam);
 pieceS5 = instance_create(800,544,MissingAngleBeam);
 pieceS6 = instance_create(864,544,MissingAngleBeam);
+
+pieceS7 = instance_create(640,488,MissingAngleBeam);
+pieceS8 = instance_create(768,488,MissingAngleBeam);
 
 pieceH1.image_xscale = 5; pieceH1.image_yscale = 4; pieceH1.image_angle = 90; pieceH1.depth=-100;
 pieceH2.image_xscale = 5; pieceH2.image_yscale = 4; pieceH2.image_angle = 90; pieceH2.depth=-100;
@@ -54,6 +57,8 @@ pieceS2.image_xscale = 3; pieceS2.image_yscale = 4.4; pieceS2.image_angle = 30; 
 pieceS4.image_xscale = 3; pieceS4.image_yscale = 4.4; pieceS4.image_angle = 30; pieceS4.depth=10;
 pieceS6.image_xscale = 3; pieceS6.image_yscale = 4.4; pieceS6.image_angle = 30; pieceS6.depth=10;
 
+pieceS7.image_xscale = 3; pieceS7.image_yscale = 4.4; pieceS7.image_angle = 90; pieceS7.depth=10;
+pieceS8.image_xscale = 3; pieceS8.image_yscale = 4.4; pieceS8.image_angle = 90; pieceS8.depth=10;
 
 event_inherited();
 </string>

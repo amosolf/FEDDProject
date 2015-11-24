@@ -57,7 +57,6 @@ extraSize = ((window_get_width()) - (window_get_height() * 4/3))/2;
           <argument>
             <kind>1</kind>
             <string>if mouse_check_button(mb_left) {
-    makeDialog(string(window_mouse_get_x()) + ", " + string(window_mouse_get_y()));
     for (var i = 0; i &lt; slots; i += 1) {
         if (window_mouse_get_x())-extraSize &gt; posX + padding*(i+1) + slotSize*i and (window_mouse_get_x())-extraSize &lt; posX + padding*(i+1) + slotSize*(i+1) {
             if (window_mouse_get_y()) &gt; posY + padding and (window_mouse_get_y()) &lt; posY + padding + slotSize {

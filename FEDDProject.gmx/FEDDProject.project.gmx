@@ -285,8 +285,10 @@
     <objects name="Civil">
       <object>objects\Blueprint</object>
       <object>objects\BridgeBeam</object>
+      <object>objects\BridgeSupport</object>
       <object>objects\CivilFloor</object>
       <object>objects\MissingBeam</object>
+      <object>objects\MissingSupport</object>
       <object>objects\MissingAngleBeam</object>
       <object>objects\BridgePieceConnector</object>
       <object>objects\BridgeBox1</object>
@@ -297,6 +299,7 @@
       <object>objects\FallingBridgeBeam</object>
       <object>objects\FallingAngleBeam</object>
       <object>objects\BridgeBeamItem</object>
+      <object>objects\BridgeSupportItem</object>
       <object>objects\AngledBeamItem</object>
       <object>objects\CivilRoomEnd</object>
     </objects>
