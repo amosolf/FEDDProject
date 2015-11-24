@@ -111,10 +111,14 @@ if object_index = Button {
     if sprite_index != sFairing {
         sprite_index = sFairing;
     } else {
+        if !global.eyeEnabled {
         with (EngineUIManager) {
             active = true;
         }
         Player.paused = true;
+        } else {
+            EngineUIManager.done = true;
+        }
     }
 } else if object_index = GearBox{
     if sprite_index != sFairing {

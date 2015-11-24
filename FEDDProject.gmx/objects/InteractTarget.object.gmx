@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>scale = 0.25;
 object = noone;
+depth = -2000;
 </string>
           </argument>
         </arguments>
