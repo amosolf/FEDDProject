@@ -56,8 +56,8 @@ slotColor = make_color_rgb(128, 128, 128);
             <kind>1</kind>
             <string>if mouse_check_button(mb_left) {
     for (var i = 0; i &lt; slots; i += 1) {
-        if (mouse_x-view_xview)*2 &gt; posX + padding*(i+1) + slotSize*i and (mouse_x-view_xview)*2 &lt; posX + padding*(i+1) + slotSize*(i+1) {
-            if (mouse_y-view_yview)*2 &gt; posY + padding and (mouse_y-view_yview)*2 &lt; posY + padding + slotSize {
+        if (window_views_mouse_get_x()) &gt; posX + padding*(i+1) + slotSize*i and (window_views_mouse_get_x()) &lt; posX + padding*(i+1) + slotSize*(i+1) {
+            if (window_views_mouse_get_y()) &gt; posY + padding and (window_views_mouse_get_y()) &lt; posY + padding + slotSize {
                 if slot[i] != noone {
                     instance_create(Player.x, Player.y, slot[i]);
                     slot[i] = noone;
@@ -93,7 +93,7 @@ slotColor = make_color_rgb(128, 128, 128);
 }
 width = slotSize*slots + padding*(slots+1);
 height = slotSize + 2*padding;
-posX = window_get_width() - width - 2*padding;
+posX = (window_get_height()*4/3) - width - 2*padding;
 posY = window_get_height() - height - 2*padding;
 </string>
           </argument>

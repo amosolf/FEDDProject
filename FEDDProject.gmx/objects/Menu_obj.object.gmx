@@ -63,7 +63,7 @@ target = noone;
             <string>if global.eyeEnabled {
     for(m = 0; m &lt; array_length_1d(menu); m+= 1)//writes text for every line in menu[]
     {
-        if window_mouse_get_y() &gt; y+(m*space)-sprite_get_height(sprite_index)/2 and window_mouse_get_y() &lt; y+((m+1)*space)-sprite_get_height(sprite_index)/2 {
+        if window_views_mouse_get_y() &gt; y+(m*space)-sprite_get_height(sprite_index)/2 and window_views_mouse_get_y() &lt; y+((m+1)*space)-sprite_get_height(sprite_index)/2 {
             mpos = m;
             break;
         }

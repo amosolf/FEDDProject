@@ -9,7 +9,7 @@ with(dbox)
 {
     height = 100;
     padding = 16;
-    maxLength = window_get_width()-2-padding*2;
+    maxLength = (window_get_height()*4/3)-2-padding*2;
     font = fDialog;
     draw_set_font(font);
     text = argument0;
