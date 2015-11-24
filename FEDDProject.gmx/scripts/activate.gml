@@ -338,7 +338,7 @@ if object_index = Button {
 } else if object_index = BlastDoorInteract {
     if Inventory.slot[0] = WallReplacement {
         Inventory.slot[0] = noone;
-        wallReplace = instance_create(x-32, y - 16, WallReplacement);
+        wallReplace = instance_create(x-32, y - 16, BigWall);
         with(BlastDoor) {
             instance_destroy();
         }
