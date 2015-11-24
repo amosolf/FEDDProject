@@ -131,6 +131,7 @@
     </sprites>
     <sprites name="Boss">
       <sprite>sprites\sEndChemical</sprite>
+      <sprite>sprites\sBigWall</sprite>
       <sprite>sprites\sWallReplacement</sprite>
       <sprite>sprites\sbossStation</sprite>
       <sprite>sprites\sMedKit</sprite>
@@ -329,6 +330,7 @@
       <object>objects\Darkness</object>
       <object>objects\MedKit</object>
       <object>objects\ChemicalX</object>
+      <object>objects\BigWall</object>
       <object>objects\WallReplacement</object>
     </objects>
     <object>objects\InfoSign</object>
