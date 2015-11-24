@@ -124,6 +124,7 @@
       <sprite>sprites\sBridgeBox3</sprite>
       <sprite>sprites\sAngledBeam</sprite>
       <sprite>sprites\sBridgeBox4</sprite>
+      <sprite>sprites\sBridgeSupport</sprite>
     </sprites>
     <sprites name="Chemical">
       <sprite>sprites\sFurnace</sprite>
