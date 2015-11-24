@@ -50,7 +50,7 @@ skip = false;
           <argument>
             <kind>1</kind>
             <string>y-=1.5;
-if(keyboard_check(vk_escape) || keyboard_check(vk_space) || keyboard_check(vk_enter))
+if(keyboard_check(vk_escape) || keyboard_check(vk_space))
 {
     skip = true;
 }

@@ -25,11 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu[0] = "Room One";
-menu[1] = "Boss Room";
-menu[2] = "Tutorial";
-menu[3] = "Settings";
-menu[4] = "Exit";
+            <string>menu[0] = "Start";
+menu[1] = "Credits";
+menu[2] = "Exit";
 
 space = 64;
 mpos = 0; //menu position
@@ -106,25 +104,15 @@ if(push == 1) //if pressed, go to whichever room you selected
     {
         case 0:
         {
-            room_goto(room0);
+            room_goto(tutorial);
             break;
         }
         case 1:
         {
-            room_goto(bossroom);
+            room_goto(credits);
             break;
         }
         case 2:
-        {
-            room_goto(tutorial);
-            break;
-        }
-        case 3:
-        {
-            
-            break;
-        }
-        case 4:
         {
             game_end();
             break;
