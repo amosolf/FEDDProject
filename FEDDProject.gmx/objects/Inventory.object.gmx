@@ -32,6 +32,8 @@ borderWidth = 3;
 innerColor = make_colour_rgb(64, 64, 64);
 outerColor = c_black;
 slotColor = make_color_rgb(128, 128, 128);
+
+extraSize = ((window_get_width()) - (window_get_height() * 4/3))/2;
 </string>
           </argument>
         </arguments>
@@ -57,7 +59,7 @@ slotColor = make_color_rgb(128, 128, 128);
             <string>if mouse_check_button(mb_left) {
     makeDialog(string(window_mouse_get_x()) + ", " + string(window_mouse_get_y()));
     for (var i = 0; i &lt; slots; i += 1) {
-        if (window_mouse_get_x())-240 &gt; posX + padding*(i+1) + slotSize*i and (window_mouse_get_x())-240 &lt; posX + padding*(i+1) + slotSize*(i+1) {
+        if (window_mouse_get_x())-extraSize &gt; posX + padding*(i+1) + slotSize*i and (window_mouse_get_x())-extraSize &lt; posX + padding*(i+1) + slotSize*(i+1) {
             if (window_mouse_get_y()) &gt; posY + padding and (window_mouse_get_y()) &lt; posY + padding + slotSize {
                 if slot[i] != noone {
                     instance_create(Player.x, Player.y, slot[i]);
